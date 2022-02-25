@@ -1,0 +1,232 @@
+INFO  11:36:06,490 - Compiling source file: C:\Users\Marija\Desktop\14.1\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  11:36:06,649 - #6 program
+INFO  11:36:06,650 - #2 Keske
+INFO  11:36:06,650 - #14 const
+INFO  11:36:06,651 - #2 int
+INFO  11:36:06,651 - #2 pi
+INFO  11:36:06,652 - #31 =
+INFO  11:36:06,652 - #3 3
+INFO  11:36:06,652 - #38 ,
+INFO  11:36:06,654 - #2 g
+INFO  11:36:06,654 - #31 =
+INFO  11:36:06,654 - #3 1
+INFO  11:36:06,655 - #37 ;
+INFO  11:36:06,655 - #2 int
+INFO  11:36:06,656 - #2 x
+INFO  11:36:06,656 - #38 ,
+INFO  11:36:06,656 - #2 y
+INFO  11:36:06,656 - #21 [
+INFO  11:36:06,656 - #22 ]
+INFO  11:36:06,656 - #38 ,
+INFO  11:36:06,656 - #2 z
+INFO  11:36:06,657 - #37 ;
+INFO  11:36:06,657 - #14 const
+INFO  11:36:06,660 - #2 char
+INFO  11:36:06,661 - #2 c
+INFO  11:36:06,661 - #31 =
+INFO  11:36:06,661 - #4 c
+INFO  11:36:06,661 - #37 ;
+INFO  11:36:06,661 - #19 {
+INFO  11:36:06,661 - #8 void
+INFO  11:36:06,661 - #2 MaiN
+INFO  11:36:06,664 - #17 (
+INFO  11:36:06,667 - #18 )
+INFO  11:36:06,668 - #2 int
+INFO  11:36:06,672 - #2 x
+INFO  11:36:06,674 - #38 ,
+INFO  11:36:06,674 - #2 y
+INFO  11:36:06,674 - #21 [
+INFO  11:36:06,675 - #22 ]
+INFO  11:36:06,675 - #38 ,
+INFO  11:36:06,675 - #2 z
+INFO  11:36:06,676 - #37 ;
+INFO  11:36:06,676 - #19 {
+INFO  11:36:06,676 - #2 x
+INFO  11:36:06,679 - #31 =
+INFO  11:36:06,683 - #13 new
+INFO  11:36:06,684 - #2 char
+INFO  11:36:06,684 - #21 [
+INFO  11:36:06,684 - #3 2
+INFO  11:36:06,685 - #22 ]
+INFO  11:36:06,692 - #37 ;
+INFO  11:36:06,693 - #20 }
+INFO  11:36:06,693 - #20 }
+INFO  11:36:06,703 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ProgListDecls(
+    ProgListDecls(
+      ProgListDecls(
+        NoProgList(
+        ) [NoProgList]
+        GlobalConstList(
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            ConstListDeclarations(
+              NoConstListDeclarations(
+                ConstrDeclOne(
+                  ConstName(
+                   pi
+                  ) [ConstName]
+                  NumConstant(
+                   3
+                  ) [NumConstant]
+                ) [ConstrDeclOne]
+              ) [NoConstListDeclarations]
+              ConstrDeclOne(
+                ConstName(
+                 g
+                ) [ConstName]
+                NumConstant(
+                 1
+                ) [NumConstant]
+              ) [ConstrDeclOne]
+            ) [ConstListDeclarations]
+          ) [ConstDecl]
+        ) [GlobalConstList]
+      ) [ProgListDecls]
+      GlobalVarList(
+        GlobalVarDeclaration(
+          Type(
+           int
+          ) [Type]
+          GlobalVarParams(
+            GlobalVarParams(
+              GlobalVarSingle(
+                GlobalVar(
+                 x
+                ) [GlobalVar]
+              ) [GlobalVarSingle]
+              GlobalArr(
+               y
+              ) [GlobalArr]
+            ) [GlobalVarParams]
+            GlobalVar(
+             z
+            ) [GlobalVar]
+          ) [GlobalVarParams]
+        ) [GlobalVarDeclaration]
+      ) [GlobalVarList]
+    ) [ProgListDecls]
+    GlobalConstList(
+      ConstDecl(
+        Type(
+         char
+        ) [Type]
+        NoConstListDeclarations(
+          ConstrDeclOne(
+            ConstName(
+             c
+            ) [ConstName]
+            CharConstant(
+             c
+            ) [CharConstant]
+          ) [ConstrDeclOne]
+        ) [NoConstListDeclarations]
+      ) [ConstDecl]
+    ) [GlobalConstList]
+  ) [ProgListDecls]
+  MethodDeclarations(
+    MethodDecl(
+      MethodName(
+        VoidRet(
+        ) [VoidRet]
+       MaiN
+      ) [MethodName]
+      MethodVarDeclarations(
+        NoMethodVarDeclarations(
+        ) [NoMethodVarDeclarations]
+        VarDeclaration(
+          Type(
+           int
+          ) [Type]
+          VarParams(
+            VarParams(
+              VarParam(
+                LocalVar(
+                 x
+                ) [LocalVar]
+              ) [VarParam]
+              LocalArr(
+               y
+              ) [LocalArr]
+            ) [VarParams]
+            LocalVar(
+             z
+            ) [LocalVar]
+          ) [VarParams]
+        ) [VarDeclaration]
+      ) [MethodVarDeclarations]
+      StatementListDeclarations(
+        NoStatementListDeclarations(
+        ) [NoStatementListDeclarations]
+        SingleStatementDeclNoLabel(
+          DesignatorStmt(
+            Assignment(
+              DesignatorOne(
+                DesignatorName(
+                 x
+                ) [DesignatorName]
+              ) [DesignatorOne]
+              ExprHelpOption(
+                ExprHelpNoMinus(
+                  Term(
+                    NewFactor(
+                      Type(
+                       char
+                      ) [Type]
+                      ExprHelpOption(
+                        ExprHelpNoMinus(
+                          Term(
+                            NumFactor(
+                             2
+                            ) [NumFactor]
+                            NoMulopListDecls(
+                            ) [NoMulopListDecls]
+                          ) [Term]
+                          NoAddopList(
+                          ) [NoAddopList]
+                        ) [ExprHelpNoMinus]
+                      ) [ExprHelpOption]
+                    ) [NewFactor]
+                    NoMulopListDecls(
+                    ) [NoMulopListDecls]
+                  ) [Term]
+                  NoAddopList(
+                  ) [NoAddopList]
+                ) [ExprHelpNoMinus]
+              ) [ExprHelpOption]
+            ) [Assignment]
+          ) [DesignatorStmt]
+        ) [SingleStatementDeclNoLabel]
+      ) [StatementListDeclarations]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  11:36:06,704 - ===================================
+INFO  11:36:06,708 - Na liniji : 3. vrsi se deklaracije konstante pi
+INFO  11:36:06,708 - Na liniji : 3. vrsi se deklaracije konstante g
+INFO  11:36:06,708 - Na liniji : 5. Vrsi se deklaracija promenljive x
+INFO  11:36:06,708 - Na liniji : 5. Vrsi se deklaracija promenljive y
+INFO  11:36:06,708 - Na liniji : 5. Vrsi se deklaracija promenljive z
+INFO  11:36:06,708 - Na liniji : 7. vrsi se deklaracije konstante c
+INFO  11:36:06,708 - Na liniji : 11. Vrsi se obrada funkcije MaiN na liniji 11
+INFO  11:36:06,709 - Na liniji : 11. Vrsi se deklaracija promenljive x
+INFO  11:36:06,709 - Na liniji : 11. Vrsi se deklaracije promenljive y
+INFO  11:36:06,709 - Na liniji : 11. Vrsi se deklaracija promenljive z
+INFO  11:36:06,709 - Linija 14: xVar x: int, 0, 1  na liniji 14
+ERROR 11:36:06,709 - SEMANTICKA GRESKA :Greska na liniji 14:  : Tipovi moraju biti kompatibilni pri alociranju.
+INFO  11:36:06,709 - 
+
+SEMANTICKA ANALIZA
+
+ Statements :1
+ Global cons: 3
+ Global vars:2
+ Global arrays0
+ Local vars in main:3
+
+ERROR 11:36:06,709 - Parsiranje NIJE uspesno zavrseno!

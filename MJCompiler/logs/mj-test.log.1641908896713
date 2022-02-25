@@ -1,0 +1,214 @@
+INFO  14:47:30,168 - Compiling source file: C:\Users\Marija\Desktop\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  14:47:30,234 - #6 program
+INFO  14:47:30,235 - #2 MJProgram
+INFO  14:47:30,235 - #2 int
+INFO  14:47:30,236 - #2 x
+INFO  14:47:30,237 - #35 ;
+INFO  14:47:30,237 - #17 {
+INFO  14:47:30,237 - #8 void
+INFO  14:47:30,238 - #2 main
+INFO  14:47:30,239 - #15 (
+INFO  14:47:30,240 - #16 )
+INFO  14:47:30,240 - #17 {
+INFO  14:47:30,241 - #2 x
+INFO  14:47:30,243 - #29 =
+INFO  14:47:30,244 - #3 1
+INFO  14:47:30,244 - #35 ;
+INFO  14:47:30,246 - #13 goto
+INFO  14:47:30,247 - #2 Marija
+INFO  14:47:30,247 - #35 ;
+INFO  14:47:30,247 - #2 x
+INFO  14:47:30,247 - #29 =
+INFO  14:47:30,247 - #3 5
+INFO  14:47:30,248 - #35 ;
+INFO  14:47:30,251 - #9 print
+INFO  14:47:30,252 - #15 (
+INFO  14:47:30,252 - #2 x
+INFO  14:47:30,252 - #16 )
+INFO  14:47:30,253 - #35 ;
+INFO  14:47:30,253 - #2 Marija
+INFO  14:47:30,253 - #37 :
+INFO  14:47:30,253 - #9 print
+INFO  14:47:30,254 - #15 (
+INFO  14:47:30,254 - #2 x
+INFO  14:47:30,254 - #16 )
+INFO  14:47:30,254 - #35 ;
+INFO  14:47:30,254 - #7 return
+INFO  14:47:30,254 - #35 ;
+INFO  14:47:30,254 - #18 }
+INFO  14:47:30,255 - #18 }
+INFO  14:47:30,264 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  ProgListDecls(
+    NoProgList(
+    ) [NoProgList]
+    GlobalVarList(
+      GlobalVarDeclaration(
+        Type(
+         int
+        ) [Type]
+        GlobalVarSingle(
+          GlobalVar(
+           x
+          ) [GlobalVar]
+        ) [GlobalVarSingle]
+      ) [GlobalVarDeclaration]
+    ) [GlobalVarList]
+  ) [ProgListDecls]
+  MethodDeclarations(
+    MethodDecl(
+      MethodName(
+        VoidRet(
+        ) [VoidRet]
+       main
+      ) [MethodName]
+      NoMethodVarDeclarations(
+      ) [NoMethodVarDeclarations]
+      StatementListDeclarations(
+        StatementListDeclarations(
+          StatementListDeclarations(
+            StatementListDeclarations(
+              StatementListDeclarations(
+                StatementListDeclarations(
+                  NoStatementListDeclarations(
+                  ) [NoStatementListDeclarations]
+                  SingleStatementDeclNoLabel(
+                    DesignatorStmt(
+                      Assignment(
+                        DesignatorOne(
+                          DesignatorName(
+                           x
+                          ) [DesignatorName]
+                        ) [DesignatorOne]
+                        ExprHelpOption(
+                          ExprHelpNoMinus(
+                            Term(
+                              NumFactor(
+                               1
+                              ) [NumFactor]
+                              NoMulopListDecls(
+                              ) [NoMulopListDecls]
+                            ) [Term]
+                            NoAddopList(
+                            ) [NoAddopList]
+                          ) [ExprHelpNoMinus]
+                        ) [ExprHelpOption]
+                      ) [Assignment]
+                    ) [DesignatorStmt]
+                  ) [SingleStatementDeclNoLabel]
+                ) [StatementListDeclarations]
+                SingleStatementDeclNoLabel(
+                  GoToStatement(
+                    NoColon(
+                     Marija
+                    ) [NoColon]
+                  ) [GoToStatement]
+                ) [SingleStatementDeclNoLabel]
+              ) [StatementListDeclarations]
+              SingleStatementDeclNoLabel(
+                DesignatorStmt(
+                  Assignment(
+                    DesignatorOne(
+                      DesignatorName(
+                       x
+                      ) [DesignatorName]
+                    ) [DesignatorOne]
+                    ExprHelpOption(
+                      ExprHelpNoMinus(
+                        Term(
+                          NumFactor(
+                           5
+                          ) [NumFactor]
+                          NoMulopListDecls(
+                          ) [NoMulopListDecls]
+                        ) [Term]
+                        NoAddopList(
+                        ) [NoAddopList]
+                      ) [ExprHelpNoMinus]
+                    ) [ExprHelpOption]
+                  ) [Assignment]
+                ) [DesignatorStmt]
+              ) [SingleStatementDeclNoLabel]
+            ) [StatementListDeclarations]
+            SingleStatementDeclNoLabel(
+              PrintStmt(
+                ExprHelpOption(
+                  ExprHelpNoMinus(
+                    Term(
+                      FactorDesignator(
+                        DesignatorOne(
+                          DesignatorName(
+                           x
+                          ) [DesignatorName]
+                        ) [DesignatorOne]
+                      ) [FactorDesignator]
+                      NoMulopListDecls(
+                      ) [NoMulopListDecls]
+                    ) [Term]
+                    NoAddopList(
+                    ) [NoAddopList]
+                  ) [ExprHelpNoMinus]
+                ) [ExprHelpOption]
+                NoPrintConstantants(
+                ) [NoPrintConstantants]
+              ) [PrintStmt]
+            ) [SingleStatementDeclNoLabel]
+          ) [StatementListDeclarations]
+          SingleStatementDeclLabel(
+            LabelDecl(
+             Marija
+            ) [LabelDecl]
+            PrintStmt(
+              ExprHelpOption(
+                ExprHelpNoMinus(
+                  Term(
+                    FactorDesignator(
+                      DesignatorOne(
+                        DesignatorName(
+                         x
+                        ) [DesignatorName]
+                      ) [DesignatorOne]
+                    ) [FactorDesignator]
+                    NoMulopListDecls(
+                    ) [NoMulopListDecls]
+                  ) [Term]
+                  NoAddopList(
+                  ) [NoAddopList]
+                ) [ExprHelpNoMinus]
+              ) [ExprHelpOption]
+              NoPrintConstantants(
+              ) [NoPrintConstantants]
+            ) [PrintStmt]
+          ) [SingleStatementDeclLabel]
+        ) [StatementListDeclarations]
+        SingleStatementDeclNoLabel(
+          ReturnNoExpr(
+          ) [ReturnNoExpr]
+        ) [SingleStatementDeclNoLabel]
+      ) [StatementListDeclarations]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  14:47:30,266 - ===================================
+INFO  14:47:30,270 - Na liniji : 2. Vrsi se deklaracija promenljive x
+INFO  14:47:30,271 - Na liniji : 5. Vrsi se obrada funkcije main na liniji 5
+INFO  14:47:30,271 - Linija 6: xVar x: int, 0, 0  na liniji 6
+INFO  14:47:30,272 - Na liniji : 7. U listu goto labela je dodata nova goto labela: Marija
+INFO  14:47:30,272 - Linija 8: xVar x: int, 0, 0  na liniji 8
+INFO  14:47:30,272 - Linija 9: xVar x: int, 0, 0  na liniji 9
+INFO  14:47:30,272 - Na liniji : 10. U listu labela je dodata nova labela: Marija
+INFO  14:47:30,272 - Linija 12: xVar x: int, 0, 0  na liniji 12
+INFO  14:47:30,273 - 
+
+SEMANTICKA ANALIZA
+
+Statements :4
+ 1     global variables
+0     global constants
+0     global arrays
+0     local variables in main
+
+INFO  14:47:30,278 - Marija
+INFO  14:47:30,279 - Parsiranje uspesno zavrseno!

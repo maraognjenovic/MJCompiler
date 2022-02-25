@@ -1,0 +1,211 @@
+INFO  21:40:40,420 - Compiling source file: C:\Users\Marija\Desktop\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  21:40:40,494 - #6 program
+INFO  21:40:40,494 - #2 MJProgram
+INFO  21:40:40,494 - #2 int
+INFO  21:40:40,495 - #2 x
+INFO  21:40:40,496 - #41 ;
+INFO  21:40:40,496 - #2 int
+INFO  21:40:40,497 - #2 y
+INFO  21:40:40,497 - #41 ;
+INFO  21:40:40,497 - #46 {
+INFO  21:40:40,497 - #2 int
+INFO  21:40:40,498 - #2 main
+INFO  21:40:40,498 - #48 (
+INFO  21:40:40,499 - #49 )
+INFO  21:40:40,500 - #46 {
+INFO  21:40:40,500 - #17 print
+INFO  21:40:40,501 - #48 (
+INFO  21:40:40,502 - #3 1
+INFO  21:40:40,502 - #49 )
+INFO  21:40:40,505 - #41 ;
+INFO  21:40:40,505 - #2 y
+INFO  21:40:40,506 - #38 =
+INFO  21:40:40,506 - #3 2
+INFO  21:40:40,510 - #41 ;
+INFO  21:40:40,510 - #2 x
+INFO  21:40:40,511 - #38 =
+INFO  21:40:40,511 - #3 5
+INFO  21:40:40,511 - #41 ;
+INFO  21:40:40,511 - #17 print
+INFO  21:40:40,511 - #48 (
+INFO  21:40:40,511 - #3 2
+INFO  21:40:40,511 - #49 )
+INFO  21:40:40,511 - #41 ;
+INFO  21:40:40,511 - #19 return
+INFO  21:40:40,511 - #2 y
+INFO  21:40:40,511 - #41 ;
+INFO  21:40:40,511 - #47 }
+INFO  21:40:40,512 - #47 }
+ERROR 21:40:40,513 - Greska na 11. liniji: iskaz dodele vrednosti - oporavak izvrsen.
+INFO  21:40:40,521 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  ProgramListDecls(
+    ProgramListDecls(
+      NoProgramList(
+      ) [NoProgramList]
+      GlobalVarList(
+        GlobalVarDeclaration(
+          Type(
+           int
+          ) [Type]
+          GlobalVarSingle(
+            GlobalVar(
+             x
+            ) [GlobalVar]
+          ) [GlobalVarSingle]
+        ) [GlobalVarDeclaration]
+      ) [GlobalVarList]
+    ) [ProgramListDecls]
+    GlobalVarList(
+      GlobalVarDeclaration(
+        Type(
+         int
+        ) [Type]
+        GlobalVarSingle(
+          GlobalVar(
+           y
+          ) [GlobalVar]
+        ) [GlobalVarSingle]
+      ) [GlobalVarDeclaration]
+    ) [GlobalVarList]
+  ) [ProgramListDecls]
+  MethodDeclarations(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDecl(
+      MethodName(
+        OtherRetType(
+          Type(
+           int
+          ) [Type]
+        ) [OtherRetType]
+       main
+      ) [MethodName]
+      NoFormParams(
+      ) [NoFormParams]
+      NoMethodVarDeclarations(
+      ) [NoMethodVarDeclarations]
+      StatementListDeclarations(
+        StatementListDeclarations(
+          StatementListDeclarations(
+            StatementListDeclarations(
+              StatementListDeclarations(
+                NoStatementListDeclarations(
+                ) [NoStatementListDeclarations]
+                SingleStatementDecl(
+                  PrintStatement(
+                    Expr1Option(
+                      Expr1NoMinus(
+                        Term(
+                          FactorNum(
+                           1
+                          ) [FactorNum]
+                          NoMulopFactorListDecls(
+                          ) [NoMulopFactorListDecls]
+                        ) [Term]
+                        NoAddopTermList(
+                        ) [NoAddopTermList]
+                      ) [Expr1NoMinus]
+                    ) [Expr1Option]
+                    NoPrintConsts(
+                    ) [NoPrintConsts]
+                  ) [PrintStatement]
+                ) [SingleStatementDecl]
+              ) [StatementListDeclarations]
+              SingleStatementDecl(
+                DesignStatement(
+                  Assignment(
+                    DesignatorSingle(
+                      DesignatorName(
+                       y
+                      ) [DesignatorName]
+                    ) [DesignatorSingle]
+                    Expr1Option(
+                      Expr1NoMinus(
+                        Term(
+                          FactorNum(
+                           2
+                          ) [FactorNum]
+                          NoMulopFactorListDecls(
+                          ) [NoMulopFactorListDecls]
+                        ) [Term]
+                        NoAddopTermList(
+                        ) [NoAddopTermList]
+                      ) [Expr1NoMinus]
+                    ) [Expr1Option]
+                  ) [Assignment]
+                ) [DesignStatement]
+              ) [SingleStatementDecl]
+            ) [StatementListDeclarations]
+            SingleStatementDecl(
+              DesignStatement(
+                Assignment(
+                  DesignatorSingle(
+                    DesignatorName(
+                     x
+                    ) [DesignatorName]
+                  ) [DesignatorSingle]
+                  Expr1Option(
+                    Expr1NoMinus(
+                      Term(
+                        FactorNum(
+                         5
+                        ) [FactorNum]
+                        NoMulopFactorListDecls(
+                        ) [NoMulopFactorListDecls]
+                      ) [Term]
+                      NoAddopTermList(
+                      ) [NoAddopTermList]
+                    ) [Expr1NoMinus]
+                  ) [Expr1Option]
+                ) [Assignment]
+              ) [DesignStatement]
+            ) [SingleStatementDecl]
+          ) [StatementListDeclarations]
+          SingleStatementDecl(
+            PrintStatement(
+              Expr1Option(
+                Expr1NoMinus(
+                  Term(
+                    FactorNum(
+                     2
+                    ) [FactorNum]
+                    NoMulopFactorListDecls(
+                    ) [NoMulopFactorListDecls]
+                  ) [Term]
+                  NoAddopTermList(
+                  ) [NoAddopTermList]
+                ) [Expr1NoMinus]
+              ) [Expr1Option]
+              NoPrintConsts(
+              ) [NoPrintConsts]
+            ) [PrintStatement]
+          ) [SingleStatementDecl]
+        ) [StatementListDeclarations]
+        SingleStatementDecl(
+          SingleStatementDerived1(
+          ) [SingleStatementDerived1]
+        ) [SingleStatementDecl]
+      ) [StatementListDeclarations]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  21:40:40,522 - ===================================
+INFO  21:40:40,527 - Linija 2: Deklarise se promenljiva x
+INFO  21:40:40,527 - Linija 2: Deklarise se promenljiva y
+INFO  21:40:40,527 - Linija 4: Obradjuje se funkcija main na liniji 4
+INFO  21:40:40,527 - Linija 7: y - pronadjeno!	Var y: int, 1, 0  na liniji 7
+INFO  21:40:40,527 - Linija 8: x - pronadjeno!	Var x: int, 0, 0  na liniji 8
+INFO  21:40:40,528 -  classCnt = 0
+INFO  21:40:40,528 -  methodCnt = 1
+INFO  21:40:40,528 -  globalVarCnt = 2
+INFO  21:40:40,528 -  globalConCnt = 0
+INFO  21:40:40,528 -  globalArrCnt = 0
+INFO  21:40:40,528 -  localVarCnt = 0
+INFO  21:40:40,528 -  stmtCnt = 4
+INFO  21:40:40,528 -  numOfErrors = 0
+INFO  21:40:40,528 -  Deklarisanih promenljivih ima = 2
+INFO  21:40:40,528 - ===================================
+ERROR 21:40:40,529 - Parsiranje NIJE uspesno zavrseno!

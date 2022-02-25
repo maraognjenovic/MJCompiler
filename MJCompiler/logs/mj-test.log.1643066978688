@@ -1,0 +1,51 @@
+INFO  00:29:22,626 - Compiling source file: C:\Users\Marija\Desktop\14.1\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  00:29:22,668 - #6 program
+INFO  00:29:22,669 - #3 test1
+INFO  00:29:22,669 - #3 char
+INFO  00:29:22,671 - #3 niz
+INFO  00:29:22,672 - #26 +
+INFO  00:29:22,672 - #3 int
+INFO  00:29:22,672 - #3 x
+INFO  00:29:22,672 - #17 (
+INFO  00:29:22,673 - #18 )
+INFO  00:29:22,673 - #31 ;
+INFO  00:29:22,673 - #3 bool
+INFO  00:29:22,673 - #3 x
+INFO  00:29:22,673 - #26 +
+ERROR 00:29:22,674 - Sintaksna greska lose deklarisana globalna promenljiva
+INFO  00:29:22,675 - #31 ;
+INFO  00:29:22,675 - #19 {
+INFO  00:29:22,675 - #8 void
+INFO  00:29:22,676 - #3 main
+ERROR 00:29:22,676 - Sintaksna greska lose deklarisana globalna promenljiva
+INFO  00:29:22,681 - #17 (
+INFO  00:29:22,681 - #18 )
+INFO  00:29:22,681 - #3 int
+INFO  00:29:22,682 - #3 niz
+INFO  00:29:22,683 - #26 +
+INFO  00:29:22,683 - #31 ;
+INFO  00:29:22,683 - #19 {
+INFO  00:29:22,683 - #3 niz
+INFO  00:29:22,683 - #25 =
+ERROR 00:29:22,683 - Sintaksna greska lose deklarisana lokalna promenljiva
+INFO  00:29:22,686 - #14 new
+INFO  00:29:22,687 - #3 int
+INFO  00:29:22,688 - #21 [
+INFO  00:29:22,688 - #5 5
+INFO  00:29:22,688 - #22 ]
+INFO  00:29:22,692 - #31 ;
+INFO  00:29:22,692 - #9 print
+INFO  00:29:22,693 - #17 (
+INFO  00:29:22,694 - #3 niz
+INFO  00:29:22,694 - #18 )
+INFO  00:29:22,695 - #31 ;
+INFO  00:29:22,695 - #20 }
+INFO  00:29:22,695 - #20 }
+INFO  00:29:22,712 - =================SINTAKSNO STABLO==================
+INFO  00:29:22,712 - ===================================
+INFO  00:29:22,716 - Na liniji : 6. Vrsi se obrada funkcije main
+ERROR 00:29:22,716 - SEMANTICKA GRESKA : Greska na liniji 9: Ime niz nije deklarisano.
+ERROR 00:29:22,717 - SEMANTICKA GRESKA :Greska na liniji 9: Doslo je do greske pri dodeli
+ERROR 00:29:22,717 - SEMANTICKA GRESKA : Greska na liniji 11: Ime niz nije deklarisano.
+ERROR 00:29:22,718 - SEMANTICKA GRESKA :Greska na liniji 7: : Izraz unutar print naredbe mora biti tipa int, char ili bool.
+ERROR 00:29:22,718 - Parsiranje NIJE uspesno zavrseno!

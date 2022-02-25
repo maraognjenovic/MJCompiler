@@ -1,0 +1,134 @@
+INFO  13:37:33,462 - Compiling source file: C:\Users\Marija\Desktop\14.1\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  13:37:33,620 - #6 program
+INFO  13:37:33,621 - #2 Keske
+INFO  13:37:33,621 - #19 {
+INFO  13:37:33,622 - #8 void
+INFO  13:37:33,622 - #2 main
+INFO  13:37:33,623 - #17 (
+INFO  13:37:33,624 - #18 )
+INFO  13:37:33,624 - #2 int
+INFO  13:37:33,625 - #2 i
+INFO  13:37:33,626 - #38 ,
+INFO  13:37:33,626 - #2 j
+INFO  13:37:33,627 - #38 ,
+INFO  13:37:33,627 - #2 arr
+INFO  13:37:33,627 - #21 [
+INFO  13:37:33,628 - #22 ]
+INFO  13:37:33,628 - #37 ;
+INFO  13:37:33,628 - #19 {
+INFO  13:37:33,629 - #2 i
+INFO  13:37:33,633 - #31 =
+INFO  13:37:33,638 - #2 arr
+INFO  13:37:33,644 - #12 @
+INFO  13:37:33,649 - #2 j
+INFO  13:37:33,650 - #37 ;
+INFO  13:37:33,653 - #20 }
+INFO  13:37:33,653 - #20 }
+INFO  13:37:33,664 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  NoProgList(
+  ) [NoProgList]
+  MethodDeclarations(
+    MethodDecl(
+      MethodName(
+        VoidRet(
+        ) [VoidRet]
+       main
+      ) [MethodName]
+      MethodVarDeclarations(
+        NoMethodVarDeclarations(
+        ) [NoMethodVarDeclarations]
+        VarDeclaration(
+          Type(
+           int
+          ) [Type]
+          VarParams(
+            VarParams(
+              VarParam(
+                LocalVar(
+                 i
+                ) [LocalVar]
+              ) [VarParam]
+              LocalVar(
+               j
+              ) [LocalVar]
+            ) [VarParams]
+            LocalArr(
+             arr
+            ) [LocalArr]
+          ) [VarParams]
+        ) [VarDeclaration]
+      ) [MethodVarDeclarations]
+      StatementListDeclarations(
+        NoStatementListDeclarations(
+        ) [NoStatementListDeclarations]
+        SingleStatementDeclNoLabel(
+          DesignatorStmt(
+            Assignment(
+              DesignatorOne(
+                DesignatorName(
+                 i
+                ) [DesignatorName]
+              ) [DesignatorOne]
+              Expr(
+                NoAddopList(
+                  Term(
+                    NoMulopListDecls(
+                      FactorM(
+                        FactorUn(
+                          UnaryE(
+                          ) [UnaryE]
+                          FactorDesignator(
+                            DesignatorOne(
+                              DesignatorName(
+                               arr
+                              ) [DesignatorName]
+                            ) [DesignatorOne]
+                          ) [FactorDesignator]
+                        ) [FactorUn]
+                        FactorUn(
+                          UnaryE(
+                          ) [UnaryE]
+                          FactorDesignator(
+                            DesignatorOne(
+                              DesignatorName(
+                               j
+                              ) [DesignatorName]
+                            ) [DesignatorOne]
+                          ) [FactorDesignator]
+                        ) [FactorUn]
+                      ) [FactorM]
+                    ) [NoMulopListDecls]
+                  ) [Term]
+                ) [NoAddopList]
+              ) [Expr]
+            ) [Assignment]
+          ) [DesignatorStmt]
+        ) [SingleStatementDeclNoLabel]
+      ) [StatementListDeclarations]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  13:37:33,665 - ===================================
+INFO  13:37:33,668 - Na liniji : 4. Vrsi se obrada funkcije main na liniji 4
+INFO  13:37:33,669 - Na liniji : 4. Vrsi se deklaracija promenljive i
+INFO  13:37:33,669 - Na liniji : 4. Vrsi se deklaracija promenljive j
+INFO  13:37:33,669 - Na liniji : 4. Vrsi se deklaracije promenljive arr
+INFO  13:37:33,669 - Linija 6: iVar i: int, 0, 1  na liniji 6
+INFO  13:37:33,669 - Linija 6: arrVar arr: Arr of int, 2, 1  na liniji 6
+INFO  13:37:33,670 - Linija 6: jVar j: int, 1, 1  na liniji 6
+ERROR 13:37:33,670 - monkey sa ne int vrednostima na liniji 5
+ERROR 13:37:33,670 - greska pri dodeli na liniji 6
+INFO  13:37:33,670 - 
+
+SEMANTICKA ANALIZA
+
+ Statements :1
+ Global cons: 0
+ Global vars:0
+ Global arrays0
+ Local vars in main:3
+
+ERROR 13:37:33,671 - Parsiranje NIJE uspesno zavrseno!

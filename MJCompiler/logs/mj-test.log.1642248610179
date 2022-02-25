@@ -1,0 +1,245 @@
+INFO  13:03:28,392 - Compiling source file: C:\Users\Marija\Desktop\14.1\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  13:03:28,629 - #6 program
+INFO  13:03:28,629 - #2 Keske
+INFO  13:03:28,629 - #19 {
+INFO  13:03:28,631 - #8 void
+INFO  13:03:28,631 - #2 main
+INFO  13:03:28,632 - #17 (
+INFO  13:03:28,634 - #18 )
+INFO  13:03:28,634 - #2 int
+INFO  13:03:28,636 - #2 i
+INFO  13:03:28,638 - #37 ;
+INFO  13:03:28,638 - #19 {
+INFO  13:03:28,640 - #2 i
+INFO  13:03:28,642 - #31 =
+INFO  13:03:28,645 - #33 -
+INFO  13:03:28,646 - #17 (
+INFO  13:03:28,647 - #3 3
+INFO  13:03:28,648 - #32 +
+INFO  13:03:28,650 - #3 2
+INFO  13:03:28,653 - #33 -
+INFO  13:03:28,656 - #17 (
+INFO  13:03:28,663 - #33 -
+INFO  13:03:28,664 - #3 2
+INFO  13:03:28,670 - #18 )
+INFO  13:03:28,675 - #32 +
+INFO  13:03:28,675 - #17 (
+INFO  13:03:28,675 - #33 -
+INFO  13:03:28,675 - #3 2
+INFO  13:03:28,676 - #32 +
+INFO  13:03:28,676 - #3 3
+INFO  13:03:28,676 - #18 )
+INFO  13:03:28,676 - #18 )
+INFO  13:03:28,677 - #37 ;
+INFO  13:03:28,677 - #9 print
+INFO  13:03:28,678 - #17 (
+INFO  13:03:28,678 - #2 i
+INFO  13:03:28,678 - #18 )
+INFO  13:03:28,680 - #37 ;
+INFO  13:03:28,680 - #20 }
+INFO  13:03:28,680 - #20 }
+INFO  13:03:28,692 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  NoProgList(
+  ) [NoProgList]
+  MethodDeclarations(
+    MethodDecl(
+      MethodName(
+        VoidRet(
+        ) [VoidRet]
+       main
+      ) [MethodName]
+      MethodVarDeclarations(
+        NoMethodVarDeclarations(
+        ) [NoMethodVarDeclarations]
+        VarDeclaration(
+          Type(
+           int
+          ) [Type]
+          VarParam(
+            LocalVar(
+             i
+            ) [LocalVar]
+          ) [VarParam]
+        ) [VarDeclaration]
+      ) [MethodVarDeclarations]
+      StatementListDeclarations(
+        StatementListDeclarations(
+          NoStatementListDeclarations(
+          ) [NoStatementListDeclarations]
+          SingleStatementDeclNoLabel(
+            DesignatorStmt(
+              Assignment(
+                DesignatorOne(
+                  DesignatorName(
+                   i
+                  ) [DesignatorName]
+                ) [DesignatorOne]
+                Expr(
+                  NoAddopList(
+                    Term(
+                      NoMulopListDecls(
+                        Factor(
+                          UnaryMinus(
+                          ) [UnaryMinus]
+                          ExprFactor(
+                            Expr(
+                              AddopListDecl(
+                                AddopListDecl(
+                                  AddopListDecl(
+                                    NoAddopList(
+                                      Term(
+                                        NoMulopListDecls(
+                                          Factor(
+                                            UnaryE(
+                                            ) [UnaryE]
+                                            NumFactor(
+                                             3
+                                            ) [NumFactor]
+                                          ) [Factor]
+                                        ) [NoMulopListDecls]
+                                      ) [Term]
+                                    ) [NoAddopList]
+                                    AddopDecl(
+                                    ) [AddopDecl]
+                                    Term(
+                                      NoMulopListDecls(
+                                        Factor(
+                                          UnaryE(
+                                          ) [UnaryE]
+                                          NumFactor(
+                                           2
+                                          ) [NumFactor]
+                                        ) [Factor]
+                                      ) [NoMulopListDecls]
+                                    ) [Term]
+                                  ) [AddopListDecl]
+                                  SubopDecl(
+                                  ) [SubopDecl]
+                                  Term(
+                                    NoMulopListDecls(
+                                      Factor(
+                                        UnaryE(
+                                        ) [UnaryE]
+                                        ExprFactor(
+                                          Expr(
+                                            NoAddopList(
+                                              Term(
+                                                NoMulopListDecls(
+                                                  Factor(
+                                                    UnaryMinus(
+                                                    ) [UnaryMinus]
+                                                    NumFactor(
+                                                     2
+                                                    ) [NumFactor]
+                                                  ) [Factor]
+                                                ) [NoMulopListDecls]
+                                              ) [Term]
+                                            ) [NoAddopList]
+                                          ) [Expr]
+                                        ) [ExprFactor]
+                                      ) [Factor]
+                                    ) [NoMulopListDecls]
+                                  ) [Term]
+                                ) [AddopListDecl]
+                                AddopDecl(
+                                ) [AddopDecl]
+                                Term(
+                                  NoMulopListDecls(
+                                    Factor(
+                                      UnaryE(
+                                      ) [UnaryE]
+                                      ExprFactor(
+                                        Expr(
+                                          AddopListDecl(
+                                            NoAddopList(
+                                              Term(
+                                                NoMulopListDecls(
+                                                  Factor(
+                                                    UnaryMinus(
+                                                    ) [UnaryMinus]
+                                                    NumFactor(
+                                                     2
+                                                    ) [NumFactor]
+                                                  ) [Factor]
+                                                ) [NoMulopListDecls]
+                                              ) [Term]
+                                            ) [NoAddopList]
+                                            AddopDecl(
+                                            ) [AddopDecl]
+                                            Term(
+                                              NoMulopListDecls(
+                                                Factor(
+                                                  UnaryE(
+                                                  ) [UnaryE]
+                                                  NumFactor(
+                                                   3
+                                                  ) [NumFactor]
+                                                ) [Factor]
+                                              ) [NoMulopListDecls]
+                                            ) [Term]
+                                          ) [AddopListDecl]
+                                        ) [Expr]
+                                      ) [ExprFactor]
+                                    ) [Factor]
+                                  ) [NoMulopListDecls]
+                                ) [Term]
+                              ) [AddopListDecl]
+                            ) [Expr]
+                          ) [ExprFactor]
+                        ) [Factor]
+                      ) [NoMulopListDecls]
+                    ) [Term]
+                  ) [NoAddopList]
+                ) [Expr]
+              ) [Assignment]
+            ) [DesignatorStmt]
+          ) [SingleStatementDeclNoLabel]
+        ) [StatementListDeclarations]
+        SingleStatementDeclNoLabel(
+          PrintStmt(
+            Expr(
+              NoAddopList(
+                Term(
+                  NoMulopListDecls(
+                    Factor(
+                      UnaryE(
+                      ) [UnaryE]
+                      FactorDesignator(
+                        DesignatorOne(
+                          DesignatorName(
+                           i
+                          ) [DesignatorName]
+                        ) [DesignatorOne]
+                      ) [FactorDesignator]
+                    ) [Factor]
+                  ) [NoMulopListDecls]
+                ) [Term]
+              ) [NoAddopList]
+            ) [Expr]
+            NoPrintConstantants(
+            ) [NoPrintConstantants]
+          ) [PrintStmt]
+        ) [SingleStatementDeclNoLabel]
+      ) [StatementListDeclarations]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  13:03:28,694 - ===================================
+INFO  13:03:28,697 - Na liniji : 4. Vrsi se obrada funkcije main na liniji 4
+INFO  13:03:28,697 - Na liniji : 4. Vrsi se deklaracija promenljive i
+INFO  13:03:28,698 - Linija 5: iVar i: int, 0, 1  na liniji 5
+INFO  13:03:28,698 - Linija 7: iVar i: int, 0, 1  na liniji 7
+INFO  13:03:28,698 - 
+
+SEMANTICKA ANALIZA
+
+ Statements :2
+ Global cons: 0
+ Global vars:0
+ Global arrays0
+ Local vars in main:1
+
+INFO  13:03:28,704 - Parsiranje uspesno zavrseno!

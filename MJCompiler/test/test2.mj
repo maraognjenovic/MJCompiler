@@ -1,0 +1,15 @@
+program test2
+	char a--
+	int b();
+	bool c+;
+{
+	void main()	
+	{		
+		a = new int[5];
+		
+		print(a);
+		
+	}
+}
+
+

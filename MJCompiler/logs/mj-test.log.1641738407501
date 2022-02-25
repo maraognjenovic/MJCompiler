@@ -1,0 +1,188 @@
+INFO  15:19:21,051 - Compiling source file: C:\Users\Marija\Desktop\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  15:19:21,119 - #6 program
+INFO  15:19:21,119 - #2 MJProgram
+INFO  15:19:21,119 - #2 int
+INFO  15:19:21,121 - #2 x
+INFO  15:19:21,122 - #35 ;
+INFO  15:19:21,122 - #2 int
+INFO  15:19:21,123 - #2 y
+INFO  15:19:21,123 - #35 ;
+INFO  15:19:21,123 - #17 {
+INFO  15:19:21,123 - #8 void
+INFO  15:19:21,123 - #2 main
+INFO  15:19:21,124 - #15 (
+INFO  15:19:21,125 - #16 )
+INFO  15:19:21,126 - #17 {
+INFO  15:19:21,127 - #9 print
+INFO  15:19:21,127 - #15 (
+INFO  15:19:21,128 - #3 1
+INFO  15:19:21,128 - #16 )
+INFO  15:19:21,132 - #35 ;
+INFO  15:19:21,133 - #2 y
+INFO  15:19:21,133 - #29 =
+INFO  15:19:21,134 - #3 2
+INFO  15:19:21,138 - #35 ;
+INFO  15:19:21,138 - #2 x
+INFO  15:19:21,138 - #29 =
+INFO  15:19:21,138 - #3 5
+INFO  15:19:21,138 - #35 ;
+INFO  15:19:21,138 - #10 read
+INFO  15:19:21,138 - #15 (
+INFO  15:19:21,138 - #2 x
+INFO  15:19:21,138 - #16 )
+INFO  15:19:21,139 - #35 ;
+INFO  15:19:21,139 - #7 return
+INFO  15:19:21,139 - #35 ;
+INFO  15:19:21,139 - #18 }
+INFO  15:19:21,140 - #18 }
+INFO  15:19:21,148 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  ProgListDecls(
+    ProgListDecls(
+      NoProgList(
+      ) [NoProgList]
+      GlobalVarList(
+        GlobalVarDeclaration(
+          Type(
+           int
+          ) [Type]
+          GlobalVarSingle(
+            GlobalVar(
+             x
+            ) [GlobalVar]
+          ) [GlobalVarSingle]
+        ) [GlobalVarDeclaration]
+      ) [GlobalVarList]
+    ) [ProgListDecls]
+    GlobalVarList(
+      GlobalVarDeclaration(
+        Type(
+         int
+        ) [Type]
+        GlobalVarSingle(
+          GlobalVar(
+           y
+          ) [GlobalVar]
+        ) [GlobalVarSingle]
+      ) [GlobalVarDeclaration]
+    ) [GlobalVarList]
+  ) [ProgListDecls]
+  MethodDeclarations(
+    MethodDecl(
+      MethodName(
+        VoidRetType(
+        ) [VoidRetType]
+       main
+      ) [MethodName]
+      NoFormParams(
+      ) [NoFormParams]
+      NoMethodVarDeclarations(
+      ) [NoMethodVarDeclarations]
+      StatementListDeclarations(
+        StatementListDeclarations(
+          StatementListDeclarations(
+            StatementListDeclarations(
+              StatementListDeclarations(
+                NoStatementListDeclarations(
+                ) [NoStatementListDeclarations]
+                SingleStatementDeclNoLabel(
+                  PrintStatement(
+                    ExprHelpOption(
+                      ExprHelpNoMinus(
+                        Term(
+                          FactorNum(
+                           1
+                          ) [FactorNum]
+                          NoMulopListDecls(
+                          ) [NoMulopListDecls]
+                        ) [Term]
+                        NoAddopList(
+                        ) [NoAddopList]
+                      ) [ExprHelpNoMinus]
+                    ) [ExprHelpOption]
+                    NoPrintConstantants(
+                    ) [NoPrintConstantants]
+                  ) [PrintStatement]
+                ) [SingleStatementDeclNoLabel]
+              ) [StatementListDeclarations]
+              SingleStatementDeclNoLabel(
+                DesignatorStmt(
+                  Assignment(
+                    DesignatorSingle(
+                      DesignatorName(
+                       y
+                      ) [DesignatorName]
+                    ) [DesignatorSingle]
+                    ExprHelpOption(
+                      ExprHelpNoMinus(
+                        Term(
+                          FactorNum(
+                           2
+                          ) [FactorNum]
+                          NoMulopListDecls(
+                          ) [NoMulopListDecls]
+                        ) [Term]
+                        NoAddopList(
+                        ) [NoAddopList]
+                      ) [ExprHelpNoMinus]
+                    ) [ExprHelpOption]
+                  ) [Assignment]
+                ) [DesignatorStmt]
+              ) [SingleStatementDeclNoLabel]
+            ) [StatementListDeclarations]
+            SingleStatementDeclNoLabel(
+              DesignatorStmt(
+                Assignment(
+                  DesignatorSingle(
+                    DesignatorName(
+                     x
+                    ) [DesignatorName]
+                  ) [DesignatorSingle]
+                  ExprHelpOption(
+                    ExprHelpNoMinus(
+                      Term(
+                        FactorNum(
+                         5
+                        ) [FactorNum]
+                        NoMulopListDecls(
+                        ) [NoMulopListDecls]
+                      ) [Term]
+                      NoAddopList(
+                      ) [NoAddopList]
+                    ) [ExprHelpNoMinus]
+                  ) [ExprHelpOption]
+                ) [Assignment]
+              ) [DesignatorStmt]
+            ) [SingleStatementDeclNoLabel]
+          ) [StatementListDeclarations]
+          SingleStatementDeclNoLabel(
+            ReadStatement(
+              DesignatorSingle(
+                DesignatorName(
+                 x
+                ) [DesignatorName]
+              ) [DesignatorSingle]
+            ) [ReadStatement]
+          ) [SingleStatementDeclNoLabel]
+        ) [StatementListDeclarations]
+        SingleStatementDeclNoLabel(
+          ReturnNoExpr(
+          ) [ReturnNoExpr]
+        ) [SingleStatementDeclNoLabel]
+      ) [StatementListDeclarations]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  15:19:21,148 - ===================================
+INFO  15:19:21,153 - Linija 2: Deklarise se promenljiva x
+INFO  15:19:21,154 - Linija 2: Deklarise se promenljiva y
+INFO  15:19:21,154 - Linija 5: Obradjuje se funkcija main na liniji 5
+INFO  15:19:21,154 - Linija 8: y - pronadjeno!	Var y: int, 1, 0  na liniji 8
+INFO  15:19:21,154 - Linija 9: x - pronadjeno!	Var x: int, 0, 0  na liniji 9
+INFO  15:19:21,154 - Linija 11: x - pronadjeno!	Var x: int, 0, 0  na liniji 11
+INFO  15:19:21,154 -  numOfErrors = 0
+INFO  15:19:21,155 -  Deklarisanih promenljivih ima = 2
+INFO  15:19:21,155 - ===================================
+INFO  15:19:21,155 - Parsiranje uspesno zavrseno!

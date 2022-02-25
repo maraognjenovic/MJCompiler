@@ -1,0 +1,689 @@
+INFO  00:17:35,660 - Compiling source file: C:\Users\Marija\Desktop\14.1\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  00:17:35,702 - #6 program
+INFO  00:17:35,702 - #3 test301
+INFO  00:17:35,703 - #15 const
+INFO  00:17:35,704 - #3 int
+INFO  00:17:35,704 - #3 nula
+INFO  00:17:35,705 - #25 =
+INFO  00:17:35,705 - #5 0
+INFO  00:17:35,705 - #31 ;
+INFO  00:17:35,706 - #15 const
+INFO  00:17:35,708 - #3 int
+INFO  00:17:35,708 - #3 jedan
+INFO  00:17:35,708 - #25 =
+INFO  00:17:35,708 - #5 1
+INFO  00:17:35,708 - #31 ;
+INFO  00:17:35,708 - #15 const
+INFO  00:17:35,708 - #3 int
+INFO  00:17:35,708 - #3 pet
+INFO  00:17:35,708 - #25 =
+INFO  00:17:35,709 - #5 5
+INFO  00:17:35,709 - #31 ;
+INFO  00:17:35,709 - #3 int
+INFO  00:17:35,714 - #3 niz
+INFO  00:17:35,714 - #17 (
+INFO  00:17:35,715 - #18 )
+INFO  00:17:35,715 - #31 ;
+INFO  00:17:35,715 - #3 char
+INFO  00:17:35,715 - #3 nizch
+INFO  00:17:35,716 - #21 [
+ERROR 00:17:35,716 - Sintaksna greska lose deklarisana globalna promenljiva, linija :
+INFO  00:17:35,717 - #22 ]
+INFO  00:17:35,717 - #31 ;
+INFO  00:17:35,717 - #19 {
+INFO  00:17:35,717 - #8 void
+INFO  00:17:35,718 - #3 main
+INFO  00:17:35,719 - #17 (
+INFO  00:17:35,719 - #18 )
+INFO  00:17:35,719 - #3 int
+INFO  00:17:35,720 - #3 bodovi
+INFO  00:17:35,720 - #31 ;
+INFO  00:17:35,720 - #19 {
+INFO  00:17:35,721 - #3 bodovi
+INFO  00:17:35,722 - #25 =
+INFO  00:17:35,722 - #5 0
+INFO  00:17:35,724 - #31 ;
+INFO  00:17:35,727 - #3 bodovi
+INFO  00:17:35,727 - #23 ++
+INFO  00:17:35,728 - #31 ;
+INFO  00:17:35,728 - #3 bodovi
+INFO  00:17:35,728 - #25 =
+INFO  00:17:35,728 - #3 bodovi
+INFO  00:17:35,728 - #26 +
+INFO  00:17:35,729 - #3 jedan
+INFO  00:17:35,730 - #31 ;
+INFO  00:17:35,730 - #3 bodovi
+INFO  00:17:35,730 - #25 =
+INFO  00:17:35,731 - #3 bodovi
+INFO  00:17:35,731 - #28 *
+INFO  00:17:35,731 - #3 pet
+INFO  00:17:35,732 - #31 ;
+INFO  00:17:35,733 - #3 bodovi
+INFO  00:17:35,733 - #24 --
+INFO  00:17:35,733 - #31 ;
+INFO  00:17:35,733 - #9 print
+INFO  00:17:35,734 - #17 (
+INFO  00:17:35,734 - #3 bodovi
+INFO  00:17:35,734 - #18 )
+INFO  00:17:35,735 - #31 ;
+INFO  00:17:35,735 - #3 niz
+INFO  00:17:35,738 - #25 =
+INFO  00:17:35,738 - #14 new
+INFO  00:17:35,739 - #3 int
+INFO  00:17:35,739 - #21 [
+INFO  00:17:35,739 - #5 3
+INFO  00:17:35,739 - #22 ]
+INFO  00:17:35,740 - #31 ;
+INFO  00:17:35,740 - #3 niz
+INFO  00:17:35,740 - #21 [
+INFO  00:17:35,743 - #3 nula
+INFO  00:17:35,745 - #22 ]
+INFO  00:17:35,746 - #25 =
+INFO  00:17:35,746 - #3 jedan
+INFO  00:17:35,746 - #31 ;
+INFO  00:17:35,747 - #3 niz
+INFO  00:17:35,747 - #21 [
+INFO  00:17:35,747 - #5 1
+INFO  00:17:35,747 - #22 ]
+INFO  00:17:35,748 - #25 =
+INFO  00:17:35,748 - #5 2
+INFO  00:17:35,748 - #31 ;
+INFO  00:17:35,748 - #3 niz
+INFO  00:17:35,748 - #21 [
+INFO  00:17:35,749 - #3 niz
+INFO  00:17:35,749 - #21 [
+INFO  00:17:35,749 - #3 jedan
+INFO  00:17:35,749 - #22 ]
+INFO  00:17:35,749 - #22 ]
+INFO  00:17:35,750 - #25 =
+INFO  00:17:35,750 - #3 niz
+INFO  00:17:35,750 - #21 [
+INFO  00:17:35,751 - #3 niz
+INFO  00:17:35,751 - #21 [
+INFO  00:17:35,752 - #5 0
+INFO  00:17:35,752 - #22 ]
+INFO  00:17:35,752 - #22 ]
+INFO  00:17:35,752 - #28 *
+INFO  00:17:35,753 - #5 3
+INFO  00:17:35,753 - #31 ;
+INFO  00:17:35,753 - #3 bodovi
+INFO  00:17:35,753 - #25 =
+INFO  00:17:35,753 - #3 niz
+INFO  00:17:35,754 - #21 [
+INFO  00:17:35,754 - #5 2
+INFO  00:17:35,754 - #22 ]
+INFO  00:17:35,755 - #29 /
+INFO  00:17:35,755 - #3 niz
+INFO  00:17:35,756 - #21 [
+INFO  00:17:35,757 - #5 0
+INFO  00:17:35,758 - #22 ]
+INFO  00:17:35,758 - #31 ;
+INFO  00:17:35,759 - #9 print
+INFO  00:17:35,760 - #17 (
+INFO  00:17:35,760 - #3 bodovi
+INFO  00:17:35,760 - #18 )
+INFO  00:17:35,761 - #31 ;
+INFO  00:17:35,761 - #9 print
+INFO  00:17:35,761 - #17 (
+INFO  00:17:35,761 - #3 niz
+INFO  00:17:35,762 - #21 [
+INFO  00:17:35,762 - #5 2
+INFO  00:17:35,762 - #22 ]
+INFO  00:17:35,762 - #18 )
+INFO  00:17:35,763 - #31 ;
+INFO  00:17:35,763 - #3 nizch
+INFO  00:17:35,763 - #25 =
+INFO  00:17:35,763 - #14 new
+INFO  00:17:35,763 - #3 char
+INFO  00:17:35,764 - #21 [
+INFO  00:17:35,764 - #5 3
+INFO  00:17:35,764 - #22 ]
+INFO  00:17:35,764 - #31 ;
+INFO  00:17:35,764 - #3 nizch
+INFO  00:17:35,764 - #21 [
+INFO  00:17:35,765 - #5 0
+INFO  00:17:35,765 - #22 ]
+INFO  00:17:35,765 - #25 =
+INFO  00:17:35,765 - #4 a
+INFO  00:17:35,765 - #31 ;
+INFO  00:17:35,766 - #3 nizch
+INFO  00:17:35,766 - #21 [
+INFO  00:17:35,766 - #3 jedan
+INFO  00:17:35,766 - #22 ]
+INFO  00:17:35,766 - #25 =
+INFO  00:17:35,766 - #4 b
+INFO  00:17:35,767 - #31 ;
+INFO  00:17:35,767 - #3 nizch
+INFO  00:17:35,767 - #21 [
+INFO  00:17:35,767 - #3 pet
+INFO  00:17:35,767 - #27 -
+INFO  00:17:35,768 - #5 3
+INFO  00:17:35,768 - #22 ]
+INFO  00:17:35,769 - #25 =
+INFO  00:17:35,769 - #4 c
+INFO  00:17:35,769 - #31 ;
+INFO  00:17:35,769 - #9 print
+INFO  00:17:35,769 - #17 (
+INFO  00:17:35,770 - #3 nizch
+INFO  00:17:35,770 - #21 [
+INFO  00:17:35,770 - #5 1
+INFO  00:17:35,770 - #22 ]
+INFO  00:17:35,770 - #18 )
+INFO  00:17:35,770 - #31 ;
+INFO  00:17:35,771 - #9 print
+INFO  00:17:35,771 - #17 (
+INFO  00:17:35,771 - #3 nizch
+INFO  00:17:35,771 - #21 [
+INFO  00:17:35,771 - #3 jedan
+INFO  00:17:35,772 - #28 *
+INFO  00:17:35,772 - #5 2
+INFO  00:17:35,772 - #22 ]
+INFO  00:17:35,772 - #18 )
+INFO  00:17:35,772 - #31 ;
+INFO  00:17:35,773 - #3 bodovi
+INFO  00:17:35,773 - #25 =
+INFO  00:17:35,773 - #3 bodovi
+INFO  00:17:35,773 - #26 +
+INFO  00:17:35,773 - #17 (
+INFO  00:17:35,774 - #3 pet
+INFO  00:17:35,774 - #28 *
+INFO  00:17:35,775 - #3 jedan
+INFO  00:17:35,776 - #27 -
+INFO  00:17:35,776 - #5 1
+INFO  00:17:35,776 - #18 )
+INFO  00:17:35,777 - #28 *
+INFO  00:17:35,777 - #3 bodovi
+INFO  00:17:35,777 - #27 -
+INFO  00:17:35,777 - #17 (
+INFO  00:17:35,778 - #5 3
+INFO  00:17:35,778 - #30 %
+INFO  00:17:35,778 - #5 2
+INFO  00:17:35,779 - #26 +
+INFO  00:17:35,779 - #5 3
+INFO  00:17:35,779 - #28 *
+INFO  00:17:35,780 - #5 2
+INFO  00:17:35,780 - #27 -
+INFO  00:17:35,780 - #5 3
+INFO  00:17:35,780 - #18 )
+INFO  00:17:35,780 - #31 ;
+INFO  00:17:35,780 - #9 print
+INFO  00:17:35,781 - #17 (
+INFO  00:17:35,781 - #3 bodovi
+INFO  00:17:35,782 - #18 )
+INFO  00:17:35,782 - #31 ;
+INFO  00:17:35,782 - #10 read
+INFO  00:17:35,782 - #17 (
+INFO  00:17:35,782 - #3 bodovi
+INFO  00:17:35,782 - #18 )
+INFO  00:17:35,782 - #31 ;
+INFO  00:17:35,783 - #9 print
+INFO  00:17:35,783 - #17 (
+INFO  00:17:35,783 - #3 bodovi
+INFO  00:17:35,783 - #18 )
+INFO  00:17:35,783 - #31 ;
+INFO  00:17:35,783 - #3 bodovi
+INFO  00:17:35,784 - #23 ++
+INFO  00:17:35,784 - #31 ;
+INFO  00:17:35,784 - #16 goto
+INFO  00:17:35,784 - #3 labela1
+INFO  00:17:35,784 - #31 ;
+INFO  00:17:35,784 - #3 bodovi
+INFO  00:17:35,785 - #25 =
+INFO  00:17:35,785 - #3 bodovi
+INFO  00:17:35,785 - #28 *
+INFO  00:17:35,785 - #5 2
+INFO  00:17:35,785 - #31 ;
+INFO  00:17:35,785 - #3 bodovi
+INFO  00:17:35,785 - #24 --
+INFO  00:17:35,786 - #31 ;
+INFO  00:17:35,786 - #3 labela1
+INFO  00:17:35,786 - #33 :
+INFO  00:17:35,786 - #3 bodovi
+INFO  00:17:35,786 - #25 =
+INFO  00:17:35,786 - #3 bodovi
+INFO  00:17:35,787 - #26 +
+INFO  00:17:35,787 - #5 3
+INFO  00:17:35,787 - #31 ;
+INFO  00:17:35,787 - #9 print
+INFO  00:17:35,787 - #17 (
+INFO  00:17:35,787 - #3 bodovi
+INFO  00:17:35,788 - #18 )
+INFO  00:17:35,788 - #31 ;
+INFO  00:17:35,788 - #16 goto
+INFO  00:17:35,788 - #3 labelaminus
+INFO  00:17:35,788 - #31 ;
+INFO  00:17:35,788 - #9 print
+INFO  00:17:35,788 - #17 (
+INFO  00:17:35,789 - #4 +
+INFO  00:17:35,789 - #18 )
+INFO  00:17:35,789 - #31 ;
+INFO  00:17:35,789 - #3 labelaminus
+INFO  00:17:35,789 - #33 :
+INFO  00:17:35,789 - #9 print
+INFO  00:17:35,789 - #17 (
+INFO  00:17:35,789 - #4 -
+INFO  00:17:35,789 - #18 )
+INFO  00:17:35,789 - #31 ;
+INFO  00:17:35,789 - #20 }
+INFO  00:17:35,789 - #20 }
+INFO  00:17:35,801 - =================SINTAKSNO STABLO==================
+INFO  00:17:35,801 - ===================================
+INFO  00:17:35,805 - Na liniji : 5. Vrsi se deklaracije konstante nula
+INFO  00:17:35,805 - Na liniji : 6. Vrsi se deklaracije konstante jedan
+INFO  00:17:35,805 - Na liniji : 7. Vrsi se deklaracije konstante pet
+INFO  00:17:35,805 - Na liniji : 10. Vrsi se deklaracija promenljive nizch
+INFO  00:17:35,806 - Na liniji : 13. Vrsi se obrada funkcije main
+INFO  00:17:35,806 - Na liniji : 14. Vrsi se deklaracija promenljive bodovi
+INFO  00:17:35,806 - Na liniji : 16Var bodovi: int, 0, 1 bodovi
+INFO  00:17:35,809 - Na liniji : 17Var bodovi: int, 0, 1 bodovi
+INFO  00:17:35,810 - Na liniji : 18Var bodovi: int, 0, 1 bodovi
+INFO  00:17:35,810 - Na liniji : 18Var bodovi: int, 0, 1 bodovi
+INFO  00:17:35,810 - Na liniji : 18Con jedan: int, 1, 0 jedan
+INFO  00:17:35,810 - Na liniji : 19Var bodovi: int, 0, 1 bodovi
+INFO  00:17:35,810 - Na liniji : 19Var bodovi: int, 0, 1 bodovi
+INFO  00:17:35,811 - Na liniji : 19Con pet: int, 5, 0 pet
+INFO  00:17:35,811 - Na liniji : 20Var bodovi: int, 0, 1 bodovi
+INFO  00:17:35,811 - Na liniji : 21Var bodovi: int, 0, 1 bodovi
+ERROR 00:17:35,811 - SEMANTICKA GRESKA : Greska na liniji 24: Ime niz nije deklarisano.
+ERROR 00:17:35,812 - SEMANTICKA GRESKA :Greska na liniji 24: Assignment(
+  DesignatorOne(
+    DesignatorName(
+     niz
+    ) [DesignatorName]
+  ) [DesignatorOne]
+  Expr(
+    NoAddopList(
+      Term(
+        NoMulopListDecls(
+          FactorU(
+            FactorUn(
+              UnaryE(
+              ) [UnaryE]
+              NewFactor(
+                Type(
+                 int
+                ) [Type]
+                Expr(
+                  NoAddopList(
+                    Term(
+                      NoMulopListDecls(
+                        FactorU(
+                          FactorUn(
+                            UnaryE(
+                            ) [UnaryE]
+                            NumFactor(
+                             3
+                            ) [NumFactor]
+                          ) [FactorUn]
+                        ) [FactorU]
+                      ) [NoMulopListDecls]
+                    ) [Term]
+                  ) [NoAddopList]
+                ) [Expr]
+              ) [NewFactor]
+            ) [FactorUn]
+          ) [FactorU]
+        ) [NoMulopListDecls]
+      ) [Term]
+    ) [NoAddopList]
+  ) [Expr]
+) [Assignment]Doslo je do greske pri dodeli
+INFO  00:17:35,812 - Na liniji : 25Con nula: int, 0, 0 nula
+ERROR 00:17:35,812 - SEMANTICKA GRESKA : Greska na liniji 25: Ime noObj nije deklarisano.
+INFO  00:17:35,812 - Na liniji : 25Con jedan: int, 1, 0 jedan
+ERROR 00:17:35,813 - SEMANTICKA GRESKA :Greska na liniji 25: Assignment(
+  DesignatorArr(
+    DesignatorName(
+     niz
+    ) [DesignatorName]
+    ArrAddr(
+    ) [ArrAddr]
+    Expr(
+      NoAddopList(
+        Term(
+          NoMulopListDecls(
+            FactorU(
+              FactorUn(
+                UnaryE(
+                ) [UnaryE]
+                FactorDesignator(
+                  DesignatorOne(
+                    DesignatorName(
+                     nula
+                    ) [DesignatorName]
+                  ) [DesignatorOne]
+                ) [FactorDesignator]
+              ) [FactorUn]
+            ) [FactorU]
+          ) [NoMulopListDecls]
+        ) [Term]
+      ) [NoAddopList]
+    ) [Expr]
+  ) [DesignatorArr]
+  Expr(
+    NoAddopList(
+      Term(
+        NoMulopListDecls(
+          FactorU(
+            FactorUn(
+              UnaryE(
+              ) [UnaryE]
+              FactorDesignator(
+                DesignatorOne(
+                  DesignatorName(
+                   jedan
+                  ) [DesignatorName]
+                ) [DesignatorOne]
+              ) [FactorDesignator]
+            ) [FactorUn]
+          ) [FactorU]
+        ) [NoMulopListDecls]
+      ) [Term]
+    ) [NoAddopList]
+  ) [Expr]
+) [Assignment]Doslo je do greske pri dodeli
+ERROR 00:17:35,813 - SEMANTICKA GRESKA : Greska na liniji 26: Ime noObj nije deklarisano.
+ERROR 00:17:35,813 - SEMANTICKA GRESKA :Greska na liniji 26: Assignment(
+  DesignatorArr(
+    DesignatorName(
+     niz
+    ) [DesignatorName]
+    ArrAddr(
+    ) [ArrAddr]
+    Expr(
+      NoAddopList(
+        Term(
+          NoMulopListDecls(
+            FactorU(
+              FactorUn(
+                UnaryE(
+                ) [UnaryE]
+                NumFactor(
+                 1
+                ) [NumFactor]
+              ) [FactorUn]
+            ) [FactorU]
+          ) [NoMulopListDecls]
+        ) [Term]
+      ) [NoAddopList]
+    ) [Expr]
+  ) [DesignatorArr]
+  Expr(
+    NoAddopList(
+      Term(
+        NoMulopListDecls(
+          FactorU(
+            FactorUn(
+              UnaryE(
+              ) [UnaryE]
+              NumFactor(
+               2
+              ) [NumFactor]
+            ) [FactorUn]
+          ) [FactorU]
+        ) [NoMulopListDecls]
+      ) [Term]
+    ) [NoAddopList]
+  ) [Expr]
+) [Assignment]Doslo je do greske pri dodeli
+INFO  00:17:35,814 - Na liniji : 27Con jedan: int, 1, 0 jedan
+ERROR 00:17:35,814 - SEMANTICKA GRESKA : Greska na liniji 27: Ime noObj nije deklarisano.
+ERROR 00:17:35,815 - SEMANTICKA GRESKA : Greska na liniji 27: Ime noObj nije deklarisano.
+ERROR 00:17:35,815 - SEMANTICKA GRESKA :Greska na liniji 18: MulopListDecls(
+  NoMulopListDecls(
+    FactorU(
+      FactorUn(
+        UnaryE(
+        ) [UnaryE]
+        FactorDesignator(
+          DesignatorArr(
+            DesignatorName(
+             niz
+            ) [DesignatorName]
+            ArrAddr(
+            ) [ArrAddr]
+            Expr(
+              NoAddopList(
+                Term(
+                  NoMulopListDecls(
+                    FactorU(
+                      FactorUn(
+                        UnaryE(
+                        ) [UnaryE]
+                        FactorDesignator(
+                          DesignatorArr(
+                            DesignatorName(
+                             niz
+                            ) [DesignatorName]
+                            ArrAddr(
+                            ) [ArrAddr]
+                            Expr(
+                              NoAddopList(
+                                Term(
+                                  NoMulopListDecls(
+                                    FactorU(
+                                      FactorUn(
+                                        UnaryE(
+                                        ) [UnaryE]
+                                        NumFactor(
+                                         0
+                                        ) [NumFactor]
+                                      ) [FactorUn]
+                                    ) [FactorU]
+                                  ) [NoMulopListDecls]
+                                ) [Term]
+                              ) [NoAddopList]
+                            ) [Expr]
+                          ) [DesignatorArr]
+                        ) [FactorDesignator]
+                      ) [FactorUn]
+                    ) [FactorU]
+                  ) [NoMulopListDecls]
+                ) [Term]
+              ) [NoAddopList]
+            ) [Expr]
+          ) [DesignatorArr]
+        ) [FactorDesignator]
+      ) [FactorUn]
+    ) [FactorU]
+  ) [NoMulopListDecls]
+  MulDecl(
+  ) [MulDecl]
+  FactorU(
+    FactorUn(
+      UnaryE(
+      ) [UnaryE]
+      NumFactor(
+       3
+      ) [NumFactor]
+    ) [FactorUn]
+  ) [FactorU]
+) [MulopListDecls]Ne mozete koristiti operaciju mulop ako nije tipa int
+INFO  00:17:35,815 - Na liniji : 28Var bodovi: int, 0, 1 bodovi
+ERROR 00:17:35,815 - SEMANTICKA GRESKA : Greska na liniji 28: Ime noObj nije deklarisano.
+ERROR 00:17:35,816 - SEMANTICKA GRESKA : Greska na liniji 28: Ime noObj nije deklarisano.
+ERROR 00:17:35,816 - SEMANTICKA GRESKA :Greska na liniji 9: MulopListDecls(
+  NoMulopListDecls(
+    FactorU(
+      FactorUn(
+        UnaryE(
+        ) [UnaryE]
+        FactorDesignator(
+          DesignatorArr(
+            DesignatorName(
+             niz
+            ) [DesignatorName]
+            ArrAddr(
+            ) [ArrAddr]
+            Expr(
+              NoAddopList(
+                Term(
+                  NoMulopListDecls(
+                    FactorU(
+                      FactorUn(
+                        UnaryE(
+                        ) [UnaryE]
+                        NumFactor(
+                         2
+                        ) [NumFactor]
+                      ) [FactorUn]
+                    ) [FactorU]
+                  ) [NoMulopListDecls]
+                ) [Term]
+              ) [NoAddopList]
+            ) [Expr]
+          ) [DesignatorArr]
+        ) [FactorDesignator]
+      ) [FactorUn]
+    ) [FactorU]
+  ) [NoMulopListDecls]
+  DivDecl(
+  ) [DivDecl]
+  FactorU(
+    FactorUn(
+      UnaryE(
+      ) [UnaryE]
+      FactorDesignator(
+        DesignatorArr(
+          DesignatorName(
+           niz
+          ) [DesignatorName]
+          ArrAddr(
+          ) [ArrAddr]
+          Expr(
+            NoAddopList(
+              Term(
+                NoMulopListDecls(
+                  FactorU(
+                    FactorUn(
+                      UnaryE(
+                      ) [UnaryE]
+                      NumFactor(
+                       0
+                      ) [NumFactor]
+                    ) [FactorUn]
+                  ) [FactorU]
+                ) [NoMulopListDecls]
+              ) [Term]
+            ) [NoAddopList]
+          ) [Expr]
+        ) [DesignatorArr]
+      ) [FactorDesignator]
+    ) [FactorUn]
+  ) [FactorU]
+) [MulopListDecls]Ne mozete koristiti operaciju mulop ako nije tipa int
+ERROR 00:17:35,817 - SEMANTICKA GRESKA :Greska na liniji 28: Assignment(
+  DesignatorOne(
+    DesignatorName(
+     bodovi
+    ) [DesignatorName]
+  ) [DesignatorOne]
+  Expr(
+    NoAddopList(
+      Term(
+        MulopListDecls(
+          NoMulopListDecls(
+            FactorU(
+              FactorUn(
+                UnaryE(
+                ) [UnaryE]
+                FactorDesignator(
+                  DesignatorArr(
+                    DesignatorName(
+                     niz
+                    ) [DesignatorName]
+                    ArrAddr(
+                    ) [ArrAddr]
+                    Expr(
+                      NoAddopList(
+                        Term(
+                          NoMulopListDecls(
+                            FactorU(
+                              FactorUn(
+                                UnaryE(
+                                ) [UnaryE]
+                                NumFactor(
+                                 2
+                                ) [NumFactor]
+                              ) [FactorUn]
+                            ) [FactorU]
+                          ) [NoMulopListDecls]
+                        ) [Term]
+                      ) [NoAddopList]
+                    ) [Expr]
+                  ) [DesignatorArr]
+                ) [FactorDesignator]
+              ) [FactorUn]
+            ) [FactorU]
+          ) [NoMulopListDecls]
+          DivDecl(
+          ) [DivDecl]
+          FactorU(
+            FactorUn(
+              UnaryE(
+              ) [UnaryE]
+              FactorDesignator(
+                DesignatorArr(
+                  DesignatorName(
+                   niz
+                  ) [DesignatorName]
+                  ArrAddr(
+                  ) [ArrAddr]
+                  Expr(
+                    NoAddopList(
+                      Term(
+                        NoMulopListDecls(
+                          FactorU(
+                            FactorUn(
+                              UnaryE(
+                              ) [UnaryE]
+                              NumFactor(
+                               0
+                              ) [NumFactor]
+                            ) [FactorUn]
+                          ) [FactorU]
+                        ) [NoMulopListDecls]
+                      ) [Term]
+                    ) [NoAddopList]
+                  ) [Expr]
+                ) [DesignatorArr]
+              ) [FactorDesignator]
+            ) [FactorUn]
+          ) [FactorU]
+        ) [MulopListDecls]
+      ) [Term]
+    ) [NoAddopList]
+  ) [Expr]
+) [Assignment]Doslo je do greske pri dodeli
+INFO  00:17:35,817 - Na liniji : 29Var bodovi: int, 0, 1 bodovi
+ERROR 00:17:35,817 - SEMANTICKA GRESKA : Greska na liniji 30: Ime noObj nije deklarisano.
+ERROR 00:17:35,817 - SEMANTICKA GRESKA :Greska na liniji 7: : Izraz unutar print naredbe mora biti tipa int, char ili bool.
+INFO  00:17:35,818 - Na liniji : 33Var nizch: Arr of char, 0, 0 nizch
+INFO  00:17:35,818 - nizch: char, 0, 0  na liniji 34
+INFO  00:17:35,818 - Na liniji : 35Con jedan: int, 1, 0 jedan
+INFO  00:17:35,818 - nizch: char, 0, 0  na liniji 35
+INFO  00:17:35,818 - Na liniji : 36Con pet: int, 5, 0 pet
+INFO  00:17:35,819 - nizch: char, 0, 0  na liniji 36
+INFO  00:17:35,819 - nizch: char, 0, 0  na liniji 37
+INFO  00:17:35,819 - Na liniji : 38Con jedan: int, 1, 0 jedan
+INFO  00:17:35,819 - nizch: char, 0, 0  na liniji 38
+INFO  00:17:35,819 - Na liniji : 41Var bodovi: int, 0, 1 bodovi
+INFO  00:17:35,820 - Na liniji : 41Var bodovi: int, 0, 1 bodovi
+INFO  00:17:35,820 - Na liniji : 41Con pet: int, 5, 0 pet
+INFO  00:17:35,820 - Na liniji : 41Con jedan: int, 1, 0 jedan
+INFO  00:17:35,820 - Na liniji : 41Var bodovi: int, 0, 1 bodovi
+INFO  00:17:35,820 - Na liniji : 42Var bodovi: int, 0, 1 bodovi
+INFO  00:17:35,821 - Na liniji : 44Var bodovi: int, 0, 1 bodovi
+INFO  00:17:35,821 - Na liniji : 45Var bodovi: int, 0, 1 bodovi
+INFO  00:17:35,821 - Na liniji : 47Var bodovi: int, 0, 1 bodovi
+INFO  00:17:35,821 - Na liniji : 48. U listu labela je dodata nova labela: labela1
+INFO  00:17:35,821 - Na liniji : 49Var bodovi: int, 0, 1 bodovi
+INFO  00:17:35,822 - Na liniji : 49Var bodovi: int, 0, 1 bodovi
+INFO  00:17:35,822 - Na liniji : 50Var bodovi: int, 0, 1 bodovi
+INFO  00:17:35,824 - Na liniji : 51. U listu labela je dodata nova labela: labela1
+INFO  00:17:35,825 - Na liniji : 52Var bodovi: int, 0, 1 bodovi
+INFO  00:17:35,826 - Na liniji : 52Var bodovi: int, 0, 1 bodovi
+INFO  00:17:35,826 - Na liniji : 53Var bodovi: int, 0, 1 bodovi
+INFO  00:17:35,826 - Na liniji : 54. U listu labela je dodata nova labela: labelaminus
+INFO  00:17:35,826 - Na liniji : 56. U listu labela je dodata nova labela: labelaminus
+ERROR 00:17:35,826 - Parsiranje NIJE uspesno zavrseno!

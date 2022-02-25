@@ -1,0 +1,3090 @@
+INFO  20:09:32,401 - Compiling source file: C:\Users\Marija\Desktop\14.1\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  20:09:32,445 - #6 program
+INFO  20:09:32,446 - #3 test301
+INFO  20:09:32,446 - #15 const
+INFO  20:09:32,447 - #3 int
+INFO  20:09:32,447 - #3 nula
+INFO  20:09:32,448 - #25 =
+INFO  20:09:32,450 - #5 0
+INFO  20:09:32,451 - #31 ;
+INFO  20:09:32,453 - #15 const
+INFO  20:09:32,454 - #3 int
+INFO  20:09:32,455 - #3 jedan
+INFO  20:09:32,455 - #25 =
+INFO  20:09:32,455 - #5 1
+INFO  20:09:32,455 - #31 ;
+INFO  20:09:32,455 - #15 const
+INFO  20:09:32,455 - #3 int
+INFO  20:09:32,455 - #3 pet
+INFO  20:09:32,455 - #25 =
+INFO  20:09:32,456 - #5 5
+INFO  20:09:32,456 - #31 ;
+INFO  20:09:32,456 - #3 int
+INFO  20:09:32,461 - #3 niz
+INFO  20:09:32,461 - #21 [
+INFO  20:09:32,461 - #22 ]
+INFO  20:09:32,461 - #31 ;
+INFO  20:09:32,462 - #3 char
+INFO  20:09:32,462 - #3 nizch
+INFO  20:09:32,462 - #21 [
+INFO  20:09:32,462 - #22 ]
+INFO  20:09:32,462 - #31 ;
+INFO  20:09:32,462 - #19 {
+INFO  20:09:32,462 - #8 void
+INFO  20:09:32,462 - #3 main
+INFO  20:09:32,464 - #17 (
+INFO  20:09:32,464 - #18 )
+INFO  20:09:32,464 - #3 int
+INFO  20:09:32,465 - #3 bodovi
+INFO  20:09:32,465 - #31 ;
+INFO  20:09:32,465 - #19 {
+INFO  20:09:32,466 - #3 bodovi
+INFO  20:09:32,467 - #25 =
+INFO  20:09:32,470 - #5 0
+INFO  20:09:32,474 - #31 ;
+INFO  20:09:32,477 - #3 bodovi
+INFO  20:09:32,477 - #23 ++
+INFO  20:09:32,477 - #31 ;
+INFO  20:09:32,477 - #3 bodovi
+INFO  20:09:32,477 - #25 =
+INFO  20:09:32,477 - #3 bodovi
+INFO  20:09:32,478 - #26 +
+INFO  20:09:32,478 - #3 jedan
+INFO  20:09:32,479 - #31 ;
+INFO  20:09:32,480 - #3 bodovi
+INFO  20:09:32,480 - #25 =
+INFO  20:09:32,480 - #3 bodovi
+INFO  20:09:32,480 - #28 *
+INFO  20:09:32,480 - #3 pet
+INFO  20:09:32,481 - #31 ;
+INFO  20:09:32,482 - #3 bodovi
+INFO  20:09:32,482 - #24 --
+INFO  20:09:32,482 - #31 ;
+INFO  20:09:32,482 - #9 print
+INFO  20:09:32,482 - #17 (
+INFO  20:09:32,482 - #3 bodovi
+INFO  20:09:32,482 - #18 )
+INFO  20:09:32,483 - #31 ;
+INFO  20:09:32,483 - #3 niz
+INFO  20:09:32,484 - #25 =
+INFO  20:09:32,487 - #14 new
+INFO  20:09:32,487 - #3 int
+INFO  20:09:32,487 - #21 [
+INFO  20:09:32,487 - #5 3
+INFO  20:09:32,487 - #22 ]
+INFO  20:09:32,488 - #31 ;
+INFO  20:09:32,488 - #3 niz
+INFO  20:09:32,488 - #21 [
+INFO  20:09:32,489 - #3 nula
+INFO  20:09:32,489 - #22 ]
+INFO  20:09:32,489 - #25 =
+INFO  20:09:32,489 - #3 jedan
+INFO  20:09:32,489 - #31 ;
+INFO  20:09:32,489 - #3 niz
+INFO  20:09:32,489 - #21 [
+INFO  20:09:32,490 - #5 1
+INFO  20:09:32,490 - #22 ]
+INFO  20:09:32,490 - #25 =
+INFO  20:09:32,490 - #5 2
+INFO  20:09:32,490 - #31 ;
+INFO  20:09:32,490 - #3 niz
+INFO  20:09:32,490 - #21 [
+INFO  20:09:32,490 - #3 niz
+INFO  20:09:32,490 - #21 [
+INFO  20:09:32,490 - #3 jedan
+INFO  20:09:32,490 - #22 ]
+INFO  20:09:32,490 - #22 ]
+INFO  20:09:32,490 - #25 =
+INFO  20:09:32,490 - #3 niz
+INFO  20:09:32,491 - #21 [
+INFO  20:09:32,491 - #3 niz
+INFO  20:09:32,491 - #21 [
+INFO  20:09:32,491 - #5 0
+INFO  20:09:32,491 - #22 ]
+INFO  20:09:32,491 - #22 ]
+INFO  20:09:32,491 - #28 *
+INFO  20:09:32,491 - #5 3
+INFO  20:09:32,491 - #31 ;
+INFO  20:09:32,491 - #3 bodovi
+INFO  20:09:32,491 - #25 =
+INFO  20:09:32,491 - #3 niz
+INFO  20:09:32,491 - #21 [
+INFO  20:09:32,492 - #5 2
+INFO  20:09:32,492 - #22 ]
+INFO  20:09:32,492 - #29 /
+INFO  20:09:32,492 - #3 niz
+INFO  20:09:32,493 - #21 [
+INFO  20:09:32,493 - #5 0
+INFO  20:09:32,493 - #22 ]
+INFO  20:09:32,493 - #31 ;
+INFO  20:09:32,493 - #9 print
+INFO  20:09:32,493 - #17 (
+INFO  20:09:32,493 - #3 bodovi
+INFO  20:09:32,493 - #18 )
+INFO  20:09:32,493 - #31 ;
+INFO  20:09:32,493 - #9 print
+INFO  20:09:32,493 - #17 (
+INFO  20:09:32,493 - #3 niz
+INFO  20:09:32,494 - #21 [
+INFO  20:09:32,494 - #5 2
+INFO  20:09:32,494 - #22 ]
+INFO  20:09:32,494 - #18 )
+INFO  20:09:32,494 - #31 ;
+INFO  20:09:32,494 - #3 nizch
+INFO  20:09:32,494 - #25 =
+INFO  20:09:32,494 - #14 new
+INFO  20:09:32,494 - #3 char
+INFO  20:09:32,494 - #21 [
+INFO  20:09:32,494 - #5 3
+INFO  20:09:32,495 - #22 ]
+INFO  20:09:32,495 - #31 ;
+INFO  20:09:32,495 - #3 nizch
+INFO  20:09:32,495 - #21 [
+INFO  20:09:32,495 - #5 0
+INFO  20:09:32,495 - #22 ]
+INFO  20:09:32,495 - #25 =
+INFO  20:09:32,495 - #4 a
+INFO  20:09:32,495 - #31 ;
+INFO  20:09:32,495 - #3 nizch
+INFO  20:09:32,495 - #21 [
+INFO  20:09:32,495 - #3 jedan
+INFO  20:09:32,496 - #22 ]
+INFO  20:09:32,496 - #25 =
+INFO  20:09:32,496 - #4 b
+INFO  20:09:32,496 - #31 ;
+INFO  20:09:32,496 - #3 nizch
+INFO  20:09:32,496 - #21 [
+INFO  20:09:32,496 - #3 pet
+INFO  20:09:32,496 - #27 -
+INFO  20:09:32,496 - #5 3
+INFO  20:09:32,497 - #22 ]
+INFO  20:09:32,497 - #25 =
+INFO  20:09:32,497 - #4 c
+INFO  20:09:32,497 - #31 ;
+INFO  20:09:32,497 - #9 print
+INFO  20:09:32,497 - #17 (
+INFO  20:09:32,497 - #3 nizch
+INFO  20:09:32,497 - #21 [
+INFO  20:09:32,497 - #5 1
+INFO  20:09:32,497 - #22 ]
+INFO  20:09:32,497 - #18 )
+INFO  20:09:32,497 - #31 ;
+INFO  20:09:32,497 - #9 print
+INFO  20:09:32,497 - #17 (
+INFO  20:09:32,497 - #3 nizch
+INFO  20:09:32,498 - #21 [
+INFO  20:09:32,498 - #3 jedan
+INFO  20:09:32,498 - #28 *
+INFO  20:09:32,498 - #5 2
+INFO  20:09:32,498 - #22 ]
+INFO  20:09:32,498 - #18 )
+INFO  20:09:32,498 - #31 ;
+INFO  20:09:32,498 - #3 bodovi
+INFO  20:09:32,498 - #25 =
+INFO  20:09:32,498 - #3 bodovi
+INFO  20:09:32,498 - #26 +
+INFO  20:09:32,498 - #17 (
+INFO  20:09:32,498 - #3 pet
+INFO  20:09:32,498 - #28 *
+INFO  20:09:32,498 - #3 jedan
+INFO  20:09:32,498 - #27 -
+INFO  20:09:32,498 - #5 1
+INFO  20:09:32,499 - #18 )
+INFO  20:09:32,499 - #28 *
+INFO  20:09:32,499 - #3 bodovi
+INFO  20:09:32,499 - #27 -
+INFO  20:09:32,499 - #17 (
+INFO  20:09:32,499 - #5 3
+INFO  20:09:32,499 - #30 %
+INFO  20:09:32,500 - #5 2
+INFO  20:09:32,502 - #26 +
+INFO  20:09:32,502 - #5 3
+INFO  20:09:32,502 - #28 *
+INFO  20:09:32,502 - #5 2
+INFO  20:09:32,502 - #27 -
+INFO  20:09:32,502 - #5 3
+INFO  20:09:32,502 - #18 )
+INFO  20:09:32,503 - #31 ;
+INFO  20:09:32,503 - #9 print
+INFO  20:09:32,503 - #17 (
+INFO  20:09:32,503 - #3 bodovi
+INFO  20:09:32,503 - #18 )
+INFO  20:09:32,503 - #31 ;
+INFO  20:09:32,503 - #10 read
+INFO  20:09:32,503 - #17 (
+INFO  20:09:32,503 - #3 bodovi
+INFO  20:09:32,503 - #18 )
+INFO  20:09:32,503 - #31 ;
+INFO  20:09:32,503 - #9 print
+INFO  20:09:32,503 - #17 (
+INFO  20:09:32,503 - #3 bodovi
+INFO  20:09:32,503 - #18 )
+INFO  20:09:32,504 - #31 ;
+INFO  20:09:32,504 - #3 bodovi
+INFO  20:09:32,504 - #23 ++
+INFO  20:09:32,504 - #31 ;
+INFO  20:09:32,504 - #16 goto
+INFO  20:09:32,504 - #3 labela1
+INFO  20:09:32,504 - #31 ;
+INFO  20:09:32,504 - #3 bodovi
+INFO  20:09:32,504 - #25 =
+INFO  20:09:32,504 - #3 bodovi
+INFO  20:09:32,504 - #28 *
+INFO  20:09:32,504 - #5 2
+INFO  20:09:32,504 - #31 ;
+INFO  20:09:32,504 - #3 bodovi
+INFO  20:09:32,504 - #24 --
+INFO  20:09:32,504 - #31 ;
+INFO  20:09:32,504 - #3 labela1
+INFO  20:09:32,504 - #33 :
+INFO  20:09:32,505 - #3 bodovi
+INFO  20:09:32,505 - #25 =
+INFO  20:09:32,505 - #3 bodovi
+INFO  20:09:32,505 - #26 +
+INFO  20:09:32,505 - #5 3
+INFO  20:09:32,505 - #31 ;
+INFO  20:09:32,505 - #9 print
+INFO  20:09:32,505 - #17 (
+INFO  20:09:32,505 - #3 bodovi
+INFO  20:09:32,505 - #18 )
+INFO  20:09:32,505 - #31 ;
+INFO  20:09:32,505 - #16 goto
+INFO  20:09:32,505 - #3 labelaminus
+INFO  20:09:32,505 - #31 ;
+INFO  20:09:32,505 - #9 print
+INFO  20:09:32,506 - #17 (
+INFO  20:09:32,506 - #4 +
+INFO  20:09:32,506 - #18 )
+INFO  20:09:32,506 - #31 ;
+INFO  20:09:32,506 - #3 labelaminus
+INFO  20:09:32,506 - #33 :
+INFO  20:09:32,506 - #9 print
+INFO  20:09:32,506 - #17 (
+INFO  20:09:32,506 - #4 -
+INFO  20:09:32,506 - #18 )
+INFO  20:09:32,506 - #31 ;
+INFO  20:09:32,506 - #20 }
+INFO  20:09:32,506 - #20 }
+INFO  20:09:32,535 - Prog(
+  ProgName(
+   test301
+  ) [ProgName]
+  ProgListDecls(
+    ProgListDecls(
+      ProgListDecls(
+        ProgListDecls(
+          ProgListDecls(
+            NoProgList(
+            ) [NoProgList]
+            GlobalConstList(
+              ConstDecl(
+                Type(
+                 int
+                ) [Type]
+                NoConstListDeclarations(
+                  ConstrDeclOne(
+                    ConstName(
+                     nula
+                    ) [ConstName]
+                    NumConstant(
+                     0
+                    ) [NumConstant]
+                  ) [ConstrDeclOne]
+                ) [NoConstListDeclarations]
+              ) [ConstDecl]
+            ) [GlobalConstList]
+          ) [ProgListDecls]
+          GlobalConstList(
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+              NoConstListDeclarations(
+                ConstrDeclOne(
+                  ConstName(
+                   jedan
+                  ) [ConstName]
+                  NumConstant(
+                   1
+                  ) [NumConstant]
+                ) [ConstrDeclOne]
+              ) [NoConstListDeclarations]
+            ) [ConstDecl]
+          ) [GlobalConstList]
+        ) [ProgListDecls]
+        GlobalConstList(
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            NoConstListDeclarations(
+              ConstrDeclOne(
+                ConstName(
+                 pet
+                ) [ConstName]
+                NumConstant(
+                 5
+                ) [NumConstant]
+              ) [ConstrDeclOne]
+            ) [NoConstListDeclarations]
+          ) [ConstDecl]
+        ) [GlobalConstList]
+      ) [ProgListDecls]
+      GlobalVarList(
+        GlobalVarDeclaration(
+          NonFinal(
+          ) [NonFinal]
+          Type(
+           int
+          ) [Type]
+          GlobalVarSingle(
+            GlobalArr(
+             niz
+            ) [GlobalArr]
+          ) [GlobalVarSingle]
+        ) [GlobalVarDeclaration]
+      ) [GlobalVarList]
+    ) [ProgListDecls]
+    GlobalVarList(
+      GlobalVarDeclaration(
+        NonFinal(
+        ) [NonFinal]
+        Type(
+         char
+        ) [Type]
+        GlobalVarSingle(
+          GlobalArr(
+           nizch
+          ) [GlobalArr]
+        ) [GlobalVarSingle]
+      ) [GlobalVarDeclaration]
+    ) [GlobalVarList]
+  ) [ProgListDecls]
+  MethodDeclarations(
+    MethodDecl(
+      MethName(
+        VoidRet(
+        ) [VoidRet]
+       main
+      ) [MethName]
+      MethodVarDeclarations(
+        NoMethodVarDeclarations(
+        ) [NoMethodVarDeclarations]
+        VarDeclaration(
+          Type(
+           int
+          ) [Type]
+          VarParam(
+            LocalVar(
+             bodovi
+            ) [LocalVar]
+          ) [VarParam]
+        ) [VarDeclaration]
+      ) [MethodVarDeclarations]
+      StatementListDeclarations(
+        StatementListDeclarations(
+          StatementListDeclarations(
+            StatementListDeclarations(
+              StatementListDeclarations(
+                StatementListDeclarations(
+                  StatementListDeclarations(
+                    StatementListDeclarations(
+                      StatementListDeclarations(
+                        StatementListDeclarations(
+                          StatementListDeclarations(
+                            StatementListDeclarations(
+                              StatementListDeclarations(
+                                StatementListDeclarations(
+                                  StatementListDeclarations(
+                                    StatementListDeclarations(
+                                      StatementListDeclarations(
+                                        StatementListDeclarations(
+                                          StatementListDeclarations(
+                                            StatementListDeclarations(
+                                              StatementListDeclarations(
+                                                StatementListDeclarations(
+                                                  StatementListDeclarations(
+                                                    StatementListDeclarations(
+                                                      StatementListDeclarations(
+                                                        StatementListDeclarations(
+                                                          StatementListDeclarations(
+                                                            StatementListDeclarations(
+                                                              StatementListDeclarations(
+                                                                StatementListDeclarations(
+                                                                  StatementListDeclarations(
+                                                                    StatementListDeclarations(
+                                                                      NoStatementListDeclarations(
+                                                                      ) [NoStatementListDeclarations]
+                                                                      SingleStatementDeclNoLabel(
+                                                                        DesignatorStmt(
+                                                                          Assignment(
+                                                                            DesignatorOne(
+                                                                              DesignatorName(
+                                                                               bodovi
+                                                                              ) [DesignatorName]
+                                                                            ) [DesignatorOne]
+                                                                            Expr(
+                                                                              NoAddopList(
+                                                                                Term(
+                                                                                  NoMulopListDecls(
+                                                                                    FactorU(
+                                                                                      FactorUn(
+                                                                                        UnaryE(
+                                                                                        ) [UnaryE]
+                                                                                        NumFactor(
+                                                                                         0
+                                                                                        ) [NumFactor]
+                                                                                      ) [FactorUn]
+                                                                                    ) [FactorU]
+                                                                                  ) [NoMulopListDecls]
+                                                                                ) [Term]
+                                                                              ) [NoAddopList]
+                                                                            ) [Expr]
+                                                                          ) [Assignment]
+                                                                        ) [DesignatorStmt]
+                                                                      ) [SingleStatementDeclNoLabel]
+                                                                    ) [StatementListDeclarations]
+                                                                    SingleStatementDeclNoLabel(
+                                                                      DesignatorStmt(
+                                                                        Inc(
+                                                                          DesignatorOne(
+                                                                            DesignatorName(
+                                                                             bodovi
+                                                                            ) [DesignatorName]
+                                                                          ) [DesignatorOne]
+                                                                        ) [Inc]
+                                                                      ) [DesignatorStmt]
+                                                                    ) [SingleStatementDeclNoLabel]
+                                                                  ) [StatementListDeclarations]
+                                                                  SingleStatementDeclNoLabel(
+                                                                    DesignatorStmt(
+                                                                      Assignment(
+                                                                        DesignatorOne(
+                                                                          DesignatorName(
+                                                                           bodovi
+                                                                          ) [DesignatorName]
+                                                                        ) [DesignatorOne]
+                                                                        Expr(
+                                                                          AddopListDecl(
+                                                                            NoAddopList(
+                                                                              Term(
+                                                                                NoMulopListDecls(
+                                                                                  FactorU(
+                                                                                    FactorUn(
+                                                                                      UnaryE(
+                                                                                      ) [UnaryE]
+                                                                                      FactorDesignator(
+                                                                                        DesignatorOne(
+                                                                                          DesignatorName(
+                                                                                           bodovi
+                                                                                          ) [DesignatorName]
+                                                                                        ) [DesignatorOne]
+                                                                                      ) [FactorDesignator]
+                                                                                    ) [FactorUn]
+                                                                                  ) [FactorU]
+                                                                                ) [NoMulopListDecls]
+                                                                              ) [Term]
+                                                                            ) [NoAddopList]
+                                                                            AddopDecl(
+                                                                            ) [AddopDecl]
+                                                                            Term(
+                                                                              NoMulopListDecls(
+                                                                                FactorU(
+                                                                                  FactorUn(
+                                                                                    UnaryE(
+                                                                                    ) [UnaryE]
+                                                                                    FactorDesignator(
+                                                                                      DesignatorOne(
+                                                                                        DesignatorName(
+                                                                                         jedan
+                                                                                        ) [DesignatorName]
+                                                                                      ) [DesignatorOne]
+                                                                                    ) [FactorDesignator]
+                                                                                  ) [FactorUn]
+                                                                                ) [FactorU]
+                                                                              ) [NoMulopListDecls]
+                                                                            ) [Term]
+                                                                          ) [AddopListDecl]
+                                                                        ) [Expr]
+                                                                      ) [Assignment]
+                                                                    ) [DesignatorStmt]
+                                                                  ) [SingleStatementDeclNoLabel]
+                                                                ) [StatementListDeclarations]
+                                                                SingleStatementDeclNoLabel(
+                                                                  DesignatorStmt(
+                                                                    Assignment(
+                                                                      DesignatorOne(
+                                                                        DesignatorName(
+                                                                         bodovi
+                                                                        ) [DesignatorName]
+                                                                      ) [DesignatorOne]
+                                                                      Expr(
+                                                                        NoAddopList(
+                                                                          Term(
+                                                                            MulopListDecls(
+                                                                              NoMulopListDecls(
+                                                                                FactorU(
+                                                                                  FactorUn(
+                                                                                    UnaryE(
+                                                                                    ) [UnaryE]
+                                                                                    FactorDesignator(
+                                                                                      DesignatorOne(
+                                                                                        DesignatorName(
+                                                                                         bodovi
+                                                                                        ) [DesignatorName]
+                                                                                      ) [DesignatorOne]
+                                                                                    ) [FactorDesignator]
+                                                                                  ) [FactorUn]
+                                                                                ) [FactorU]
+                                                                              ) [NoMulopListDecls]
+                                                                              MulDecl(
+                                                                              ) [MulDecl]
+                                                                              FactorU(
+                                                                                FactorUn(
+                                                                                  UnaryE(
+                                                                                  ) [UnaryE]
+                                                                                  FactorDesignator(
+                                                                                    DesignatorOne(
+                                                                                      DesignatorName(
+                                                                                       pet
+                                                                                      ) [DesignatorName]
+                                                                                    ) [DesignatorOne]
+                                                                                  ) [FactorDesignator]
+                                                                                ) [FactorUn]
+                                                                              ) [FactorU]
+                                                                            ) [MulopListDecls]
+                                                                          ) [Term]
+                                                                        ) [NoAddopList]
+                                                                      ) [Expr]
+                                                                    ) [Assignment]
+                                                                  ) [DesignatorStmt]
+                                                                ) [SingleStatementDeclNoLabel]
+                                                              ) [StatementListDeclarations]
+                                                              SingleStatementDeclNoLabel(
+                                                                DesignatorStmt(
+                                                                  Dec(
+                                                                    DesignatorOne(
+                                                                      DesignatorName(
+                                                                       bodovi
+                                                                      ) [DesignatorName]
+                                                                    ) [DesignatorOne]
+                                                                  ) [Dec]
+                                                                ) [DesignatorStmt]
+                                                              ) [SingleStatementDeclNoLabel]
+                                                            ) [StatementListDeclarations]
+                                                            SingleStatementDeclNoLabel(
+                                                              PrintStmt(
+                                                                Expr(
+                                                                  NoAddopList(
+                                                                    Term(
+                                                                      NoMulopListDecls(
+                                                                        FactorU(
+                                                                          FactorUn(
+                                                                            UnaryE(
+                                                                            ) [UnaryE]
+                                                                            FactorDesignator(
+                                                                              DesignatorOne(
+                                                                                DesignatorName(
+                                                                                 bodovi
+                                                                                ) [DesignatorName]
+                                                                              ) [DesignatorOne]
+                                                                            ) [FactorDesignator]
+                                                                          ) [FactorUn]
+                                                                        ) [FactorU]
+                                                                      ) [NoMulopListDecls]
+                                                                    ) [Term]
+                                                                  ) [NoAddopList]
+                                                                ) [Expr]
+                                                                NoPrintConstantants(
+                                                                ) [NoPrintConstantants]
+                                                              ) [PrintStmt]
+                                                            ) [SingleStatementDeclNoLabel]
+                                                          ) [StatementListDeclarations]
+                                                          SingleStatementDeclNoLabel(
+                                                            DesignatorStmt(
+                                                              Assignment(
+                                                                DesignatorOne(
+                                                                  DesignatorName(
+                                                                   niz
+                                                                  ) [DesignatorName]
+                                                                ) [DesignatorOne]
+                                                                Expr(
+                                                                  NoAddopList(
+                                                                    Term(
+                                                                      NoMulopListDecls(
+                                                                        FactorU(
+                                                                          FactorUn(
+                                                                            UnaryE(
+                                                                            ) [UnaryE]
+                                                                            NewFactor(
+                                                                              Type(
+                                                                               int
+                                                                              ) [Type]
+                                                                              Expr(
+                                                                                NoAddopList(
+                                                                                  Term(
+                                                                                    NoMulopListDecls(
+                                                                                      FactorU(
+                                                                                        FactorUn(
+                                                                                          UnaryE(
+                                                                                          ) [UnaryE]
+                                                                                          NumFactor(
+                                                                                           3
+                                                                                          ) [NumFactor]
+                                                                                        ) [FactorUn]
+                                                                                      ) [FactorU]
+                                                                                    ) [NoMulopListDecls]
+                                                                                  ) [Term]
+                                                                                ) [NoAddopList]
+                                                                              ) [Expr]
+                                                                            ) [NewFactor]
+                                                                          ) [FactorUn]
+                                                                        ) [FactorU]
+                                                                      ) [NoMulopListDecls]
+                                                                    ) [Term]
+                                                                  ) [NoAddopList]
+                                                                ) [Expr]
+                                                              ) [Assignment]
+                                                            ) [DesignatorStmt]
+                                                          ) [SingleStatementDeclNoLabel]
+                                                        ) [StatementListDeclarations]
+                                                        SingleStatementDeclNoLabel(
+                                                          DesignatorStmt(
+                                                            Assignment(
+                                                              DesignatorArr(
+                                                                DesignatorName(
+                                                                 niz
+                                                                ) [DesignatorName]
+                                                                ArrAddr(
+                                                                ) [ArrAddr]
+                                                                Expr(
+                                                                  NoAddopList(
+                                                                    Term(
+                                                                      NoMulopListDecls(
+                                                                        FactorU(
+                                                                          FactorUn(
+                                                                            UnaryE(
+                                                                            ) [UnaryE]
+                                                                            FactorDesignator(
+                                                                              DesignatorOne(
+                                                                                DesignatorName(
+                                                                                 nula
+                                                                                ) [DesignatorName]
+                                                                              ) [DesignatorOne]
+                                                                            ) [FactorDesignator]
+                                                                          ) [FactorUn]
+                                                                        ) [FactorU]
+                                                                      ) [NoMulopListDecls]
+                                                                    ) [Term]
+                                                                  ) [NoAddopList]
+                                                                ) [Expr]
+                                                              ) [DesignatorArr]
+                                                              Expr(
+                                                                NoAddopList(
+                                                                  Term(
+                                                                    NoMulopListDecls(
+                                                                      FactorU(
+                                                                        FactorUn(
+                                                                          UnaryE(
+                                                                          ) [UnaryE]
+                                                                          FactorDesignator(
+                                                                            DesignatorOne(
+                                                                              DesignatorName(
+                                                                               jedan
+                                                                              ) [DesignatorName]
+                                                                            ) [DesignatorOne]
+                                                                          ) [FactorDesignator]
+                                                                        ) [FactorUn]
+                                                                      ) [FactorU]
+                                                                    ) [NoMulopListDecls]
+                                                                  ) [Term]
+                                                                ) [NoAddopList]
+                                                              ) [Expr]
+                                                            ) [Assignment]
+                                                          ) [DesignatorStmt]
+                                                        ) [SingleStatementDeclNoLabel]
+                                                      ) [StatementListDeclarations]
+                                                      SingleStatementDeclNoLabel(
+                                                        DesignatorStmt(
+                                                          Assignment(
+                                                            DesignatorArr(
+                                                              DesignatorName(
+                                                               niz
+                                                              ) [DesignatorName]
+                                                              ArrAddr(
+                                                              ) [ArrAddr]
+                                                              Expr(
+                                                                NoAddopList(
+                                                                  Term(
+                                                                    NoMulopListDecls(
+                                                                      FactorU(
+                                                                        FactorUn(
+                                                                          UnaryE(
+                                                                          ) [UnaryE]
+                                                                          NumFactor(
+                                                                           1
+                                                                          ) [NumFactor]
+                                                                        ) [FactorUn]
+                                                                      ) [FactorU]
+                                                                    ) [NoMulopListDecls]
+                                                                  ) [Term]
+                                                                ) [NoAddopList]
+                                                              ) [Expr]
+                                                            ) [DesignatorArr]
+                                                            Expr(
+                                                              NoAddopList(
+                                                                Term(
+                                                                  NoMulopListDecls(
+                                                                    FactorU(
+                                                                      FactorUn(
+                                                                        UnaryE(
+                                                                        ) [UnaryE]
+                                                                        NumFactor(
+                                                                         2
+                                                                        ) [NumFactor]
+                                                                      ) [FactorUn]
+                                                                    ) [FactorU]
+                                                                  ) [NoMulopListDecls]
+                                                                ) [Term]
+                                                              ) [NoAddopList]
+                                                            ) [Expr]
+                                                          ) [Assignment]
+                                                        ) [DesignatorStmt]
+                                                      ) [SingleStatementDeclNoLabel]
+                                                    ) [StatementListDeclarations]
+                                                    SingleStatementDeclNoLabel(
+                                                      DesignatorStmt(
+                                                        Assignment(
+                                                          DesignatorArr(
+                                                            DesignatorName(
+                                                             niz
+                                                            ) [DesignatorName]
+                                                            ArrAddr(
+                                                            ) [ArrAddr]
+                                                            Expr(
+                                                              NoAddopList(
+                                                                Term(
+                                                                  NoMulopListDecls(
+                                                                    FactorU(
+                                                                      FactorUn(
+                                                                        UnaryE(
+                                                                        ) [UnaryE]
+                                                                        FactorDesignator(
+                                                                          DesignatorArr(
+                                                                            DesignatorName(
+                                                                             niz
+                                                                            ) [DesignatorName]
+                                                                            ArrAddr(
+                                                                            ) [ArrAddr]
+                                                                            Expr(
+                                                                              NoAddopList(
+                                                                                Term(
+                                                                                  NoMulopListDecls(
+                                                                                    FactorU(
+                                                                                      FactorUn(
+                                                                                        UnaryE(
+                                                                                        ) [UnaryE]
+                                                                                        FactorDesignator(
+                                                                                          DesignatorOne(
+                                                                                            DesignatorName(
+                                                                                             jedan
+                                                                                            ) [DesignatorName]
+                                                                                          ) [DesignatorOne]
+                                                                                        ) [FactorDesignator]
+                                                                                      ) [FactorUn]
+                                                                                    ) [FactorU]
+                                                                                  ) [NoMulopListDecls]
+                                                                                ) [Term]
+                                                                              ) [NoAddopList]
+                                                                            ) [Expr]
+                                                                          ) [DesignatorArr]
+                                                                        ) [FactorDesignator]
+                                                                      ) [FactorUn]
+                                                                    ) [FactorU]
+                                                                  ) [NoMulopListDecls]
+                                                                ) [Term]
+                                                              ) [NoAddopList]
+                                                            ) [Expr]
+                                                          ) [DesignatorArr]
+                                                          Expr(
+                                                            NoAddopList(
+                                                              Term(
+                                                                MulopListDecls(
+                                                                  NoMulopListDecls(
+                                                                    FactorU(
+                                                                      FactorUn(
+                                                                        UnaryE(
+                                                                        ) [UnaryE]
+                                                                        FactorDesignator(
+                                                                          DesignatorArr(
+                                                                            DesignatorName(
+                                                                             niz
+                                                                            ) [DesignatorName]
+                                                                            ArrAddr(
+                                                                            ) [ArrAddr]
+                                                                            Expr(
+                                                                              NoAddopList(
+                                                                                Term(
+                                                                                  NoMulopListDecls(
+                                                                                    FactorU(
+                                                                                      FactorUn(
+                                                                                        UnaryE(
+                                                                                        ) [UnaryE]
+                                                                                        FactorDesignator(
+                                                                                          DesignatorArr(
+                                                                                            DesignatorName(
+                                                                                             niz
+                                                                                            ) [DesignatorName]
+                                                                                            ArrAddr(
+                                                                                            ) [ArrAddr]
+                                                                                            Expr(
+                                                                                              NoAddopList(
+                                                                                                Term(
+                                                                                                  NoMulopListDecls(
+                                                                                                    FactorU(
+                                                                                                      FactorUn(
+                                                                                                        UnaryE(
+                                                                                                        ) [UnaryE]
+                                                                                                        NumFactor(
+                                                                                                         0
+                                                                                                        ) [NumFactor]
+                                                                                                      ) [FactorUn]
+                                                                                                    ) [FactorU]
+                                                                                                  ) [NoMulopListDecls]
+                                                                                                ) [Term]
+                                                                                              ) [NoAddopList]
+                                                                                            ) [Expr]
+                                                                                          ) [DesignatorArr]
+                                                                                        ) [FactorDesignator]
+                                                                                      ) [FactorUn]
+                                                                                    ) [FactorU]
+                                                                                  ) [NoMulopListDecls]
+                                                                                ) [Term]
+                                                                              ) [NoAddopList]
+                                                                            ) [Expr]
+                                                                          ) [DesignatorArr]
+                                                                        ) [FactorDesignator]
+                                                                      ) [FactorUn]
+                                                                    ) [FactorU]
+                                                                  ) [NoMulopListDecls]
+                                                                  MulDecl(
+                                                                  ) [MulDecl]
+                                                                  FactorU(
+                                                                    FactorUn(
+                                                                      UnaryE(
+                                                                      ) [UnaryE]
+                                                                      NumFactor(
+                                                                       3
+                                                                      ) [NumFactor]
+                                                                    ) [FactorUn]
+                                                                  ) [FactorU]
+                                                                ) [MulopListDecls]
+                                                              ) [Term]
+                                                            ) [NoAddopList]
+                                                          ) [Expr]
+                                                        ) [Assignment]
+                                                      ) [DesignatorStmt]
+                                                    ) [SingleStatementDeclNoLabel]
+                                                  ) [StatementListDeclarations]
+                                                  SingleStatementDeclNoLabel(
+                                                    DesignatorStmt(
+                                                      Assignment(
+                                                        DesignatorOne(
+                                                          DesignatorName(
+                                                           bodovi
+                                                          ) [DesignatorName]
+                                                        ) [DesignatorOne]
+                                                        Expr(
+                                                          NoAddopList(
+                                                            Term(
+                                                              MulopListDecls(
+                                                                NoMulopListDecls(
+                                                                  FactorU(
+                                                                    FactorUn(
+                                                                      UnaryE(
+                                                                      ) [UnaryE]
+                                                                      FactorDesignator(
+                                                                        DesignatorArr(
+                                                                          DesignatorName(
+                                                                           niz
+                                                                          ) [DesignatorName]
+                                                                          ArrAddr(
+                                                                          ) [ArrAddr]
+                                                                          Expr(
+                                                                            NoAddopList(
+                                                                              Term(
+                                                                                NoMulopListDecls(
+                                                                                  FactorU(
+                                                                                    FactorUn(
+                                                                                      UnaryE(
+                                                                                      ) [UnaryE]
+                                                                                      NumFactor(
+                                                                                       2
+                                                                                      ) [NumFactor]
+                                                                                    ) [FactorUn]
+                                                                                  ) [FactorU]
+                                                                                ) [NoMulopListDecls]
+                                                                              ) [Term]
+                                                                            ) [NoAddopList]
+                                                                          ) [Expr]
+                                                                        ) [DesignatorArr]
+                                                                      ) [FactorDesignator]
+                                                                    ) [FactorUn]
+                                                                  ) [FactorU]
+                                                                ) [NoMulopListDecls]
+                                                                DivDecl(
+                                                                ) [DivDecl]
+                                                                FactorU(
+                                                                  FactorUn(
+                                                                    UnaryE(
+                                                                    ) [UnaryE]
+                                                                    FactorDesignator(
+                                                                      DesignatorArr(
+                                                                        DesignatorName(
+                                                                         niz
+                                                                        ) [DesignatorName]
+                                                                        ArrAddr(
+                                                                        ) [ArrAddr]
+                                                                        Expr(
+                                                                          NoAddopList(
+                                                                            Term(
+                                                                              NoMulopListDecls(
+                                                                                FactorU(
+                                                                                  FactorUn(
+                                                                                    UnaryE(
+                                                                                    ) [UnaryE]
+                                                                                    NumFactor(
+                                                                                     0
+                                                                                    ) [NumFactor]
+                                                                                  ) [FactorUn]
+                                                                                ) [FactorU]
+                                                                              ) [NoMulopListDecls]
+                                                                            ) [Term]
+                                                                          ) [NoAddopList]
+                                                                        ) [Expr]
+                                                                      ) [DesignatorArr]
+                                                                    ) [FactorDesignator]
+                                                                  ) [FactorUn]
+                                                                ) [FactorU]
+                                                              ) [MulopListDecls]
+                                                            ) [Term]
+                                                          ) [NoAddopList]
+                                                        ) [Expr]
+                                                      ) [Assignment]
+                                                    ) [DesignatorStmt]
+                                                  ) [SingleStatementDeclNoLabel]
+                                                ) [StatementListDeclarations]
+                                                SingleStatementDeclNoLabel(
+                                                  PrintStmt(
+                                                    Expr(
+                                                      NoAddopList(
+                                                        Term(
+                                                          NoMulopListDecls(
+                                                            FactorU(
+                                                              FactorUn(
+                                                                UnaryE(
+                                                                ) [UnaryE]
+                                                                FactorDesignator(
+                                                                  DesignatorOne(
+                                                                    DesignatorName(
+                                                                     bodovi
+                                                                    ) [DesignatorName]
+                                                                  ) [DesignatorOne]
+                                                                ) [FactorDesignator]
+                                                              ) [FactorUn]
+                                                            ) [FactorU]
+                                                          ) [NoMulopListDecls]
+                                                        ) [Term]
+                                                      ) [NoAddopList]
+                                                    ) [Expr]
+                                                    NoPrintConstantants(
+                                                    ) [NoPrintConstantants]
+                                                  ) [PrintStmt]
+                                                ) [SingleStatementDeclNoLabel]
+                                              ) [StatementListDeclarations]
+                                              SingleStatementDeclNoLabel(
+                                                PrintStmt(
+                                                  Expr(
+                                                    NoAddopList(
+                                                      Term(
+                                                        NoMulopListDecls(
+                                                          FactorU(
+                                                            FactorUn(
+                                                              UnaryE(
+                                                              ) [UnaryE]
+                                                              FactorDesignator(
+                                                                DesignatorArr(
+                                                                  DesignatorName(
+                                                                   niz
+                                                                  ) [DesignatorName]
+                                                                  ArrAddr(
+                                                                  ) [ArrAddr]
+                                                                  Expr(
+                                                                    NoAddopList(
+                                                                      Term(
+                                                                        NoMulopListDecls(
+                                                                          FactorU(
+                                                                            FactorUn(
+                                                                              UnaryE(
+                                                                              ) [UnaryE]
+                                                                              NumFactor(
+                                                                               2
+                                                                              ) [NumFactor]
+                                                                            ) [FactorUn]
+                                                                          ) [FactorU]
+                                                                        ) [NoMulopListDecls]
+                                                                      ) [Term]
+                                                                    ) [NoAddopList]
+                                                                  ) [Expr]
+                                                                ) [DesignatorArr]
+                                                              ) [FactorDesignator]
+                                                            ) [FactorUn]
+                                                          ) [FactorU]
+                                                        ) [NoMulopListDecls]
+                                                      ) [Term]
+                                                    ) [NoAddopList]
+                                                  ) [Expr]
+                                                  NoPrintConstantants(
+                                                  ) [NoPrintConstantants]
+                                                ) [PrintStmt]
+                                              ) [SingleStatementDeclNoLabel]
+                                            ) [StatementListDeclarations]
+                                            SingleStatementDeclNoLabel(
+                                              DesignatorStmt(
+                                                Assignment(
+                                                  DesignatorOne(
+                                                    DesignatorName(
+                                                     nizch
+                                                    ) [DesignatorName]
+                                                  ) [DesignatorOne]
+                                                  Expr(
+                                                    NoAddopList(
+                                                      Term(
+                                                        NoMulopListDecls(
+                                                          FactorU(
+                                                            FactorUn(
+                                                              UnaryE(
+                                                              ) [UnaryE]
+                                                              NewFactor(
+                                                                Type(
+                                                                 char
+                                                                ) [Type]
+                                                                Expr(
+                                                                  NoAddopList(
+                                                                    Term(
+                                                                      NoMulopListDecls(
+                                                                        FactorU(
+                                                                          FactorUn(
+                                                                            UnaryE(
+                                                                            ) [UnaryE]
+                                                                            NumFactor(
+                                                                             3
+                                                                            ) [NumFactor]
+                                                                          ) [FactorUn]
+                                                                        ) [FactorU]
+                                                                      ) [NoMulopListDecls]
+                                                                    ) [Term]
+                                                                  ) [NoAddopList]
+                                                                ) [Expr]
+                                                              ) [NewFactor]
+                                                            ) [FactorUn]
+                                                          ) [FactorU]
+                                                        ) [NoMulopListDecls]
+                                                      ) [Term]
+                                                    ) [NoAddopList]
+                                                  ) [Expr]
+                                                ) [Assignment]
+                                              ) [DesignatorStmt]
+                                            ) [SingleStatementDeclNoLabel]
+                                          ) [StatementListDeclarations]
+                                          SingleStatementDeclNoLabel(
+                                            DesignatorStmt(
+                                              Assignment(
+                                                DesignatorArr(
+                                                  DesignatorName(
+                                                   nizch
+                                                  ) [DesignatorName]
+                                                  ArrAddr(
+                                                  ) [ArrAddr]
+                                                  Expr(
+                                                    NoAddopList(
+                                                      Term(
+                                                        NoMulopListDecls(
+                                                          FactorU(
+                                                            FactorUn(
+                                                              UnaryE(
+                                                              ) [UnaryE]
+                                                              NumFactor(
+                                                               0
+                                                              ) [NumFactor]
+                                                            ) [FactorUn]
+                                                          ) [FactorU]
+                                                        ) [NoMulopListDecls]
+                                                      ) [Term]
+                                                    ) [NoAddopList]
+                                                  ) [Expr]
+                                                ) [DesignatorArr]
+                                                Expr(
+                                                  NoAddopList(
+                                                    Term(
+                                                      NoMulopListDecls(
+                                                        FactorU(
+                                                          FactorUn(
+                                                            UnaryE(
+                                                            ) [UnaryE]
+                                                            CharFactor(
+                                                             a
+                                                            ) [CharFactor]
+                                                          ) [FactorUn]
+                                                        ) [FactorU]
+                                                      ) [NoMulopListDecls]
+                                                    ) [Term]
+                                                  ) [NoAddopList]
+                                                ) [Expr]
+                                              ) [Assignment]
+                                            ) [DesignatorStmt]
+                                          ) [SingleStatementDeclNoLabel]
+                                        ) [StatementListDeclarations]
+                                        SingleStatementDeclNoLabel(
+                                          DesignatorStmt(
+                                            Assignment(
+                                              DesignatorArr(
+                                                DesignatorName(
+                                                 nizch
+                                                ) [DesignatorName]
+                                                ArrAddr(
+                                                ) [ArrAddr]
+                                                Expr(
+                                                  NoAddopList(
+                                                    Term(
+                                                      NoMulopListDecls(
+                                                        FactorU(
+                                                          FactorUn(
+                                                            UnaryE(
+                                                            ) [UnaryE]
+                                                            FactorDesignator(
+                                                              DesignatorOne(
+                                                                DesignatorName(
+                                                                 jedan
+                                                                ) [DesignatorName]
+                                                              ) [DesignatorOne]
+                                                            ) [FactorDesignator]
+                                                          ) [FactorUn]
+                                                        ) [FactorU]
+                                                      ) [NoMulopListDecls]
+                                                    ) [Term]
+                                                  ) [NoAddopList]
+                                                ) [Expr]
+                                              ) [DesignatorArr]
+                                              Expr(
+                                                NoAddopList(
+                                                  Term(
+                                                    NoMulopListDecls(
+                                                      FactorU(
+                                                        FactorUn(
+                                                          UnaryE(
+                                                          ) [UnaryE]
+                                                          CharFactor(
+                                                           b
+                                                          ) [CharFactor]
+                                                        ) [FactorUn]
+                                                      ) [FactorU]
+                                                    ) [NoMulopListDecls]
+                                                  ) [Term]
+                                                ) [NoAddopList]
+                                              ) [Expr]
+                                            ) [Assignment]
+                                          ) [DesignatorStmt]
+                                        ) [SingleStatementDeclNoLabel]
+                                      ) [StatementListDeclarations]
+                                      SingleStatementDeclNoLabel(
+                                        DesignatorStmt(
+                                          Assignment(
+                                            DesignatorArr(
+                                              DesignatorName(
+                                               nizch
+                                              ) [DesignatorName]
+                                              ArrAddr(
+                                              ) [ArrAddr]
+                                              Expr(
+                                                AddopListDecl(
+                                                  NoAddopList(
+                                                    Term(
+                                                      NoMulopListDecls(
+                                                        FactorU(
+                                                          FactorUn(
+                                                            UnaryE(
+                                                            ) [UnaryE]
+                                                            FactorDesignator(
+                                                              DesignatorOne(
+                                                                DesignatorName(
+                                                                 pet
+                                                                ) [DesignatorName]
+                                                              ) [DesignatorOne]
+                                                            ) [FactorDesignator]
+                                                          ) [FactorUn]
+                                                        ) [FactorU]
+                                                      ) [NoMulopListDecls]
+                                                    ) [Term]
+                                                  ) [NoAddopList]
+                                                  SubopDecl(
+                                                  ) [SubopDecl]
+                                                  Term(
+                                                    NoMulopListDecls(
+                                                      FactorU(
+                                                        FactorUn(
+                                                          UnaryE(
+                                                          ) [UnaryE]
+                                                          NumFactor(
+                                                           3
+                                                          ) [NumFactor]
+                                                        ) [FactorUn]
+                                                      ) [FactorU]
+                                                    ) [NoMulopListDecls]
+                                                  ) [Term]
+                                                ) [AddopListDecl]
+                                              ) [Expr]
+                                            ) [DesignatorArr]
+                                            Expr(
+                                              NoAddopList(
+                                                Term(
+                                                  NoMulopListDecls(
+                                                    FactorU(
+                                                      FactorUn(
+                                                        UnaryE(
+                                                        ) [UnaryE]
+                                                        CharFactor(
+                                                         c
+                                                        ) [CharFactor]
+                                                      ) [FactorUn]
+                                                    ) [FactorU]
+                                                  ) [NoMulopListDecls]
+                                                ) [Term]
+                                              ) [NoAddopList]
+                                            ) [Expr]
+                                          ) [Assignment]
+                                        ) [DesignatorStmt]
+                                      ) [SingleStatementDeclNoLabel]
+                                    ) [StatementListDeclarations]
+                                    SingleStatementDeclNoLabel(
+                                      PrintStmt(
+                                        Expr(
+                                          NoAddopList(
+                                            Term(
+                                              NoMulopListDecls(
+                                                FactorU(
+                                                  FactorUn(
+                                                    UnaryE(
+                                                    ) [UnaryE]
+                                                    FactorDesignator(
+                                                      DesignatorArr(
+                                                        DesignatorName(
+                                                         nizch
+                                                        ) [DesignatorName]
+                                                        ArrAddr(
+                                                        ) [ArrAddr]
+                                                        Expr(
+                                                          NoAddopList(
+                                                            Term(
+                                                              NoMulopListDecls(
+                                                                FactorU(
+                                                                  FactorUn(
+                                                                    UnaryE(
+                                                                    ) [UnaryE]
+                                                                    NumFactor(
+                                                                     1
+                                                                    ) [NumFactor]
+                                                                  ) [FactorUn]
+                                                                ) [FactorU]
+                                                              ) [NoMulopListDecls]
+                                                            ) [Term]
+                                                          ) [NoAddopList]
+                                                        ) [Expr]
+                                                      ) [DesignatorArr]
+                                                    ) [FactorDesignator]
+                                                  ) [FactorUn]
+                                                ) [FactorU]
+                                              ) [NoMulopListDecls]
+                                            ) [Term]
+                                          ) [NoAddopList]
+                                        ) [Expr]
+                                        NoPrintConstantants(
+                                        ) [NoPrintConstantants]
+                                      ) [PrintStmt]
+                                    ) [SingleStatementDeclNoLabel]
+                                  ) [StatementListDeclarations]
+                                  SingleStatementDeclNoLabel(
+                                    PrintStmt(
+                                      Expr(
+                                        NoAddopList(
+                                          Term(
+                                            NoMulopListDecls(
+                                              FactorU(
+                                                FactorUn(
+                                                  UnaryE(
+                                                  ) [UnaryE]
+                                                  FactorDesignator(
+                                                    DesignatorArr(
+                                                      DesignatorName(
+                                                       nizch
+                                                      ) [DesignatorName]
+                                                      ArrAddr(
+                                                      ) [ArrAddr]
+                                                      Expr(
+                                                        NoAddopList(
+                                                          Term(
+                                                            MulopListDecls(
+                                                              NoMulopListDecls(
+                                                                FactorU(
+                                                                  FactorUn(
+                                                                    UnaryE(
+                                                                    ) [UnaryE]
+                                                                    FactorDesignator(
+                                                                      DesignatorOne(
+                                                                        DesignatorName(
+                                                                         jedan
+                                                                        ) [DesignatorName]
+                                                                      ) [DesignatorOne]
+                                                                    ) [FactorDesignator]
+                                                                  ) [FactorUn]
+                                                                ) [FactorU]
+                                                              ) [NoMulopListDecls]
+                                                              MulDecl(
+                                                              ) [MulDecl]
+                                                              FactorU(
+                                                                FactorUn(
+                                                                  UnaryE(
+                                                                  ) [UnaryE]
+                                                                  NumFactor(
+                                                                   2
+                                                                  ) [NumFactor]
+                                                                ) [FactorUn]
+                                                              ) [FactorU]
+                                                            ) [MulopListDecls]
+                                                          ) [Term]
+                                                        ) [NoAddopList]
+                                                      ) [Expr]
+                                                    ) [DesignatorArr]
+                                                  ) [FactorDesignator]
+                                                ) [FactorUn]
+                                              ) [FactorU]
+                                            ) [NoMulopListDecls]
+                                          ) [Term]
+                                        ) [NoAddopList]
+                                      ) [Expr]
+                                      NoPrintConstantants(
+                                      ) [NoPrintConstantants]
+                                    ) [PrintStmt]
+                                  ) [SingleStatementDeclNoLabel]
+                                ) [StatementListDeclarations]
+                                SingleStatementDeclNoLabel(
+                                  DesignatorStmt(
+                                    Assignment(
+                                      DesignatorOne(
+                                        DesignatorName(
+                                         bodovi
+                                        ) [DesignatorName]
+                                      ) [DesignatorOne]
+                                      Expr(
+                                        AddopListDecl(
+                                          AddopListDecl(
+                                            NoAddopList(
+                                              Term(
+                                                NoMulopListDecls(
+                                                  FactorU(
+                                                    FactorUn(
+                                                      UnaryE(
+                                                      ) [UnaryE]
+                                                      FactorDesignator(
+                                                        DesignatorOne(
+                                                          DesignatorName(
+                                                           bodovi
+                                                          ) [DesignatorName]
+                                                        ) [DesignatorOne]
+                                                      ) [FactorDesignator]
+                                                    ) [FactorUn]
+                                                  ) [FactorU]
+                                                ) [NoMulopListDecls]
+                                              ) [Term]
+                                            ) [NoAddopList]
+                                            AddopDecl(
+                                            ) [AddopDecl]
+                                            Term(
+                                              MulopListDecls(
+                                                NoMulopListDecls(
+                                                  FactorU(
+                                                    FactorUn(
+                                                      UnaryE(
+                                                      ) [UnaryE]
+                                                      ExprFactor(
+                                                        Expr(
+                                                          AddopListDecl(
+                                                            NoAddopList(
+                                                              Term(
+                                                                MulopListDecls(
+                                                                  NoMulopListDecls(
+                                                                    FactorU(
+                                                                      FactorUn(
+                                                                        UnaryE(
+                                                                        ) [UnaryE]
+                                                                        FactorDesignator(
+                                                                          DesignatorOne(
+                                                                            DesignatorName(
+                                                                             pet
+                                                                            ) [DesignatorName]
+                                                                          ) [DesignatorOne]
+                                                                        ) [FactorDesignator]
+                                                                      ) [FactorUn]
+                                                                    ) [FactorU]
+                                                                  ) [NoMulopListDecls]
+                                                                  MulDecl(
+                                                                  ) [MulDecl]
+                                                                  FactorU(
+                                                                    FactorUn(
+                                                                      UnaryE(
+                                                                      ) [UnaryE]
+                                                                      FactorDesignator(
+                                                                        DesignatorOne(
+                                                                          DesignatorName(
+                                                                           jedan
+                                                                          ) [DesignatorName]
+                                                                        ) [DesignatorOne]
+                                                                      ) [FactorDesignator]
+                                                                    ) [FactorUn]
+                                                                  ) [FactorU]
+                                                                ) [MulopListDecls]
+                                                              ) [Term]
+                                                            ) [NoAddopList]
+                                                            SubopDecl(
+                                                            ) [SubopDecl]
+                                                            Term(
+                                                              NoMulopListDecls(
+                                                                FactorU(
+                                                                  FactorUn(
+                                                                    UnaryE(
+                                                                    ) [UnaryE]
+                                                                    NumFactor(
+                                                                     1
+                                                                    ) [NumFactor]
+                                                                  ) [FactorUn]
+                                                                ) [FactorU]
+                                                              ) [NoMulopListDecls]
+                                                            ) [Term]
+                                                          ) [AddopListDecl]
+                                                        ) [Expr]
+                                                      ) [ExprFactor]
+                                                    ) [FactorUn]
+                                                  ) [FactorU]
+                                                ) [NoMulopListDecls]
+                                                MulDecl(
+                                                ) [MulDecl]
+                                                FactorU(
+                                                  FactorUn(
+                                                    UnaryE(
+                                                    ) [UnaryE]
+                                                    FactorDesignator(
+                                                      DesignatorOne(
+                                                        DesignatorName(
+                                                         bodovi
+                                                        ) [DesignatorName]
+                                                      ) [DesignatorOne]
+                                                    ) [FactorDesignator]
+                                                  ) [FactorUn]
+                                                ) [FactorU]
+                                              ) [MulopListDecls]
+                                            ) [Term]
+                                          ) [AddopListDecl]
+                                          SubopDecl(
+                                          ) [SubopDecl]
+                                          Term(
+                                            NoMulopListDecls(
+                                              FactorU(
+                                                FactorUn(
+                                                  UnaryE(
+                                                  ) [UnaryE]
+                                                  ExprFactor(
+                                                    Expr(
+                                                      AddopListDecl(
+                                                        AddopListDecl(
+                                                          NoAddopList(
+                                                            Term(
+                                                              MulopListDecls(
+                                                                NoMulopListDecls(
+                                                                  FactorU(
+                                                                    FactorUn(
+                                                                      UnaryE(
+                                                                      ) [UnaryE]
+                                                                      NumFactor(
+                                                                       3
+                                                                      ) [NumFactor]
+                                                                    ) [FactorUn]
+                                                                  ) [FactorU]
+                                                                ) [NoMulopListDecls]
+                                                                ModDecl(
+                                                                ) [ModDecl]
+                                                                FactorU(
+                                                                  FactorUn(
+                                                                    UnaryE(
+                                                                    ) [UnaryE]
+                                                                    NumFactor(
+                                                                     2
+                                                                    ) [NumFactor]
+                                                                  ) [FactorUn]
+                                                                ) [FactorU]
+                                                              ) [MulopListDecls]
+                                                            ) [Term]
+                                                          ) [NoAddopList]
+                                                          AddopDecl(
+                                                          ) [AddopDecl]
+                                                          Term(
+                                                            MulopListDecls(
+                                                              NoMulopListDecls(
+                                                                FactorU(
+                                                                  FactorUn(
+                                                                    UnaryE(
+                                                                    ) [UnaryE]
+                                                                    NumFactor(
+                                                                     3
+                                                                    ) [NumFactor]
+                                                                  ) [FactorUn]
+                                                                ) [FactorU]
+                                                              ) [NoMulopListDecls]
+                                                              MulDecl(
+                                                              ) [MulDecl]
+                                                              FactorU(
+                                                                FactorUn(
+                                                                  UnaryE(
+                                                                  ) [UnaryE]
+                                                                  NumFactor(
+                                                                   2
+                                                                  ) [NumFactor]
+                                                                ) [FactorUn]
+                                                              ) [FactorU]
+                                                            ) [MulopListDecls]
+                                                          ) [Term]
+                                                        ) [AddopListDecl]
+                                                        SubopDecl(
+                                                        ) [SubopDecl]
+                                                        Term(
+                                                          NoMulopListDecls(
+                                                            FactorU(
+                                                              FactorUn(
+                                                                UnaryE(
+                                                                ) [UnaryE]
+                                                                NumFactor(
+                                                                 3
+                                                                ) [NumFactor]
+                                                              ) [FactorUn]
+                                                            ) [FactorU]
+                                                          ) [NoMulopListDecls]
+                                                        ) [Term]
+                                                      ) [AddopListDecl]
+                                                    ) [Expr]
+                                                  ) [ExprFactor]
+                                                ) [FactorUn]
+                                              ) [FactorU]
+                                            ) [NoMulopListDecls]
+                                          ) [Term]
+                                        ) [AddopListDecl]
+                                      ) [Expr]
+                                    ) [Assignment]
+                                  ) [DesignatorStmt]
+                                ) [SingleStatementDeclNoLabel]
+                              ) [StatementListDeclarations]
+                              SingleStatementDeclNoLabel(
+                                PrintStmt(
+                                  Expr(
+                                    NoAddopList(
+                                      Term(
+                                        NoMulopListDecls(
+                                          FactorU(
+                                            FactorUn(
+                                              UnaryE(
+                                              ) [UnaryE]
+                                              FactorDesignator(
+                                                DesignatorOne(
+                                                  DesignatorName(
+                                                   bodovi
+                                                  ) [DesignatorName]
+                                                ) [DesignatorOne]
+                                              ) [FactorDesignator]
+                                            ) [FactorUn]
+                                          ) [FactorU]
+                                        ) [NoMulopListDecls]
+                                      ) [Term]
+                                    ) [NoAddopList]
+                                  ) [Expr]
+                                  NoPrintConstantants(
+                                  ) [NoPrintConstantants]
+                                ) [PrintStmt]
+                              ) [SingleStatementDeclNoLabel]
+                            ) [StatementListDeclarations]
+                            SingleStatementDeclNoLabel(
+                              ReadStmt(
+                                DesignatorOne(
+                                  DesignatorName(
+                                   bodovi
+                                  ) [DesignatorName]
+                                ) [DesignatorOne]
+                              ) [ReadStmt]
+                            ) [SingleStatementDeclNoLabel]
+                          ) [StatementListDeclarations]
+                          SingleStatementDeclNoLabel(
+                            PrintStmt(
+                              Expr(
+                                NoAddopList(
+                                  Term(
+                                    NoMulopListDecls(
+                                      FactorU(
+                                        FactorUn(
+                                          UnaryE(
+                                          ) [UnaryE]
+                                          FactorDesignator(
+                                            DesignatorOne(
+                                              DesignatorName(
+                                               bodovi
+                                              ) [DesignatorName]
+                                            ) [DesignatorOne]
+                                          ) [FactorDesignator]
+                                        ) [FactorUn]
+                                      ) [FactorU]
+                                    ) [NoMulopListDecls]
+                                  ) [Term]
+                                ) [NoAddopList]
+                              ) [Expr]
+                              NoPrintConstantants(
+                              ) [NoPrintConstantants]
+                            ) [PrintStmt]
+                          ) [SingleStatementDeclNoLabel]
+                        ) [StatementListDeclarations]
+                        SingleStatementDeclNoLabel(
+                          DesignatorStmt(
+                            Inc(
+                              DesignatorOne(
+                                DesignatorName(
+                                 bodovi
+                                ) [DesignatorName]
+                              ) [DesignatorOne]
+                            ) [Inc]
+                          ) [DesignatorStmt]
+                        ) [SingleStatementDeclNoLabel]
+                      ) [StatementListDeclarations]
+                      SingleStatementDeclNoLabel(
+                        GoToStatement(
+                          NoColon(
+                           labela1
+                          ) [NoColon]
+                        ) [GoToStatement]
+                      ) [SingleStatementDeclNoLabel]
+                    ) [StatementListDeclarations]
+                    SingleStatementDeclNoLabel(
+                      DesignatorStmt(
+                        Assignment(
+                          DesignatorOne(
+                            DesignatorName(
+                             bodovi
+                            ) [DesignatorName]
+                          ) [DesignatorOne]
+                          Expr(
+                            NoAddopList(
+                              Term(
+                                MulopListDecls(
+                                  NoMulopListDecls(
+                                    FactorU(
+                                      FactorUn(
+                                        UnaryE(
+                                        ) [UnaryE]
+                                        FactorDesignator(
+                                          DesignatorOne(
+                                            DesignatorName(
+                                             bodovi
+                                            ) [DesignatorName]
+                                          ) [DesignatorOne]
+                                        ) [FactorDesignator]
+                                      ) [FactorUn]
+                                    ) [FactorU]
+                                  ) [NoMulopListDecls]
+                                  MulDecl(
+                                  ) [MulDecl]
+                                  FactorU(
+                                    FactorUn(
+                                      UnaryE(
+                                      ) [UnaryE]
+                                      NumFactor(
+                                       2
+                                      ) [NumFactor]
+                                    ) [FactorUn]
+                                  ) [FactorU]
+                                ) [MulopListDecls]
+                              ) [Term]
+                            ) [NoAddopList]
+                          ) [Expr]
+                        ) [Assignment]
+                      ) [DesignatorStmt]
+                    ) [SingleStatementDeclNoLabel]
+                  ) [StatementListDeclarations]
+                  SingleStatementDeclNoLabel(
+                    DesignatorStmt(
+                      Dec(
+                        DesignatorOne(
+                          DesignatorName(
+                           bodovi
+                          ) [DesignatorName]
+                        ) [DesignatorOne]
+                      ) [Dec]
+                    ) [DesignatorStmt]
+                  ) [SingleStatementDeclNoLabel]
+                ) [StatementListDeclarations]
+                SingleStatementDeclLabel(
+                  LabelDecl(
+                   labela1
+                  ) [LabelDecl]
+                  DesignatorStmt(
+                    Assignment(
+                      DesignatorOne(
+                        DesignatorName(
+                         bodovi
+                        ) [DesignatorName]
+                      ) [DesignatorOne]
+                      Expr(
+                        AddopListDecl(
+                          NoAddopList(
+                            Term(
+                              NoMulopListDecls(
+                                FactorU(
+                                  FactorUn(
+                                    UnaryE(
+                                    ) [UnaryE]
+                                    FactorDesignator(
+                                      DesignatorOne(
+                                        DesignatorName(
+                                         bodovi
+                                        ) [DesignatorName]
+                                      ) [DesignatorOne]
+                                    ) [FactorDesignator]
+                                  ) [FactorUn]
+                                ) [FactorU]
+                              ) [NoMulopListDecls]
+                            ) [Term]
+                          ) [NoAddopList]
+                          AddopDecl(
+                          ) [AddopDecl]
+                          Term(
+                            NoMulopListDecls(
+                              FactorU(
+                                FactorUn(
+                                  UnaryE(
+                                  ) [UnaryE]
+                                  NumFactor(
+                                   3
+                                  ) [NumFactor]
+                                ) [FactorUn]
+                              ) [FactorU]
+                            ) [NoMulopListDecls]
+                          ) [Term]
+                        ) [AddopListDecl]
+                      ) [Expr]
+                    ) [Assignment]
+                  ) [DesignatorStmt]
+                ) [SingleStatementDeclLabel]
+              ) [StatementListDeclarations]
+              SingleStatementDeclNoLabel(
+                PrintStmt(
+                  Expr(
+                    NoAddopList(
+                      Term(
+                        NoMulopListDecls(
+                          FactorU(
+                            FactorUn(
+                              UnaryE(
+                              ) [UnaryE]
+                              FactorDesignator(
+                                DesignatorOne(
+                                  DesignatorName(
+                                   bodovi
+                                  ) [DesignatorName]
+                                ) [DesignatorOne]
+                              ) [FactorDesignator]
+                            ) [FactorUn]
+                          ) [FactorU]
+                        ) [NoMulopListDecls]
+                      ) [Term]
+                    ) [NoAddopList]
+                  ) [Expr]
+                  NoPrintConstantants(
+                  ) [NoPrintConstantants]
+                ) [PrintStmt]
+              ) [SingleStatementDeclNoLabel]
+            ) [StatementListDeclarations]
+            SingleStatementDeclNoLabel(
+              GoToStatement(
+                NoColon(
+                 labelaminus
+                ) [NoColon]
+              ) [GoToStatement]
+            ) [SingleStatementDeclNoLabel]
+          ) [StatementListDeclarations]
+          SingleStatementDeclNoLabel(
+            PrintStmt(
+              Expr(
+                NoAddopList(
+                  Term(
+                    NoMulopListDecls(
+                      FactorU(
+                        FactorUn(
+                          UnaryE(
+                          ) [UnaryE]
+                          CharFactor(
+                           +
+                          ) [CharFactor]
+                        ) [FactorUn]
+                      ) [FactorU]
+                    ) [NoMulopListDecls]
+                  ) [Term]
+                ) [NoAddopList]
+              ) [Expr]
+              NoPrintConstantants(
+              ) [NoPrintConstantants]
+            ) [PrintStmt]
+          ) [SingleStatementDeclNoLabel]
+        ) [StatementListDeclarations]
+        SingleStatementDeclLabel(
+          LabelDecl(
+           labelaminus
+          ) [LabelDecl]
+          PrintStmt(
+            Expr(
+              NoAddopList(
+                Term(
+                  NoMulopListDecls(
+                    FactorU(
+                      FactorUn(
+                        UnaryE(
+                        ) [UnaryE]
+                        CharFactor(
+                         -
+                        ) [CharFactor]
+                      ) [FactorUn]
+                    ) [FactorU]
+                  ) [NoMulopListDecls]
+                ) [Term]
+              ) [NoAddopList]
+            ) [Expr]
+            NoPrintConstantants(
+            ) [NoPrintConstantants]
+          ) [PrintStmt]
+        ) [SingleStatementDeclLabel]
+      ) [StatementListDeclarations]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Prog]
+INFO  20:09:32,541 - ===================================
+ERROR 20:09:32,544 - SEMANTICKA GRESKA :Greska na liniji 5: nula je vec definisana.
+ERROR 20:09:32,544 - SEMANTICKA GRESKA :Greska na liniji 6: jedan je vec definisana.
+ERROR 20:09:32,545 - SEMANTICKA GRESKA :Greska na liniji 7: pet je vec definisana.
+INFO  20:09:32,545 - Na liniji : 9. Vrsi se deklaracija promenljive niz
+INFO  20:09:32,545 - Na liniji : 10. Vrsi se deklaracija promenljive nizch
+INFO  20:09:32,545 - Na liniji : 13. Vrsi se obrada funkcije main
+INFO  20:09:32,545 - Na liniji : 14. Vrsi se deklaracija promenljive bodovi
+INFO  20:09:32,545 - Na liniji : 16Var bodovi: int, 0, 1 bodovi
+INFO  20:09:32,546 - Na liniji : 17Var bodovi: int, 0, 1 bodovi
+INFO  20:09:32,546 - Na liniji : 18Var bodovi: int, 0, 1 bodovi
+INFO  20:09:32,546 - Na liniji : 18Var bodovi: int, 0, 1 bodovi
+ERROR 20:09:32,546 - SEMANTICKA GRESKA : Greska na liniji 18: Ime jedan nije deklarisano.
+ERROR 20:09:32,546 - SEMANTICKA GRESKA :Greska na liniji 9: AddopListDecl(
+  NoAddopList(
+    Term(
+      NoMulopListDecls(
+        FactorU(
+          FactorUn(
+            UnaryE(
+            ) [UnaryE]
+            FactorDesignator(
+              DesignatorOne(
+                DesignatorName(
+                 bodovi
+                ) [DesignatorName]
+              ) [DesignatorOne]
+            ) [FactorDesignator]
+          ) [FactorUn]
+        ) [FactorU]
+      ) [NoMulopListDecls]
+    ) [Term]
+  ) [NoAddopList]
+  AddopDecl(
+  ) [AddopDecl]
+  Term(
+    NoMulopListDecls(
+      FactorU(
+        FactorUn(
+          UnaryE(
+          ) [UnaryE]
+          FactorDesignator(
+            DesignatorOne(
+              DesignatorName(
+               jedan
+              ) [DesignatorName]
+            ) [DesignatorOne]
+          ) [FactorDesignator]
+        ) [FactorUn]
+      ) [FactorU]
+    ) [NoMulopListDecls]
+  ) [Term]
+) [AddopListDecl]Pokusava se addOp sa vrednostima koje nisu tipa integer
+ERROR 20:09:32,546 - SEMANTICKA GRESKA :Greska na liniji 18: Assignment(
+  DesignatorOne(
+    DesignatorName(
+     bodovi
+    ) [DesignatorName]
+  ) [DesignatorOne]
+  Expr(
+    AddopListDecl(
+      NoAddopList(
+        Term(
+          NoMulopListDecls(
+            FactorU(
+              FactorUn(
+                UnaryE(
+                ) [UnaryE]
+                FactorDesignator(
+                  DesignatorOne(
+                    DesignatorName(
+                     bodovi
+                    ) [DesignatorName]
+                  ) [DesignatorOne]
+                ) [FactorDesignator]
+              ) [FactorUn]
+            ) [FactorU]
+          ) [NoMulopListDecls]
+        ) [Term]
+      ) [NoAddopList]
+      AddopDecl(
+      ) [AddopDecl]
+      Term(
+        NoMulopListDecls(
+          FactorU(
+            FactorUn(
+              UnaryE(
+              ) [UnaryE]
+              FactorDesignator(
+                DesignatorOne(
+                  DesignatorName(
+                   jedan
+                  ) [DesignatorName]
+                ) [DesignatorOne]
+              ) [FactorDesignator]
+            ) [FactorUn]
+          ) [FactorU]
+        ) [NoMulopListDecls]
+      ) [Term]
+    ) [AddopListDecl]
+  ) [Expr]
+) [Assignment]Doslo je do greske pri dodeli
+INFO  20:09:32,546 - Na liniji : 19Var bodovi: int, 0, 1 bodovi
+INFO  20:09:32,547 - Na liniji : 19Var bodovi: int, 0, 1 bodovi
+ERROR 20:09:32,547 - SEMANTICKA GRESKA : Greska na liniji 19: Ime pet nije deklarisano.
+ERROR 20:09:32,547 - SEMANTICKA GRESKA :Greska na liniji 9: MulopListDecls(
+  NoMulopListDecls(
+    FactorU(
+      FactorUn(
+        UnaryE(
+        ) [UnaryE]
+        FactorDesignator(
+          DesignatorOne(
+            DesignatorName(
+             bodovi
+            ) [DesignatorName]
+          ) [DesignatorOne]
+        ) [FactorDesignator]
+      ) [FactorUn]
+    ) [FactorU]
+  ) [NoMulopListDecls]
+  MulDecl(
+  ) [MulDecl]
+  FactorU(
+    FactorUn(
+      UnaryE(
+      ) [UnaryE]
+      FactorDesignator(
+        DesignatorOne(
+          DesignatorName(
+           pet
+          ) [DesignatorName]
+        ) [DesignatorOne]
+      ) [FactorDesignator]
+    ) [FactorUn]
+  ) [FactorU]
+) [MulopListDecls]Ne mozete koristiti operaciju mulop ako nije tipa int
+ERROR 20:09:32,547 - SEMANTICKA GRESKA :Greska na liniji 19: Assignment(
+  DesignatorOne(
+    DesignatorName(
+     bodovi
+    ) [DesignatorName]
+  ) [DesignatorOne]
+  Expr(
+    NoAddopList(
+      Term(
+        MulopListDecls(
+          NoMulopListDecls(
+            FactorU(
+              FactorUn(
+                UnaryE(
+                ) [UnaryE]
+                FactorDesignator(
+                  DesignatorOne(
+                    DesignatorName(
+                     bodovi
+                    ) [DesignatorName]
+                  ) [DesignatorOne]
+                ) [FactorDesignator]
+              ) [FactorUn]
+            ) [FactorU]
+          ) [NoMulopListDecls]
+          MulDecl(
+          ) [MulDecl]
+          FactorU(
+            FactorUn(
+              UnaryE(
+              ) [UnaryE]
+              FactorDesignator(
+                DesignatorOne(
+                  DesignatorName(
+                   pet
+                  ) [DesignatorName]
+                ) [DesignatorOne]
+              ) [FactorDesignator]
+            ) [FactorUn]
+          ) [FactorU]
+        ) [MulopListDecls]
+      ) [Term]
+    ) [NoAddopList]
+  ) [Expr]
+) [Assignment]Doslo je do greske pri dodeli
+INFO  20:09:32,547 - Na liniji : 20Var bodovi: int, 0, 1 bodovi
+INFO  20:09:32,547 - Na liniji : 21Var bodovi: int, 0, 1 bodovi
+INFO  20:09:32,547 - Na liniji : 24Var niz: Arr of int, 0, 0 niz
+ERROR 20:09:32,547 - SEMANTICKA GRESKA : Greska na liniji 25: Ime nula nije deklarisano.
+ERROR 20:09:32,547 - SEMANTICKA GRESKA : Greska na liniji 25: Ime jedan nije deklarisano.
+INFO  20:09:32,547 - niz: int, 0, 0  na liniji 26
+ERROR 20:09:32,547 - SEMANTICKA GRESKA : Greska na liniji 27: Ime jedan nije deklarisano.
+INFO  20:09:32,547 - niz: int, 0, 0  na liniji 27
+INFO  20:09:32,547 - niz: int, 0, 0  na liniji 27
+ERROR 20:09:32,548 - SEMANTICKA GRESKA :Greska na liniji 27: Assignment(
+  DesignatorArr(
+    DesignatorName(
+     niz
+    ) [DesignatorName]
+    ArrAddr(
+    ) [ArrAddr]
+    Expr(
+      NoAddopList(
+        Term(
+          NoMulopListDecls(
+            FactorU(
+              FactorUn(
+                UnaryE(
+                ) [UnaryE]
+                FactorDesignator(
+                  DesignatorArr(
+                    DesignatorName(
+                     niz
+                    ) [DesignatorName]
+                    ArrAddr(
+                    ) [ArrAddr]
+                    Expr(
+                      NoAddopList(
+                        Term(
+                          NoMulopListDecls(
+                            FactorU(
+                              FactorUn(
+                                UnaryE(
+                                ) [UnaryE]
+                                FactorDesignator(
+                                  DesignatorOne(
+                                    DesignatorName(
+                                     jedan
+                                    ) [DesignatorName]
+                                  ) [DesignatorOne]
+                                ) [FactorDesignator]
+                              ) [FactorUn]
+                            ) [FactorU]
+                          ) [NoMulopListDecls]
+                        ) [Term]
+                      ) [NoAddopList]
+                    ) [Expr]
+                  ) [DesignatorArr]
+                ) [FactorDesignator]
+              ) [FactorUn]
+            ) [FactorU]
+          ) [NoMulopListDecls]
+        ) [Term]
+      ) [NoAddopList]
+    ) [Expr]
+  ) [DesignatorArr]
+  Expr(
+    NoAddopList(
+      Term(
+        MulopListDecls(
+          NoMulopListDecls(
+            FactorU(
+              FactorUn(
+                UnaryE(
+                ) [UnaryE]
+                FactorDesignator(
+                  DesignatorArr(
+                    DesignatorName(
+                     niz
+                    ) [DesignatorName]
+                    ArrAddr(
+                    ) [ArrAddr]
+                    Expr(
+                      NoAddopList(
+                        Term(
+                          NoMulopListDecls(
+                            FactorU(
+                              FactorUn(
+                                UnaryE(
+                                ) [UnaryE]
+                                FactorDesignator(
+                                  DesignatorArr(
+                                    DesignatorName(
+                                     niz
+                                    ) [DesignatorName]
+                                    ArrAddr(
+                                    ) [ArrAddr]
+                                    Expr(
+                                      NoAddopList(
+                                        Term(
+                                          NoMulopListDecls(
+                                            FactorU(
+                                              FactorUn(
+                                                UnaryE(
+                                                ) [UnaryE]
+                                                NumFactor(
+                                                 0
+                                                ) [NumFactor]
+                                              ) [FactorUn]
+                                            ) [FactorU]
+                                          ) [NoMulopListDecls]
+                                        ) [Term]
+                                      ) [NoAddopList]
+                                    ) [Expr]
+                                  ) [DesignatorArr]
+                                ) [FactorDesignator]
+                              ) [FactorUn]
+                            ) [FactorU]
+                          ) [NoMulopListDecls]
+                        ) [Term]
+                      ) [NoAddopList]
+                    ) [Expr]
+                  ) [DesignatorArr]
+                ) [FactorDesignator]
+              ) [FactorUn]
+            ) [FactorU]
+          ) [NoMulopListDecls]
+          MulDecl(
+          ) [MulDecl]
+          FactorU(
+            FactorUn(
+              UnaryE(
+              ) [UnaryE]
+              NumFactor(
+               3
+              ) [NumFactor]
+            ) [FactorUn]
+          ) [FactorU]
+        ) [MulopListDecls]
+      ) [Term]
+    ) [NoAddopList]
+  ) [Expr]
+) [Assignment]Doslo je do greske pri dodeli
+INFO  20:09:32,548 - Na liniji : 28Var bodovi: int, 0, 1 bodovi
+INFO  20:09:32,548 - niz: int, 0, 0  na liniji 28
+INFO  20:09:32,548 - niz: int, 0, 0  na liniji 28
+INFO  20:09:32,548 - Na liniji : 29Var bodovi: int, 0, 1 bodovi
+INFO  20:09:32,548 - niz: int, 0, 0  na liniji 30
+INFO  20:09:32,548 - Na liniji : 33Var nizch: Arr of char, 1, 0 nizch
+INFO  20:09:32,548 - nizch: char, 1, 0  na liniji 34
+ERROR 20:09:32,549 - SEMANTICKA GRESKA : Greska na liniji 35: Ime jedan nije deklarisano.
+ERROR 20:09:32,549 - SEMANTICKA GRESKA :Greska na liniji 35: Assignment(
+  DesignatorArr(
+    DesignatorName(
+     nizch
+    ) [DesignatorName]
+    ArrAddr(
+    ) [ArrAddr]
+    Expr(
+      NoAddopList(
+        Term(
+          NoMulopListDecls(
+            FactorU(
+              FactorUn(
+                UnaryE(
+                ) [UnaryE]
+                FactorDesignator(
+                  DesignatorOne(
+                    DesignatorName(
+                     jedan
+                    ) [DesignatorName]
+                  ) [DesignatorOne]
+                ) [FactorDesignator]
+              ) [FactorUn]
+            ) [FactorU]
+          ) [NoMulopListDecls]
+        ) [Term]
+      ) [NoAddopList]
+    ) [Expr]
+  ) [DesignatorArr]
+  Expr(
+    NoAddopList(
+      Term(
+        NoMulopListDecls(
+          FactorU(
+            FactorUn(
+              UnaryE(
+              ) [UnaryE]
+              CharFactor(
+               b
+              ) [CharFactor]
+            ) [FactorUn]
+          ) [FactorU]
+        ) [NoMulopListDecls]
+      ) [Term]
+    ) [NoAddopList]
+  ) [Expr]
+) [Assignment]Doslo je do greske pri dodeli
+ERROR 20:09:32,549 - SEMANTICKA GRESKA : Greska na liniji 36: Ime pet nije deklarisano.
+ERROR 20:09:32,549 - SEMANTICKA GRESKA :Greska na liniji 7: AddopListDecl(
+  NoAddopList(
+    Term(
+      NoMulopListDecls(
+        FactorU(
+          FactorUn(
+            UnaryE(
+            ) [UnaryE]
+            FactorDesignator(
+              DesignatorOne(
+                DesignatorName(
+                 pet
+                ) [DesignatorName]
+              ) [DesignatorOne]
+            ) [FactorDesignator]
+          ) [FactorUn]
+        ) [FactorU]
+      ) [NoMulopListDecls]
+    ) [Term]
+  ) [NoAddopList]
+  SubopDecl(
+  ) [SubopDecl]
+  Term(
+    NoMulopListDecls(
+      FactorU(
+        FactorUn(
+          UnaryE(
+          ) [UnaryE]
+          NumFactor(
+           3
+          ) [NumFactor]
+        ) [FactorUn]
+      ) [FactorU]
+    ) [NoMulopListDecls]
+  ) [Term]
+) [AddopListDecl]Pokusava se addOp sa vrednostima koje nisu tipa integer
+ERROR 20:09:32,550 - SEMANTICKA GRESKA :Greska na liniji 36: Assignment(
+  DesignatorArr(
+    DesignatorName(
+     nizch
+    ) [DesignatorName]
+    ArrAddr(
+    ) [ArrAddr]
+    Expr(
+      AddopListDecl(
+        NoAddopList(
+          Term(
+            NoMulopListDecls(
+              FactorU(
+                FactorUn(
+                  UnaryE(
+                  ) [UnaryE]
+                  FactorDesignator(
+                    DesignatorOne(
+                      DesignatorName(
+                       pet
+                      ) [DesignatorName]
+                    ) [DesignatorOne]
+                  ) [FactorDesignator]
+                ) [FactorUn]
+              ) [FactorU]
+            ) [NoMulopListDecls]
+          ) [Term]
+        ) [NoAddopList]
+        SubopDecl(
+        ) [SubopDecl]
+        Term(
+          NoMulopListDecls(
+            FactorU(
+              FactorUn(
+                UnaryE(
+                ) [UnaryE]
+                NumFactor(
+                 3
+                ) [NumFactor]
+              ) [FactorUn]
+            ) [FactorU]
+          ) [NoMulopListDecls]
+        ) [Term]
+      ) [AddopListDecl]
+    ) [Expr]
+  ) [DesignatorArr]
+  Expr(
+    NoAddopList(
+      Term(
+        NoMulopListDecls(
+          FactorU(
+            FactorUn(
+              UnaryE(
+              ) [UnaryE]
+              CharFactor(
+               c
+              ) [CharFactor]
+            ) [FactorUn]
+          ) [FactorU]
+        ) [NoMulopListDecls]
+      ) [Term]
+    ) [NoAddopList]
+  ) [Expr]
+) [Assignment]Doslo je do greske pri dodeli
+INFO  20:09:32,550 - nizch: char, 1, 0  na liniji 37
+ERROR 20:09:32,551 - SEMANTICKA GRESKA : Greska na liniji 38: Ime jedan nije deklarisano.
+ERROR 20:09:32,551 - SEMANTICKA GRESKA :Greska na liniji 13: MulopListDecls(
+  NoMulopListDecls(
+    FactorU(
+      FactorUn(
+        UnaryE(
+        ) [UnaryE]
+        FactorDesignator(
+          DesignatorOne(
+            DesignatorName(
+             jedan
+            ) [DesignatorName]
+          ) [DesignatorOne]
+        ) [FactorDesignator]
+      ) [FactorUn]
+    ) [FactorU]
+  ) [NoMulopListDecls]
+  MulDecl(
+  ) [MulDecl]
+  FactorU(
+    FactorUn(
+      UnaryE(
+      ) [UnaryE]
+      NumFactor(
+       2
+      ) [NumFactor]
+    ) [FactorUn]
+  ) [FactorU]
+) [MulopListDecls]Ne mozete koristiti operaciju mulop ako nije tipa int
+ERROR 20:09:32,551 - SEMANTICKA GRESKA :Greska na liniji 7: : Izraz unutar print naredbe mora biti tipa int, char ili bool.
+INFO  20:09:32,551 - Na liniji : 41Var bodovi: int, 0, 1 bodovi
+INFO  20:09:32,551 - Na liniji : 41Var bodovi: int, 0, 1 bodovi
+ERROR 20:09:32,551 - SEMANTICKA GRESKA : Greska na liniji 41: Ime pet nije deklarisano.
+ERROR 20:09:32,551 - SEMANTICKA GRESKA : Greska na liniji 41: Ime jedan nije deklarisano.
+ERROR 20:09:32,552 - SEMANTICKA GRESKA :Greska na liniji 20: MulopListDecls(
+  NoMulopListDecls(
+    FactorU(
+      FactorUn(
+        UnaryE(
+        ) [UnaryE]
+        FactorDesignator(
+          DesignatorOne(
+            DesignatorName(
+             pet
+            ) [DesignatorName]
+          ) [DesignatorOne]
+        ) [FactorDesignator]
+      ) [FactorUn]
+    ) [FactorU]
+  ) [NoMulopListDecls]
+  MulDecl(
+  ) [MulDecl]
+  FactorU(
+    FactorUn(
+      UnaryE(
+      ) [UnaryE]
+      FactorDesignator(
+        DesignatorOne(
+          DesignatorName(
+           jedan
+          ) [DesignatorName]
+        ) [DesignatorOne]
+      ) [FactorDesignator]
+    ) [FactorUn]
+  ) [FactorU]
+) [MulopListDecls]Ne mozete koristiti operaciju mulop ako nije tipa int
+ERROR 20:09:32,552 - SEMANTICKA GRESKA :Greska na liniji 20: AddopListDecl(
+  NoAddopList(
+    Term(
+      MulopListDecls(
+        NoMulopListDecls(
+          FactorU(
+            FactorUn(
+              UnaryE(
+              ) [UnaryE]
+              FactorDesignator(
+                DesignatorOne(
+                  DesignatorName(
+                   pet
+                  ) [DesignatorName]
+                ) [DesignatorOne]
+              ) [FactorDesignator]
+            ) [FactorUn]
+          ) [FactorU]
+        ) [NoMulopListDecls]
+        MulDecl(
+        ) [MulDecl]
+        FactorU(
+          FactorUn(
+            UnaryE(
+            ) [UnaryE]
+            FactorDesignator(
+              DesignatorOne(
+                DesignatorName(
+                 jedan
+                ) [DesignatorName]
+              ) [DesignatorOne]
+            ) [FactorDesignator]
+          ) [FactorUn]
+        ) [FactorU]
+      ) [MulopListDecls]
+    ) [Term]
+  ) [NoAddopList]
+  SubopDecl(
+  ) [SubopDecl]
+  Term(
+    NoMulopListDecls(
+      FactorU(
+        FactorUn(
+          UnaryE(
+          ) [UnaryE]
+          NumFactor(
+           1
+          ) [NumFactor]
+        ) [FactorUn]
+      ) [FactorU]
+    ) [NoMulopListDecls]
+  ) [Term]
+) [AddopListDecl]Pokusava se addOp sa vrednostima koje nisu tipa integer
+INFO  20:09:32,552 - Na liniji : 41Var bodovi: int, 0, 1 bodovi
+ERROR 20:09:32,552 - SEMANTICKA GRESKA :Greska na liniji 18: MulopListDecls(
+  NoMulopListDecls(
+    FactorU(
+      FactorUn(
+        UnaryE(
+        ) [UnaryE]
+        ExprFactor(
+          Expr(
+            AddopListDecl(
+              NoAddopList(
+                Term(
+                  MulopListDecls(
+                    NoMulopListDecls(
+                      FactorU(
+                        FactorUn(
+                          UnaryE(
+                          ) [UnaryE]
+                          FactorDesignator(
+                            DesignatorOne(
+                              DesignatorName(
+                               pet
+                              ) [DesignatorName]
+                            ) [DesignatorOne]
+                          ) [FactorDesignator]
+                        ) [FactorUn]
+                      ) [FactorU]
+                    ) [NoMulopListDecls]
+                    MulDecl(
+                    ) [MulDecl]
+                    FactorU(
+                      FactorUn(
+                        UnaryE(
+                        ) [UnaryE]
+                        FactorDesignator(
+                          DesignatorOne(
+                            DesignatorName(
+                             jedan
+                            ) [DesignatorName]
+                          ) [DesignatorOne]
+                        ) [FactorDesignator]
+                      ) [FactorUn]
+                    ) [FactorU]
+                  ) [MulopListDecls]
+                ) [Term]
+              ) [NoAddopList]
+              SubopDecl(
+              ) [SubopDecl]
+              Term(
+                NoMulopListDecls(
+                  FactorU(
+                    FactorUn(
+                      UnaryE(
+                      ) [UnaryE]
+                      NumFactor(
+                       1
+                      ) [NumFactor]
+                    ) [FactorUn]
+                  ) [FactorU]
+                ) [NoMulopListDecls]
+              ) [Term]
+            ) [AddopListDecl]
+          ) [Expr]
+        ) [ExprFactor]
+      ) [FactorUn]
+    ) [FactorU]
+  ) [NoMulopListDecls]
+  MulDecl(
+  ) [MulDecl]
+  FactorU(
+    FactorUn(
+      UnaryE(
+      ) [UnaryE]
+      FactorDesignator(
+        DesignatorOne(
+          DesignatorName(
+           bodovi
+          ) [DesignatorName]
+        ) [DesignatorOne]
+      ) [FactorDesignator]
+    ) [FactorUn]
+  ) [FactorU]
+) [MulopListDecls]Ne mozete koristiti operaciju mulop ako nije tipa int
+ERROR 20:09:32,552 - SEMANTICKA GRESKA :Greska na liniji 9: AddopListDecl(
+  NoAddopList(
+    Term(
+      NoMulopListDecls(
+        FactorU(
+          FactorUn(
+            UnaryE(
+            ) [UnaryE]
+            FactorDesignator(
+              DesignatorOne(
+                DesignatorName(
+                 bodovi
+                ) [DesignatorName]
+              ) [DesignatorOne]
+            ) [FactorDesignator]
+          ) [FactorUn]
+        ) [FactorU]
+      ) [NoMulopListDecls]
+    ) [Term]
+  ) [NoAddopList]
+  AddopDecl(
+  ) [AddopDecl]
+  Term(
+    MulopListDecls(
+      NoMulopListDecls(
+        FactorU(
+          FactorUn(
+            UnaryE(
+            ) [UnaryE]
+            ExprFactor(
+              Expr(
+                AddopListDecl(
+                  NoAddopList(
+                    Term(
+                      MulopListDecls(
+                        NoMulopListDecls(
+                          FactorU(
+                            FactorUn(
+                              UnaryE(
+                              ) [UnaryE]
+                              FactorDesignator(
+                                DesignatorOne(
+                                  DesignatorName(
+                                   pet
+                                  ) [DesignatorName]
+                                ) [DesignatorOne]
+                              ) [FactorDesignator]
+                            ) [FactorUn]
+                          ) [FactorU]
+                        ) [NoMulopListDecls]
+                        MulDecl(
+                        ) [MulDecl]
+                        FactorU(
+                          FactorUn(
+                            UnaryE(
+                            ) [UnaryE]
+                            FactorDesignator(
+                              DesignatorOne(
+                                DesignatorName(
+                                 jedan
+                                ) [DesignatorName]
+                              ) [DesignatorOne]
+                            ) [FactorDesignator]
+                          ) [FactorUn]
+                        ) [FactorU]
+                      ) [MulopListDecls]
+                    ) [Term]
+                  ) [NoAddopList]
+                  SubopDecl(
+                  ) [SubopDecl]
+                  Term(
+                    NoMulopListDecls(
+                      FactorU(
+                        FactorUn(
+                          UnaryE(
+                          ) [UnaryE]
+                          NumFactor(
+                           1
+                          ) [NumFactor]
+                        ) [FactorUn]
+                      ) [FactorU]
+                    ) [NoMulopListDecls]
+                  ) [Term]
+                ) [AddopListDecl]
+              ) [Expr]
+            ) [ExprFactor]
+          ) [FactorUn]
+        ) [FactorU]
+      ) [NoMulopListDecls]
+      MulDecl(
+      ) [MulDecl]
+      FactorU(
+        FactorUn(
+          UnaryE(
+          ) [UnaryE]
+          FactorDesignator(
+            DesignatorOne(
+              DesignatorName(
+               bodovi
+              ) [DesignatorName]
+            ) [DesignatorOne]
+          ) [FactorDesignator]
+        ) [FactorUn]
+      ) [FactorU]
+    ) [MulopListDecls]
+  ) [Term]
+) [AddopListDecl]Pokusava se addOp sa vrednostima koje nisu tipa integer
+ERROR 20:09:32,553 - SEMANTICKA GRESKA :Greska na liniji 9: AddopListDecl(
+  AddopListDecl(
+    NoAddopList(
+      Term(
+        NoMulopListDecls(
+          FactorU(
+            FactorUn(
+              UnaryE(
+              ) [UnaryE]
+              FactorDesignator(
+                DesignatorOne(
+                  DesignatorName(
+                   bodovi
+                  ) [DesignatorName]
+                ) [DesignatorOne]
+              ) [FactorDesignator]
+            ) [FactorUn]
+          ) [FactorU]
+        ) [NoMulopListDecls]
+      ) [Term]
+    ) [NoAddopList]
+    AddopDecl(
+    ) [AddopDecl]
+    Term(
+      MulopListDecls(
+        NoMulopListDecls(
+          FactorU(
+            FactorUn(
+              UnaryE(
+              ) [UnaryE]
+              ExprFactor(
+                Expr(
+                  AddopListDecl(
+                    NoAddopList(
+                      Term(
+                        MulopListDecls(
+                          NoMulopListDecls(
+                            FactorU(
+                              FactorUn(
+                                UnaryE(
+                                ) [UnaryE]
+                                FactorDesignator(
+                                  DesignatorOne(
+                                    DesignatorName(
+                                     pet
+                                    ) [DesignatorName]
+                                  ) [DesignatorOne]
+                                ) [FactorDesignator]
+                              ) [FactorUn]
+                            ) [FactorU]
+                          ) [NoMulopListDecls]
+                          MulDecl(
+                          ) [MulDecl]
+                          FactorU(
+                            FactorUn(
+                              UnaryE(
+                              ) [UnaryE]
+                              FactorDesignator(
+                                DesignatorOne(
+                                  DesignatorName(
+                                   jedan
+                                  ) [DesignatorName]
+                                ) [DesignatorOne]
+                              ) [FactorDesignator]
+                            ) [FactorUn]
+                          ) [FactorU]
+                        ) [MulopListDecls]
+                      ) [Term]
+                    ) [NoAddopList]
+                    SubopDecl(
+                    ) [SubopDecl]
+                    Term(
+                      NoMulopListDecls(
+                        FactorU(
+                          FactorUn(
+                            UnaryE(
+                            ) [UnaryE]
+                            NumFactor(
+                             1
+                            ) [NumFactor]
+                          ) [FactorUn]
+                        ) [FactorU]
+                      ) [NoMulopListDecls]
+                    ) [Term]
+                  ) [AddopListDecl]
+                ) [Expr]
+              ) [ExprFactor]
+            ) [FactorUn]
+          ) [FactorU]
+        ) [NoMulopListDecls]
+        MulDecl(
+        ) [MulDecl]
+        FactorU(
+          FactorUn(
+            UnaryE(
+            ) [UnaryE]
+            FactorDesignator(
+              DesignatorOne(
+                DesignatorName(
+                 bodovi
+                ) [DesignatorName]
+              ) [DesignatorOne]
+            ) [FactorDesignator]
+          ) [FactorUn]
+        ) [FactorU]
+      ) [MulopListDecls]
+    ) [Term]
+  ) [AddopListDecl]
+  SubopDecl(
+  ) [SubopDecl]
+  Term(
+    NoMulopListDecls(
+      FactorU(
+        FactorUn(
+          UnaryE(
+          ) [UnaryE]
+          ExprFactor(
+            Expr(
+              AddopListDecl(
+                AddopListDecl(
+                  NoAddopList(
+                    Term(
+                      MulopListDecls(
+                        NoMulopListDecls(
+                          FactorU(
+                            FactorUn(
+                              UnaryE(
+                              ) [UnaryE]
+                              NumFactor(
+                               3
+                              ) [NumFactor]
+                            ) [FactorUn]
+                          ) [FactorU]
+                        ) [NoMulopListDecls]
+                        ModDecl(
+                        ) [ModDecl]
+                        FactorU(
+                          FactorUn(
+                            UnaryE(
+                            ) [UnaryE]
+                            NumFactor(
+                             2
+                            ) [NumFactor]
+                          ) [FactorUn]
+                        ) [FactorU]
+                      ) [MulopListDecls]
+                    ) [Term]
+                  ) [NoAddopList]
+                  AddopDecl(
+                  ) [AddopDecl]
+                  Term(
+                    MulopListDecls(
+                      NoMulopListDecls(
+                        FactorU(
+                          FactorUn(
+                            UnaryE(
+                            ) [UnaryE]
+                            NumFactor(
+                             3
+                            ) [NumFactor]
+                          ) [FactorUn]
+                        ) [FactorU]
+                      ) [NoMulopListDecls]
+                      MulDecl(
+                      ) [MulDecl]
+                      FactorU(
+                        FactorUn(
+                          UnaryE(
+                          ) [UnaryE]
+                          NumFactor(
+                           2
+                          ) [NumFactor]
+                        ) [FactorUn]
+                      ) [FactorU]
+                    ) [MulopListDecls]
+                  ) [Term]
+                ) [AddopListDecl]
+                SubopDecl(
+                ) [SubopDecl]
+                Term(
+                  NoMulopListDecls(
+                    FactorU(
+                      FactorUn(
+                        UnaryE(
+                        ) [UnaryE]
+                        NumFactor(
+                         3
+                        ) [NumFactor]
+                      ) [FactorUn]
+                    ) [FactorU]
+                  ) [NoMulopListDecls]
+                ) [Term]
+              ) [AddopListDecl]
+            ) [Expr]
+          ) [ExprFactor]
+        ) [FactorUn]
+      ) [FactorU]
+    ) [NoMulopListDecls]
+  ) [Term]
+) [AddopListDecl]Pokusava se addOp sa vrednostima koje nisu tipa integer
+ERROR 20:09:32,553 - SEMANTICKA GRESKA :Greska na liniji 41: Assignment(
+  DesignatorOne(
+    DesignatorName(
+     bodovi
+    ) [DesignatorName]
+  ) [DesignatorOne]
+  Expr(
+    AddopListDecl(
+      AddopListDecl(
+        NoAddopList(
+          Term(
+            NoMulopListDecls(
+              FactorU(
+                FactorUn(
+                  UnaryE(
+                  ) [UnaryE]
+                  FactorDesignator(
+                    DesignatorOne(
+                      DesignatorName(
+                       bodovi
+                      ) [DesignatorName]
+                    ) [DesignatorOne]
+                  ) [FactorDesignator]
+                ) [FactorUn]
+              ) [FactorU]
+            ) [NoMulopListDecls]
+          ) [Term]
+        ) [NoAddopList]
+        AddopDecl(
+        ) [AddopDecl]
+        Term(
+          MulopListDecls(
+            NoMulopListDecls(
+              FactorU(
+                FactorUn(
+                  UnaryE(
+                  ) [UnaryE]
+                  ExprFactor(
+                    Expr(
+                      AddopListDecl(
+                        NoAddopList(
+                          Term(
+                            MulopListDecls(
+                              NoMulopListDecls(
+                                FactorU(
+                                  FactorUn(
+                                    UnaryE(
+                                    ) [UnaryE]
+                                    FactorDesignator(
+                                      DesignatorOne(
+                                        DesignatorName(
+                                         pet
+                                        ) [DesignatorName]
+                                      ) [DesignatorOne]
+                                    ) [FactorDesignator]
+                                  ) [FactorUn]
+                                ) [FactorU]
+                              ) [NoMulopListDecls]
+                              MulDecl(
+                              ) [MulDecl]
+                              FactorU(
+                                FactorUn(
+                                  UnaryE(
+                                  ) [UnaryE]
+                                  FactorDesignator(
+                                    DesignatorOne(
+                                      DesignatorName(
+                                       jedan
+                                      ) [DesignatorName]
+                                    ) [DesignatorOne]
+                                  ) [FactorDesignator]
+                                ) [FactorUn]
+                              ) [FactorU]
+                            ) [MulopListDecls]
+                          ) [Term]
+                        ) [NoAddopList]
+                        SubopDecl(
+                        ) [SubopDecl]
+                        Term(
+                          NoMulopListDecls(
+                            FactorU(
+                              FactorUn(
+                                UnaryE(
+                                ) [UnaryE]
+                                NumFactor(
+                                 1
+                                ) [NumFactor]
+                              ) [FactorUn]
+                            ) [FactorU]
+                          ) [NoMulopListDecls]
+                        ) [Term]
+                      ) [AddopListDecl]
+                    ) [Expr]
+                  ) [ExprFactor]
+                ) [FactorUn]
+              ) [FactorU]
+            ) [NoMulopListDecls]
+            MulDecl(
+            ) [MulDecl]
+            FactorU(
+              FactorUn(
+                UnaryE(
+                ) [UnaryE]
+                FactorDesignator(
+                  DesignatorOne(
+                    DesignatorName(
+                     bodovi
+                    ) [DesignatorName]
+                  ) [DesignatorOne]
+                ) [FactorDesignator]
+              ) [FactorUn]
+            ) [FactorU]
+          ) [MulopListDecls]
+        ) [Term]
+      ) [AddopListDecl]
+      SubopDecl(
+      ) [SubopDecl]
+      Term(
+        NoMulopListDecls(
+          FactorU(
+            FactorUn(
+              UnaryE(
+              ) [UnaryE]
+              ExprFactor(
+                Expr(
+                  AddopListDecl(
+                    AddopListDecl(
+                      NoAddopList(
+                        Term(
+                          MulopListDecls(
+                            NoMulopListDecls(
+                              FactorU(
+                                FactorUn(
+                                  UnaryE(
+                                  ) [UnaryE]
+                                  NumFactor(
+                                   3
+                                  ) [NumFactor]
+                                ) [FactorUn]
+                              ) [FactorU]
+                            ) [NoMulopListDecls]
+                            ModDecl(
+                            ) [ModDecl]
+                            FactorU(
+                              FactorUn(
+                                UnaryE(
+                                ) [UnaryE]
+                                NumFactor(
+                                 2
+                                ) [NumFactor]
+                              ) [FactorUn]
+                            ) [FactorU]
+                          ) [MulopListDecls]
+                        ) [Term]
+                      ) [NoAddopList]
+                      AddopDecl(
+                      ) [AddopDecl]
+                      Term(
+                        MulopListDecls(
+                          NoMulopListDecls(
+                            FactorU(
+                              FactorUn(
+                                UnaryE(
+                                ) [UnaryE]
+                                NumFactor(
+                                 3
+                                ) [NumFactor]
+                              ) [FactorUn]
+                            ) [FactorU]
+                          ) [NoMulopListDecls]
+                          MulDecl(
+                          ) [MulDecl]
+                          FactorU(
+                            FactorUn(
+                              UnaryE(
+                              ) [UnaryE]
+                              NumFactor(
+                               2
+                              ) [NumFactor]
+                            ) [FactorUn]
+                          ) [FactorU]
+                        ) [MulopListDecls]
+                      ) [Term]
+                    ) [AddopListDecl]
+                    SubopDecl(
+                    ) [SubopDecl]
+                    Term(
+                      NoMulopListDecls(
+                        FactorU(
+                          FactorUn(
+                            UnaryE(
+                            ) [UnaryE]
+                            NumFactor(
+                             3
+                            ) [NumFactor]
+                          ) [FactorUn]
+                        ) [FactorU]
+                      ) [NoMulopListDecls]
+                    ) [Term]
+                  ) [AddopListDecl]
+                ) [Expr]
+              ) [ExprFactor]
+            ) [FactorUn]
+          ) [FactorU]
+        ) [NoMulopListDecls]
+      ) [Term]
+    ) [AddopListDecl]
+  ) [Expr]
+) [Assignment]Doslo je do greske pri dodeli
+INFO  20:09:32,553 - Na liniji : 42Var bodovi: int, 0, 1 bodovi
+INFO  20:09:32,553 - Na liniji : 44Var bodovi: int, 0, 1 bodovi
+INFO  20:09:32,553 - Na liniji : 45Var bodovi: int, 0, 1 bodovi
+INFO  20:09:32,553 - Na liniji : 47Var bodovi: int, 0, 1 bodovi
+INFO  20:09:32,554 - Na liniji : 48. U listu labela je dodata nova labela: labela1
+INFO  20:09:32,554 - Na liniji : 49Var bodovi: int, 0, 1 bodovi
+INFO  20:09:32,554 - Na liniji : 49Var bodovi: int, 0, 1 bodovi
+INFO  20:09:32,554 - Na liniji : 50Var bodovi: int, 0, 1 bodovi
+INFO  20:09:32,555 - Na liniji : 51. U listu labela je dodata nova labela: labela1
+INFO  20:09:32,555 - Na liniji : 52Var bodovi: int, 0, 1 bodovi
+INFO  20:09:32,555 - Na liniji : 52Var bodovi: int, 0, 1 bodovi
+INFO  20:09:32,555 - Na liniji : 53Var bodovi: int, 0, 1 bodovi
+INFO  20:09:32,555 - Na liniji : 54. U listu labela je dodata nova labela: labelaminus
+INFO  20:09:32,556 - Na liniji : 56. U listu labela je dodata nova labela: labelaminus
+ERROR 20:09:32,556 - Parsiranje NIJE uspesno zavrseno!

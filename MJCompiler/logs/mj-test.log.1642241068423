@@ -1,0 +1,147 @@
+INFO  11:04:03,618 - Compiling source file: C:\Users\Marija\Desktop\14.1\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  11:04:03,798 - #6 program
+INFO  11:04:03,798 - #2 Keske
+INFO  11:04:03,799 - #14 const
+INFO  11:04:03,800 - #2 int
+INFO  11:04:03,800 - #2 pi
+INFO  11:04:03,801 - #31 =
+INFO  11:04:03,802 - #3 3
+INFO  11:04:03,802 - #38 ,
+INFO  11:04:03,803 - #2 g
+INFO  11:04:03,803 - #31 =
+INFO  11:04:03,803 - #3 1
+INFO  11:04:03,803 - #37 ;
+INFO  11:04:03,803 - #2 int
+INFO  11:04:03,804 - #2 x
+INFO  11:04:03,804 - #38 ,
+INFO  11:04:03,804 - #2 y
+INFO  11:04:03,804 - #21 [
+INFO  11:04:03,804 - #22 ]
+INFO  11:04:03,805 - #38 ,
+INFO  11:04:03,805 - #2 z
+INFO  11:04:03,805 - #37 ;
+INFO  11:04:03,805 - #14 const
+INFO  11:04:03,805 - #2 char
+INFO  11:04:03,806 - #2 c
+INFO  11:04:03,806 - #31 =
+INFO  11:04:03,806 - #4 c
+INFO  11:04:03,806 - #37 ;
+INFO  11:04:03,806 - #19 {
+INFO  11:04:03,806 - #8 void
+INFO  11:04:03,806 - #2 main
+INFO  11:04:03,808 - #17 (
+INFO  11:04:03,809 - #18 )
+INFO  11:04:03,810 - #19 {
+INFO  11:04:03,813 - #20 }
+INFO  11:04:03,816 - #20 }
+INFO  11:04:03,825 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ProgListDecls(
+    ProgListDecls(
+      ProgListDecls(
+        NoProgList(
+        ) [NoProgList]
+        GlobalConstList(
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            ConstListDeclarations(
+              NoConstListDeclarations(
+                ConstrDeclOne(
+                  ConstName(
+                   pi
+                  ) [ConstName]
+                  NumConstant(
+                   3
+                  ) [NumConstant]
+                ) [ConstrDeclOne]
+              ) [NoConstListDeclarations]
+              ConstrDeclOne(
+                ConstName(
+                 g
+                ) [ConstName]
+                NumConstant(
+                 1
+                ) [NumConstant]
+              ) [ConstrDeclOne]
+            ) [ConstListDeclarations]
+          ) [ConstDecl]
+        ) [GlobalConstList]
+      ) [ProgListDecls]
+      GlobalVarList(
+        GlobalVarDeclaration(
+          Type(
+           int
+          ) [Type]
+          GlobalVarParams(
+            GlobalVarParams(
+              GlobalVarSingle(
+                GlobalVar(
+                 x
+                ) [GlobalVar]
+              ) [GlobalVarSingle]
+              GlobalArr(
+               y
+              ) [GlobalArr]
+            ) [GlobalVarParams]
+            GlobalVar(
+             z
+            ) [GlobalVar]
+          ) [GlobalVarParams]
+        ) [GlobalVarDeclaration]
+      ) [GlobalVarList]
+    ) [ProgListDecls]
+    GlobalConstList(
+      ConstDecl(
+        Type(
+         char
+        ) [Type]
+        NoConstListDeclarations(
+          ConstrDeclOne(
+            ConstName(
+             c
+            ) [ConstName]
+            CharConstant(
+             c
+            ) [CharConstant]
+          ) [ConstrDeclOne]
+        ) [NoConstListDeclarations]
+      ) [ConstDecl]
+    ) [GlobalConstList]
+  ) [ProgListDecls]
+  MethodDeclarations(
+    MethodDecl(
+      MethodName(
+        VoidRet(
+        ) [VoidRet]
+       main
+      ) [MethodName]
+      NoMethodVarDeclarations(
+      ) [NoMethodVarDeclarations]
+      NoStatementListDeclarations(
+      ) [NoStatementListDeclarations]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  11:04:03,826 - ===================================
+INFO  11:04:03,832 - Na liniji : 3. vrsi se deklaracije konstante pi
+INFO  11:04:03,832 - Na liniji : 3. vrsi se deklaracije konstante g
+INFO  11:04:03,832 - Na liniji : 5. Vrsi se deklaracija promenljive x
+INFO  11:04:03,832 - Na liniji : 5. Vrsi se deklaracija promenljive y
+INFO  11:04:03,832 - Na liniji : 5. Vrsi se deklaracija promenljive z
+INFO  11:04:03,832 - Na liniji : 7. vrsi se deklaracije konstante c
+INFO  11:04:03,833 - Na liniji : 11. Vrsi se obrada funkcije main na liniji 11
+INFO  11:04:03,833 - 
+
+SEMANTICKA ANALIZA
+
+ Statements :0
+ Global cons: 3
+ Global vars:2
+ Global arrays0
+ Local vars in main:0
+
+INFO  11:04:03,838 - Parsiranje uspesno zavrseno!

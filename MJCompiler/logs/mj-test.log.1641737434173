@@ -1,0 +1,253 @@
+INFO  11:54:45,804 - Compiling source file: C:\Users\Marija\Desktop\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  11:54:45,929 - #7 program
+INFO  11:54:45,930 - #2 MJProgram
+INFO  11:54:45,930 - #2 int
+INFO  11:54:45,932 - #2 x
+INFO  11:54:45,933 - #48 ;
+INFO  11:54:45,934 - #2 int
+INFO  11:54:45,935 - #2 y
+INFO  11:54:45,935 - #48 ;
+INFO  11:54:45,935 - #12 class
+INFO  11:54:45,935 - #2 A
+INFO  11:54:45,936 - #28 {
+INFO  11:54:45,937 - #2 int
+INFO  11:54:45,939 - #2 a
+INFO  11:54:45,939 - #48 ;
+INFO  11:54:45,939 - #29 }
+INFO  11:54:45,942 - #28 {
+INFO  11:54:45,942 - #2 int
+INFO  11:54:45,944 - #2 main
+INFO  11:54:45,945 - #26 (
+INFO  11:54:45,947 - #27 )
+INFO  11:54:45,948 - #28 {
+INFO  11:54:45,949 - #10 print
+INFO  11:54:45,954 - #26 (
+INFO  11:54:45,955 - #3 1
+INFO  11:54:45,955 - #27 )
+INFO  11:54:45,959 - #48 ;
+INFO  11:54:45,959 - #2 y
+INFO  11:54:45,960 - #42 =
+INFO  11:54:45,961 - #3 2
+INFO  11:54:45,961 - #48 ;
+INFO  11:54:45,961 - #2 x
+INFO  11:54:45,961 - #42 =
+INFO  11:54:45,962 - #3 5
+INFO  11:54:45,962 - #48 ;
+INFO  11:54:45,962 - #10 print
+INFO  11:54:45,962 - #26 (
+INFO  11:54:45,962 - #3 2
+INFO  11:54:45,962 - #27 )
+INFO  11:54:45,963 - #48 ;
+INFO  11:54:45,963 - #8 return
+INFO  11:54:45,963 - #5 true
+INFO  11:54:45,963 - #48 ;
+INFO  11:54:45,963 - #29 }
+INFO  11:54:45,964 - #29 }
+INFO  11:54:45,977 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  ProgListDecls(
+    ProgListDecls(
+      ProgListDecls(
+        NoProgList(
+        ) [NoProgList]
+        GlobalVarList(
+          GlobalVarDeclaration(
+            Type(
+             int
+            ) [Type]
+            GlobalVarSingle(
+              GlobalVar(
+               x
+              ) [GlobalVar]
+            ) [GlobalVarSingle]
+          ) [GlobalVarDeclaration]
+        ) [GlobalVarList]
+      ) [ProgListDecls]
+      GlobalVarList(
+        GlobalVarDeclaration(
+          Type(
+           int
+          ) [Type]
+          GlobalVarSingle(
+            GlobalVar(
+             y
+            ) [GlobalVar]
+          ) [GlobalVarSingle]
+        ) [GlobalVarDeclaration]
+      ) [GlobalVarList]
+    ) [ProgListDecls]
+    GlobalClassList(
+      ClassDeclaration(
+        ClassName(
+         A
+        ) [ClassName]
+        NoExtendHelp(
+        ) [NoExtendHelp]
+        ClassVarDeclarations(
+          NoClassVarDeclarations(
+          ) [NoClassVarDeclarations]
+          VarDeclaration(
+            Type(
+             int
+            ) [Type]
+            VarParam(
+              LocalVar(
+               a
+              ) [LocalVar]
+            ) [VarParam]
+          ) [VarDeclaration]
+        ) [ClassVarDeclarations]
+        NoClassMethOptionDeclaration(
+        ) [NoClassMethOptionDeclaration]
+      ) [ClassDeclaration]
+    ) [GlobalClassList]
+  ) [ProgListDecls]
+  MethodDeclarations(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDecl(
+      MethodName(
+        OtherRetType(
+          Type(
+           int
+          ) [Type]
+        ) [OtherRetType]
+       main
+      ) [MethodName]
+      NoFormParams(
+      ) [NoFormParams]
+      NoMethodVarDeclarations(
+      ) [NoMethodVarDeclarations]
+      StatementListDeclarations(
+        StatementListDeclarations(
+          StatementListDeclarations(
+            StatementListDeclarations(
+              StatementListDeclarations(
+                NoStatementListDeclarations(
+                ) [NoStatementListDeclarations]
+                SingleStatementDecl(
+                  PrintStatement(
+                    ExprHelpOption(
+                      ExprHelpNoMinus(
+                        Term(
+                          FactorNum(
+                           1
+                          ) [FactorNum]
+                          NoMulopListDecls(
+                          ) [NoMulopListDecls]
+                        ) [Term]
+                        NoAddopList(
+                        ) [NoAddopList]
+                      ) [ExprHelpNoMinus]
+                    ) [ExprHelpOption]
+                    NoPrintConstantants(
+                    ) [NoPrintConstantants]
+                  ) [PrintStatement]
+                ) [SingleStatementDecl]
+              ) [StatementListDeclarations]
+              SingleStatementDecl(
+                DesignatorStmt(
+                  Assignment(
+                    DesignatorSingle(
+                      DesignatorName(
+                       y
+                      ) [DesignatorName]
+                    ) [DesignatorSingle]
+                    ExprHelpOption(
+                      ExprHelpNoMinus(
+                        Term(
+                          FactorNum(
+                           2
+                          ) [FactorNum]
+                          NoMulopListDecls(
+                          ) [NoMulopListDecls]
+                        ) [Term]
+                        NoAddopList(
+                        ) [NoAddopList]
+                      ) [ExprHelpNoMinus]
+                    ) [ExprHelpOption]
+                  ) [Assignment]
+                ) [DesignatorStmt]
+              ) [SingleStatementDecl]
+            ) [StatementListDeclarations]
+            SingleStatementDecl(
+              DesignatorStmt(
+                Assignment(
+                  DesignatorSingle(
+                    DesignatorName(
+                     x
+                    ) [DesignatorName]
+                  ) [DesignatorSingle]
+                  ExprHelpOption(
+                    ExprHelpNoMinus(
+                      Term(
+                        FactorNum(
+                         5
+                        ) [FactorNum]
+                        NoMulopListDecls(
+                        ) [NoMulopListDecls]
+                      ) [Term]
+                      NoAddopList(
+                      ) [NoAddopList]
+                    ) [ExprHelpNoMinus]
+                  ) [ExprHelpOption]
+                ) [Assignment]
+              ) [DesignatorStmt]
+            ) [SingleStatementDecl]
+          ) [StatementListDeclarations]
+          SingleStatementDecl(
+            PrintStatement(
+              ExprHelpOption(
+                ExprHelpNoMinus(
+                  Term(
+                    FactorNum(
+                     2
+                    ) [FactorNum]
+                    NoMulopListDecls(
+                    ) [NoMulopListDecls]
+                  ) [Term]
+                  NoAddopList(
+                  ) [NoAddopList]
+                ) [ExprHelpNoMinus]
+              ) [ExprHelpOption]
+              NoPrintConstantants(
+              ) [NoPrintConstantants]
+            ) [PrintStatement]
+          ) [SingleStatementDecl]
+        ) [StatementListDeclarations]
+        SingleStatementDecl(
+          ReturnExpr(
+            ExprHelpOption(
+              ExprHelpNoMinus(
+                Term(
+                  FactorBool(
+                   true
+                  ) [FactorBool]
+                  NoMulopListDecls(
+                  ) [NoMulopListDecls]
+                ) [Term]
+                NoAddopList(
+                ) [NoAddopList]
+              ) [ExprHelpNoMinus]
+            ) [ExprHelpOption]
+          ) [ReturnExpr]
+        ) [SingleStatementDecl]
+      ) [StatementListDeclarations]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  11:54:45,980 - ===================================
+INFO  11:54:45,987 - Linija 2: Deklarise se promenljiva x
+INFO  11:54:45,987 - Linija 2: Deklarise se promenljiva y
+INFO  11:54:45,987 - Obradjuje se klasa A
+INFO  11:54:45,987 - Linija 3: Deklarise se promenljiva a
+INFO  11:54:45,988 - Linija 6: Obradjuje se funkcija main na liniji 6
+INFO  11:54:45,988 - Linija 9: y - pronadjeno!	Var y: int, 1, 0  na liniji 9
+INFO  11:54:45,988 - Linija 10: x - pronadjeno!	Var x: int, 0, 0  na liniji 10
+ERROR 11:54:45,988 - Tip u return naredbi nije kompatibilan sa povratnim tipom funkcije na liniji 13
+INFO  11:54:45,989 -  numOfErrors = 0
+INFO  11:54:45,989 -  Deklarisanih promenljivih ima = 2
+INFO  11:54:45,989 - ===================================
+ERROR 11:54:45,989 - Parsiranje NIJE uspesno zavrseno!

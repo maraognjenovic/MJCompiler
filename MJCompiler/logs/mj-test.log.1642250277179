@@ -1,0 +1,149 @@
+INFO  13:37:50,434 - Compiling source file: C:\Users\Marija\Desktop\14.1\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  13:37:50,586 - #6 program
+INFO  13:37:50,587 - #2 Keske
+INFO  13:37:50,587 - #19 {
+INFO  13:37:50,588 - #8 void
+INFO  13:37:50,588 - #2 main
+INFO  13:37:50,590 - #17 (
+INFO  13:37:50,591 - #18 )
+INFO  13:37:50,591 - #2 int
+INFO  13:37:50,592 - #2 i
+INFO  13:37:50,594 - #38 ,
+INFO  13:37:50,595 - #2 j
+INFO  13:37:50,596 - #38 ,
+INFO  13:37:50,596 - #2 arr
+INFO  13:37:50,596 - #21 [
+INFO  13:37:50,596 - #22 ]
+INFO  13:37:50,596 - #37 ;
+INFO  13:37:50,596 - #19 {
+INFO  13:37:50,597 - #2 i
+INFO  13:37:50,598 - #31 =
+INFO  13:37:50,599 - #2 arr
+INFO  13:37:50,600 - #21 [
+INFO  13:37:50,601 - #3 5
+INFO  13:37:50,602 - #22 ]
+INFO  13:37:50,604 - #12 @
+INFO  13:37:50,605 - #3 3
+INFO  13:37:50,605 - #37 ;
+INFO  13:37:50,605 - #20 }
+INFO  13:37:50,605 - #20 }
+INFO  13:37:50,623 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  NoProgList(
+  ) [NoProgList]
+  MethodDeclarations(
+    MethodDecl(
+      MethodName(
+        VoidRet(
+        ) [VoidRet]
+       main
+      ) [MethodName]
+      MethodVarDeclarations(
+        NoMethodVarDeclarations(
+        ) [NoMethodVarDeclarations]
+        VarDeclaration(
+          Type(
+           int
+          ) [Type]
+          VarParams(
+            VarParams(
+              VarParam(
+                LocalVar(
+                 i
+                ) [LocalVar]
+              ) [VarParam]
+              LocalVar(
+               j
+              ) [LocalVar]
+            ) [VarParams]
+            LocalArr(
+             arr
+            ) [LocalArr]
+          ) [VarParams]
+        ) [VarDeclaration]
+      ) [MethodVarDeclarations]
+      StatementListDeclarations(
+        NoStatementListDeclarations(
+        ) [NoStatementListDeclarations]
+        SingleStatementDeclNoLabel(
+          DesignatorStmt(
+            Assignment(
+              DesignatorOne(
+                DesignatorName(
+                 i
+                ) [DesignatorName]
+              ) [DesignatorOne]
+              Expr(
+                NoAddopList(
+                  Term(
+                    NoMulopListDecls(
+                      FactorM(
+                        FactorUn(
+                          UnaryE(
+                          ) [UnaryE]
+                          FactorDesignator(
+                            DesignatorArr(
+                              DesignatorName(
+                               arr
+                              ) [DesignatorName]
+                              ArrPrep(
+                              ) [ArrPrep]
+                              Expr(
+                                NoAddopList(
+                                  Term(
+                                    NoMulopListDecls(
+                                      FactorU(
+                                        FactorUn(
+                                          UnaryE(
+                                          ) [UnaryE]
+                                          NumFactor(
+                                           5
+                                          ) [NumFactor]
+                                        ) [FactorUn]
+                                      ) [FactorU]
+                                    ) [NoMulopListDecls]
+                                  ) [Term]
+                                ) [NoAddopList]
+                              ) [Expr]
+                            ) [DesignatorArr]
+                          ) [FactorDesignator]
+                        ) [FactorUn]
+                        FactorUn(
+                          UnaryE(
+                          ) [UnaryE]
+                          NumFactor(
+                           3
+                          ) [NumFactor]
+                        ) [FactorUn]
+                      ) [FactorM]
+                    ) [NoMulopListDecls]
+                  ) [Term]
+                ) [NoAddopList]
+              ) [Expr]
+            ) [Assignment]
+          ) [DesignatorStmt]
+        ) [SingleStatementDeclNoLabel]
+      ) [StatementListDeclarations]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  13:37:50,625 - ===================================
+INFO  13:37:50,630 - Na liniji : 4. Vrsi se obrada funkcije main na liniji 4
+INFO  13:37:50,630 - Na liniji : 4. Vrsi se deklaracija promenljive i
+INFO  13:37:50,630 - Na liniji : 4. Vrsi se deklaracija promenljive j
+INFO  13:37:50,631 - Na liniji : 4. Vrsi se deklaracije promenljive arr
+INFO  13:37:50,631 - Linija 6: iVar i: int, 0, 1  na liniji 6
+INFO  13:37:50,632 - Linija 6: arrarr: int, 2, 1  na liniji 6
+INFO  13:37:50,632 - 
+
+SEMANTICKA ANALIZA
+
+ Statements :1
+ Global cons: 0
+ Global vars:0
+ Global arrays0
+ Local vars in main:3
+
+INFO  13:37:50,637 - Parsiranje uspesno zavrseno!

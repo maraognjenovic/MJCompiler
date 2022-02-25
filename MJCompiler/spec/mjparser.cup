@@ -1,0 +1,355 @@
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+parser code {:
+	Logger log = Logger.getLogger(getClass());
+	
+	public int numOfErrors = 0;
+	
+	public boolean errorDetected = false;
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+     
+   
+  	public void report_error(String message, Object info) {
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol){
+            //msg.append (" na liniji ").append(((Symbol)info).left);
+		}
+        log.error(msg.toString());
+    }
+    
+    public void syntax_error(Symbol cur_token) {
+    	this.errorDetected = true;
+    	this.numOfErrors++;
+        //report_error("Sintaksna greska na ", cur_token);
+		//report_error("", cur_token);
+    }
+    
+   	public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+    
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+    	this.errorDetected = true;
+    	this.numOfErrors++;
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    
+:}
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+terminal String BOOL;
+terminal String IDENT;
+terminal Character CHAR;
+terminal Integer NUMBER;
+
+terminal PROG, RETURN, VOID, PRINT, READ, FINAL, MONKEY, HASH;
+terminal NEW, CONST, GOTO;
+terminal LPAREN, RPAREN, LBRACE, RBRACE, LSQUAREBRACE, RSQUAREBRACE;
+terminal INC, DEC, EQUAL, PLUS, MINUS, MUL, DIV, MOD;
+terminal SEMI, COMMA, COLON, CARET;
+
+ 
+nonterminal Prog, ProgList, MethDeclList, ProgDeclList, MethVarList;
+nonterminal PrintConstantants, FinalArrDecl;
+nonterminal Addop, Mulop;
+nonterminal Statements, StatementList, Unary;
+
+nonterminal rs.etf.pp1.symboltable.concepts.Obj ProgName;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj GlobalDecl;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj GlobalParsDecl;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj GlobalParsList;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj VarDecl;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj VarParsDecl;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj VarParsList;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj MethodName;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj MethodDecl;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj SingleStatement;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj Statement;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj DesignatorStatement;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj Designator;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj DesignatorName;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj ArrAddr;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj Label;
+nonterminal rs.etf.pp1.symboltable.concepts.Obj LabelWithoutColon;
+
+nonterminal rs.etf.pp1.symboltable.concepts.Struct ConstName;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct ConstDecl;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct ConstrDeclOne;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct ConstDeclList;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct ConstDeclVal;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct MethRetType;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Type;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Expr;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct FactorUn;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct AddopList;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Factor;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct FactorSub;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct MulopList;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Term;
+
+
+Prog 		::= (Prog) ProgName ProgList LBRACE MethDeclList RBRACE
+				;
+
+ProgName		::= (ProgName) PROG IDENT:progName
+				;
+
+ProgList 	::= (ProgListDecls) ProgList ProgDeclList
+				|
+				(NoProgList) /* nista */
+				;
+				
+ProgDeclList ::= (GlobalVarList) GlobalDecl
+				 |
+				 (GlobalConstList) ConstDecl
+				 ;
+
+FinalArrDecl	::= (FinalArr) FINAL
+					|
+					(NonFinal) /* nista */
+					;
+
+Type 			::= (Type) IDENT:typeName
+				;
+				
+				
+ConstDecl		::=	(ConstDecl) CONST Type ConstDeclList SEMI
+					;
+				
+				
+ConstDeclList	::= (ConstListDeclarations) ConstDeclList COMMA ConstrDeclOne
+					|
+					(NoConstListDeclarations) ConstrDeclOne
+					;
+				
+				
+ConstrDeclOne ::= (ConstrDeclOne) ConstName EQUAL ConstDeclVal
+					;
+				
+
+ConstDeclVal	::= (NumConstant) NUMBER:value
+					|
+					(CharConstant) CHAR:value
+					|
+					(BoolConstant) BOOL:value
+					;
+				
+
+ConstName		::= (ConstName) IDENT:name
+					;				
+
+
+GlobalParsDecl ::= (GlobalArr) IDENT:varName LSQUAREBRACE RSQUAREBRACE
+					  |
+					  (GlobalVar) IDENT:varName
+					  |
+				(Error1) error
+				{: parser.report_error("Sintaksna greska lose deklarisana globalna promenljiva",null); :}
+					  ;	
+				
+
+GlobalDecl	::= (GlobalVarDeclaration) FinalArrDecl Type:globalVarType GlobalParsList SEMI
+				    ;
+				    
+
+GlobalParsList ::= (GlobalVarParams) GlobalParsList COMMA GlobalParsDecl
+					  |
+					  (GlobalVarSingle) GlobalParsDecl
+					  ;
+ 
+				
+
+VarDecl	::= (VarDeclaration) Type VarParsList SEMI
+					;
+				
+VarParsList 	::= (VarParams) VarParsList COMMA VarParsDecl
+					|
+					(VarParam) VarParsDecl
+					|
+					(Error2) error
+					{: parser.report_error("Sintaksna greska lose deklarisana lokalna promenljiva",null); :}
+					;
+
+				
+VarParsDecl		::= (LocalArr) IDENT:varName LSQUAREBRACE RSQUAREBRACE
+					|
+					(LocalVar) IDENT:varName 
+					;
+				
+				
+MethDeclList 	::= (MethodDeclarations) MethodDecl 
+					|
+					(NoMethodDeclaration) /* nista */
+					;
+				
+MethodDecl		::= (MethodDecl) MethodName LPAREN RPAREN MethVarList LBRACE StatementList RBRACE
+					;				
+
+MethodName		::= (MethName) MethRetType IDENT:methName
+					;
+				
+				
+MethRetType	::=	(VoidRet) VOID
+				;
+				
+				
+MethVarList	::= (MethodVarDeclarations) MethVarList VarDecl
+				|
+				(NoMethodVarDeclarations) /* nista */
+				;	
+						
+				
+Label			::= (LabelDecl) IDENT COLON
+				
+					;
+				
+LabelWithoutColon ::= (NoColon) IDENT
+						;
+					
+				
+Statement		::= (SingleStatementDeclLabel) Label SingleStatement
+					|
+					(SingleStatementDeclNoLabel)  SingleStatement
+					|
+					(StatementsDecl) Statements
+					;
+				
+
+SingleStatement	::=
+				(DesignatorStmt) DesignatorStatement SEMI
+				|
+				(Swap) DesignatorName ArrAddr LSQUAREBRACE Expr COMMA Expr RSQUAREBRACE SEMI
+				|
+				(ReadStmt) READ LPAREN Designator:d RPAREN SEMI
+				|
+				(PrintStmt) PRINT LPAREN Expr PrintConstantants RPAREN SEMI
+			/*	|
+		   		(ReturnExpr) RETURN Expr SEMI*/
+		   		|
+		   		(ReturnNoExpr) RETURN SEMI
+		   		|
+				(GoToStatement) GOTO LabelWithoutColon SEMI
+				|
+				error SEMI
+				{: parser.report_error("Sintaksna greska single statement",null); :}
+				;
+
+
+PrintConstantants		::= (HasPrintConstantants) COMMA NUMBER
+							|
+							(NoPrintConstantants) /* nista */		
+							;
+
+
+Statements 		::= (ListStatement) LBRACE StatementList RBRACE
+			 		;
+				
+			 	
+StatementList	::= (StatementListDeclarations) StatementList Statement
+					|
+					(NoStatementListDeclarations) /* nista */
+					;
+							 									
+	
+DesignatorStatement ::= (Inc) Designator INC
+						|
+						(Dec) Designator DEC
+						|
+						(Assignment) Designator EQUAL Expr
+						|
+						(Carret) Designator CARET NUMBER
+						/*|
+						(Swap) DesignatorName ArrAddr LSQUAREBRACE Expr COMMA Expr RSQUAREBRACE*/
+						;
+
+
+DesignatorName  ::= (DesignatorName) IDENT:designName
+					;
+
+
+ArrAddr	::= (ArrAddr) /* adresa */
+			;
+						
+								
+Designator		::= (DesignatorArr) DesignatorName ArrAddr LSQUAREBRACE Expr RSQUAREBRACE
+					|
+					(DesignatorOne) DesignatorName
+					;
+		
+
+Expr 	::= (Expr) AddopList
+			;	
+				
+					
+AddopList	::= (AddopListDecl) AddopList Addop Term
+				|
+				(NoAddopList) Term 
+				;
+
+
+Term	::= (Term) MulopList
+			;
+			
+				
+Addop			::= (AddopDecl) PLUS
+					|
+					(SubopDecl) MINUS
+					;				
+
+MulopList ::= 	(MulopListDecls) MulopList Mulop Factor
+				|
+				(NoMulopListDecls) Factor 
+				;
+				
+
+Factor ::= 	(FactorM) FactorUn MONKEY FactorUn 
+			| 
+			(FactorU) FactorUn 
+			/*|
+			(FactorM2) FactorUn MONKEY FactorUn*/ 
+			;
+
+FactorUn ::= (FactorUn) Unary FactorSub;	
+
+
+Unary ::= 	(UnaryMinus) MINUS
+			|
+			(UnaryE) /* empty */ 
+			;		
+				
+FactorSub 		::= 
+				(FactorDesignator) Designator
+				|
+				(NumFactor) NUMBER
+				|
+				(CharFactor) CHAR
+				|
+				(ExprFactor) LPAREN Expr RPAREN
+				|
+				(BoolFactor) BOOL
+				|
+				(NewFactor) NEW Type LSQUAREBRACE Expr RSQUAREBRACE
+				|
+				(HashDesignator) HASH Designator
+				;
+				
+
+Mulop		::= (MulDecl) MUL
+				|
+				(DivDecl) DIV
+				|
+				(ModDecl) MOD
+				;
+				

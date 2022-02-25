@@ -1,0 +1,197 @@
+INFO  13:41:15,131 - Compiling source file: C:\Users\Marija\Desktop\14.1\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  13:41:15,275 - #6 program
+INFO  13:41:15,276 - #2 Keske
+INFO  13:41:15,276 - #19 {
+INFO  13:41:15,279 - #8 void
+INFO  13:41:15,279 - #2 main
+INFO  13:41:15,282 - #17 (
+INFO  13:41:15,284 - #18 )
+INFO  13:41:15,284 - #2 int
+INFO  13:41:15,286 - #2 i
+INFO  13:41:15,287 - #38 ,
+INFO  13:41:15,287 - #2 j
+INFO  13:41:15,287 - #38 ,
+INFO  13:41:15,288 - #2 arr
+INFO  13:41:15,288 - #21 [
+INFO  13:41:15,288 - #22 ]
+INFO  13:41:15,288 - #37 ;
+INFO  13:41:15,288 - #19 {
+INFO  13:41:15,288 - #2 j
+INFO  13:41:15,289 - #31 =
+INFO  13:41:15,291 - #3 2
+INFO  13:41:15,297 - #37 ;
+INFO  13:41:15,309 - #2 i
+INFO  13:41:15,312 - #31 =
+INFO  13:41:15,312 - #2 j
+INFO  13:41:15,312 - #12 @
+INFO  13:41:15,313 - #3 3
+INFO  13:41:15,313 - #37 ;
+INFO  13:41:15,313 - #9 print
+INFO  13:41:15,314 - #17 (
+INFO  13:41:15,314 - #2 i
+INFO  13:41:15,314 - #18 )
+INFO  13:41:15,315 - #37 ;
+INFO  13:41:15,316 - #20 }
+INFO  13:41:15,316 - #20 }
+INFO  13:41:15,327 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  NoProgList(
+  ) [NoProgList]
+  MethodDeclarations(
+    MethodDecl(
+      MethodName(
+        VoidRet(
+        ) [VoidRet]
+       main
+      ) [MethodName]
+      MethodVarDeclarations(
+        NoMethodVarDeclarations(
+        ) [NoMethodVarDeclarations]
+        VarDeclaration(
+          Type(
+           int
+          ) [Type]
+          VarParams(
+            VarParams(
+              VarParam(
+                LocalVar(
+                 i
+                ) [LocalVar]
+              ) [VarParam]
+              LocalVar(
+               j
+              ) [LocalVar]
+            ) [VarParams]
+            LocalArr(
+             arr
+            ) [LocalArr]
+          ) [VarParams]
+        ) [VarDeclaration]
+      ) [MethodVarDeclarations]
+      StatementListDeclarations(
+        StatementListDeclarations(
+          StatementListDeclarations(
+            NoStatementListDeclarations(
+            ) [NoStatementListDeclarations]
+            SingleStatementDeclNoLabel(
+              DesignatorStmt(
+                Assignment(
+                  DesignatorOne(
+                    DesignatorName(
+                     j
+                    ) [DesignatorName]
+                  ) [DesignatorOne]
+                  Expr(
+                    NoAddopList(
+                      Term(
+                        NoMulopListDecls(
+                          FactorU(
+                            FactorUn(
+                              UnaryE(
+                              ) [UnaryE]
+                              NumFactor(
+                               2
+                              ) [NumFactor]
+                            ) [FactorUn]
+                          ) [FactorU]
+                        ) [NoMulopListDecls]
+                      ) [Term]
+                    ) [NoAddopList]
+                  ) [Expr]
+                ) [Assignment]
+              ) [DesignatorStmt]
+            ) [SingleStatementDeclNoLabel]
+          ) [StatementListDeclarations]
+          SingleStatementDeclNoLabel(
+            DesignatorStmt(
+              Assignment(
+                DesignatorOne(
+                  DesignatorName(
+                   i
+                  ) [DesignatorName]
+                ) [DesignatorOne]
+                Expr(
+                  NoAddopList(
+                    Term(
+                      NoMulopListDecls(
+                        FactorM(
+                          FactorUn(
+                            UnaryE(
+                            ) [UnaryE]
+                            FactorDesignator(
+                              DesignatorOne(
+                                DesignatorName(
+                                 j
+                                ) [DesignatorName]
+                              ) [DesignatorOne]
+                            ) [FactorDesignator]
+                          ) [FactorUn]
+                          FactorUn(
+                            UnaryE(
+                            ) [UnaryE]
+                            NumFactor(
+                             3
+                            ) [NumFactor]
+                          ) [FactorUn]
+                        ) [FactorM]
+                      ) [NoMulopListDecls]
+                    ) [Term]
+                  ) [NoAddopList]
+                ) [Expr]
+              ) [Assignment]
+            ) [DesignatorStmt]
+          ) [SingleStatementDeclNoLabel]
+        ) [StatementListDeclarations]
+        SingleStatementDeclNoLabel(
+          PrintStmt(
+            Expr(
+              NoAddopList(
+                Term(
+                  NoMulopListDecls(
+                    FactorU(
+                      FactorUn(
+                        UnaryE(
+                        ) [UnaryE]
+                        FactorDesignator(
+                          DesignatorOne(
+                            DesignatorName(
+                             i
+                            ) [DesignatorName]
+                          ) [DesignatorOne]
+                        ) [FactorDesignator]
+                      ) [FactorUn]
+                    ) [FactorU]
+                  ) [NoMulopListDecls]
+                ) [Term]
+              ) [NoAddopList]
+            ) [Expr]
+            NoPrintConstantants(
+            ) [NoPrintConstantants]
+          ) [PrintStmt]
+        ) [SingleStatementDeclNoLabel]
+      ) [StatementListDeclarations]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  13:41:15,328 - ===================================
+INFO  13:41:15,331 - Na liniji : 4. Vrsi se obrada funkcije main na liniji 4
+INFO  13:41:15,332 - Na liniji : 4. Vrsi se deklaracija promenljive i
+INFO  13:41:15,332 - Na liniji : 4. Vrsi se deklaracija promenljive j
+INFO  13:41:15,332 - Na liniji : 4. Vrsi se deklaracije promenljive arr
+INFO  13:41:15,332 - Linija 6: jVar j: int, 1, 1  na liniji 6
+INFO  13:41:15,333 - Linija 8: iVar i: int, 0, 1  na liniji 8
+INFO  13:41:15,333 - Linija 8: jVar j: int, 1, 1  na liniji 8
+INFO  13:41:15,333 - Linija 10: iVar i: int, 0, 1  na liniji 10
+INFO  13:41:15,333 - 
+
+SEMANTICKA ANALIZA
+
+ Statements :3
+ Global cons: 0
+ Global vars:0
+ Global arrays0
+ Local vars in main:3
+
+INFO  13:41:15,337 - Parsiranje uspesno zavrseno!

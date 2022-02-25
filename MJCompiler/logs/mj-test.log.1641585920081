@@ -1,0 +1,121 @@
+INFO  19:22:28,286 - Compiling source file: C:\Users\Marija\Desktop\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  19:22:28,364 - #6 program
+INFO  19:22:28,364 - #2 MJProgram
+INFO  19:22:28,364 - #11 const
+INFO  19:22:28,365 - #2 int
+INFO  19:22:28,365 - #2 pet
+INFO  19:22:28,366 - #38 =
+INFO  19:22:28,367 - #3 5
+INFO  19:22:28,367 - #41 ;
+INFO  19:22:28,368 - #46 {
+INFO  19:22:28,369 - #20 void
+INFO  19:22:28,370 - #2 main
+INFO  19:22:28,370 - #48 (
+INFO  19:22:28,371 - #49 )
+INFO  19:22:28,372 - #2 int
+INFO  19:22:28,372 - #2 x
+INFO  19:22:28,372 - #38 =
+INFO  19:22:28,372 - #3 4
+INFO  19:22:28,372 - #41 ;
+INFO  19:22:28,373 - #46 {
+INFO  19:22:28,373 - #17 print
+INFO  19:22:28,373 - #48 (
+ERROR 19:22:28,378 - Greska na 6. liniji: deklarisanje lokalne promenljive - oporavak izvrsen.
+INFO  19:22:28,380 - #2 x
+INFO  19:22:28,380 - #49 )
+INFO  19:22:28,382 - #41 ;
+INFO  19:22:28,382 - #47 }
+INFO  19:22:28,383 - #47 }
+INFO  19:22:28,387 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  ProgramListDecls(
+    NoProgramList(
+    ) [NoProgramList]
+    GlobalConstList(
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        ConstDeclSingle(
+          ConstName(
+           pet
+          ) [ConstName]
+          NumConst(
+           5
+          ) [NumConst]
+        ) [ConstDeclSingle]
+        NoConstListDeclarations(
+        ) [NoConstListDeclarations]
+      ) [ConstDecl]
+    ) [GlobalConstList]
+  ) [ProgramListDecls]
+  MethodDeclarations(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDecl(
+      MethodName(
+        VoidRetType(
+        ) [VoidRetType]
+       main
+      ) [MethodName]
+      NoFormParams(
+      ) [NoFormParams]
+      MethodVarDeclarations(
+        NoMethodVarDeclarations(
+        ) [NoMethodVarDeclarations]
+        VarDeclaration(
+          Type(
+           int
+          ) [Type]
+          ErrorLocalVarSemi(
+          ) [ErrorLocalVarSemi]
+        ) [VarDeclaration]
+      ) [MethodVarDeclarations]
+      StatementListDeclarations(
+        NoStatementListDeclarations(
+        ) [NoStatementListDeclarations]
+        SingleStatementDecl(
+          PrintStatement(
+            Expr1Option(
+              Expr1NoMinus(
+                Term(
+                  FactorDesignator(
+                    DesignatorSingle(
+                      DesignatorName(
+                       x
+                      ) [DesignatorName]
+                    ) [DesignatorSingle]
+                  ) [FactorDesignator]
+                  NoMulopFactorListDecls(
+                  ) [NoMulopFactorListDecls]
+                ) [Term]
+                NoAddopTermList(
+                ) [NoAddopTermList]
+              ) [Expr1NoMinus]
+            ) [Expr1Option]
+            NoPrintConsts(
+            ) [NoPrintConsts]
+          ) [PrintStatement]
+        ) [SingleStatementDecl]
+      ) [StatementListDeclarations]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  19:22:28,387 - ===================================
+INFO  19:22:28,392 - Linija 3: Deklarise se promenljiva pet
+INFO  19:22:28,392 - Linija 5: Obradjuje se funkcija main na liniji 5
+ERROR 19:22:28,392 - Greska na liniji 9: Ime x nije deklarisano.
+ERROR 19:22:28,392 - Greska na liniji 9: Izraz unutar print naredbe mora biti tipa int, char ili bool.
+INFO  19:22:28,392 -  classCnt = 0
+INFO  19:22:28,392 -  methodCnt = 1
+INFO  19:22:28,392 -  globalVarCnt = 0
+INFO  19:22:28,392 -  globalConCnt = 1
+INFO  19:22:28,392 -  globalArrCnt = 0
+INFO  19:22:28,392 -  localVarCnt = 0
+INFO  19:22:28,393 -  stmtCnt = 1
+INFO  19:22:28,393 -  numOfErrors = 0
+INFO  19:22:28,393 -  Deklarisanih promenljivih ima = 0
+INFO  19:22:28,393 - ===================================
+ERROR 19:22:28,393 - Parsiranje NIJE uspesno zavrseno!

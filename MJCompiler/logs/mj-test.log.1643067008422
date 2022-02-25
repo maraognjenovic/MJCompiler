@@ -1,0 +1,42 @@
+INFO  00:29:38,692 - Compiling source file: C:\Users\Marija\Desktop\14.1\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  00:29:38,736 - #6 program
+INFO  00:29:38,736 - #3 test1
+INFO  00:29:38,736 - #3 char
+INFO  00:29:38,738 - #3 niz
+INFO  00:29:38,739 - #26 +
+INFO  00:29:38,739 - #3 int
+INFO  00:29:38,739 - #3 x
+INFO  00:29:38,740 - #17 (
+INFO  00:29:38,740 - #18 )
+INFO  00:29:38,741 - #31 ;
+INFO  00:29:38,741 - #3 bool
+INFO  00:29:38,741 - #3 x
+INFO  00:29:38,741 - #26 +
+ERROR 00:29:38,741 - Sintaksna greska lose deklarisana globalna promenljiva
+INFO  00:29:38,742 - #31 ;
+INFO  00:29:38,743 - #19 {
+INFO  00:29:38,743 - #3 int
+INFO  00:29:38,743 - #3 main
+INFO  00:29:38,743 - #17 (
+INFO  00:29:38,743 - #18 )
+INFO  00:29:38,747 - #3 int
+INFO  00:29:38,748 - #3 niz
+INFO  00:29:38,748 - #26 +
+INFO  00:29:38,748 - #31 ;
+INFO  00:29:38,748 - #19 {
+INFO  00:29:38,749 - #3 niz
+INFO  00:29:38,749 - #25 =
+INFO  00:29:38,749 - #14 new
+INFO  00:29:38,749 - #3 int
+INFO  00:29:38,749 - #21 [
+INFO  00:29:38,749 - #5 5
+INFO  00:29:38,750 - #22 ]
+INFO  00:29:38,750 - #31 ;
+INFO  00:29:38,750 - #9 print
+INFO  00:29:38,750 - #17 (
+INFO  00:29:38,751 - #3 niz
+INFO  00:29:38,751 - #18 )
+INFO  00:29:38,751 - #31 ;
+INFO  00:29:38,751 - #20 }
+INFO  00:29:38,752 - #20 }
+ERROR 00:29:38,752 - Fatalna greska, parsiranje se ne moze nastaviti

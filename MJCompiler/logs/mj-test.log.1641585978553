@@ -1,0 +1,101 @@
+INFO  21:05:20,086 - Compiling source file: C:\Users\Marija\Desktop\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  21:05:20,144 - #6 program
+INFO  21:05:20,144 - #2 MJProgram
+INFO  21:05:20,144 - #11 const
+INFO  21:05:20,145 - #2 int
+INFO  21:05:20,145 - #2 pet
+INFO  21:05:20,146 - #38 =
+INFO  21:05:20,147 - #3 5
+INFO  21:05:20,147 - #41 ;
+INFO  21:05:20,148 - #46 {
+INFO  21:05:20,149 - #20 void
+INFO  21:05:20,149 - #2 main
+INFO  21:05:20,150 - #48 (
+INFO  21:05:20,151 - #49 )
+INFO  21:05:20,152 - #2 int
+INFO  21:05:20,153 - #2 x
+INFO  21:05:20,153 - #38 =
+INFO  21:05:20,153 - #3 4
+INFO  21:05:20,153 - #41 ;
+INFO  21:05:20,153 - #46 {
+INFO  21:05:20,154 - #17 print
+INFO  21:05:20,154 - #48 (
+ERROR 21:05:20,155 - Greska na 6. liniji: deklarisanje lokalne promenljive - oporavak izvrsen.
+INFO  21:05:20,156 - #2 x
+INFO  21:05:20,156 - #49 )
+INFO  21:05:20,156 - #41 ;
+INFO  21:05:20,156 - #47 }
+INFO  21:05:20,157 - #47 }
+ERROR 21:05:20,157 - Greska na 9. liniji: iskaz dodele vrednosti - oporavak izvrsen.
+INFO  21:05:20,163 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  ProgramListDecls(
+    NoProgramList(
+    ) [NoProgramList]
+    GlobalConstList(
+      ConstDecl(
+        Type(
+         int
+        ) [Type]
+        ConstDeclSingle(
+          ConstName(
+           pet
+          ) [ConstName]
+          NumConst(
+           5
+          ) [NumConst]
+        ) [ConstDeclSingle]
+        NoConstListDeclarations(
+        ) [NoConstListDeclarations]
+      ) [ConstDecl]
+    ) [GlobalConstList]
+  ) [ProgramListDecls]
+  MethodDeclarations(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDecl(
+      MethodName(
+        VoidRetType(
+        ) [VoidRetType]
+       main
+      ) [MethodName]
+      NoFormParams(
+      ) [NoFormParams]
+      MethodVarDeclarations(
+        NoMethodVarDeclarations(
+        ) [NoMethodVarDeclarations]
+        VarDeclaration(
+          Type(
+           int
+          ) [Type]
+          ErrorLocalVarSemi(
+          ) [ErrorLocalVarSemi]
+        ) [VarDeclaration]
+      ) [MethodVarDeclarations]
+      StatementListDeclarations(
+        NoStatementListDeclarations(
+        ) [NoStatementListDeclarations]
+        SingleStatementDecl(
+          SingleStatementDerived1(
+          ) [SingleStatementDerived1]
+        ) [SingleStatementDecl]
+      ) [StatementListDeclarations]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  21:05:20,163 - ===================================
+INFO  21:05:20,166 - Linija 3: Deklarise se promenljiva pet
+INFO  21:05:20,166 - Linija 5: Obradjuje se funkcija main na liniji 5
+INFO  21:05:20,166 -  classCnt = 0
+INFO  21:05:20,166 -  methodCnt = 1
+INFO  21:05:20,166 -  globalVarCnt = 0
+INFO  21:05:20,166 -  globalConCnt = 1
+INFO  21:05:20,167 -  globalArrCnt = 0
+INFO  21:05:20,167 -  localVarCnt = 0
+INFO  21:05:20,167 -  stmtCnt = 0
+INFO  21:05:20,167 -  numOfErrors = 0
+INFO  21:05:20,167 -  Deklarisanih promenljivih ima = 0
+INFO  21:05:20,167 - ===================================
+ERROR 21:05:20,168 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,225 @@
+INFO  17:01:45,691 - Compiling source file: C:\Users\Marija\Desktop\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  17:01:45,769 - #6 program
+INFO  17:01:45,769 - #2 MJProgram
+INFO  17:01:45,769 - #2 int
+INFO  17:01:45,771 - #2 x
+INFO  17:01:45,772 - #41 ;
+INFO  17:01:45,772 - #2 int
+INFO  17:01:45,773 - #2 y
+INFO  17:01:45,774 - #41 ;
+INFO  17:01:45,774 - #46 {
+INFO  17:01:45,774 - #2 int
+INFO  17:01:45,775 - #2 k
+INFO  17:01:45,776 - #48 (
+INFO  17:01:45,777 - #49 )
+INFO  17:01:45,777 - #2 int
+INFO  17:01:45,778 - #2 c
+INFO  17:01:45,778 - #41 ;
+INFO  17:01:45,779 - #46 {
+INFO  17:01:45,779 - #2 c
+INFO  17:01:45,779 - #38 =
+INFO  17:01:45,780 - #3 2
+INFO  17:01:45,781 - #41 ;
+INFO  17:01:45,783 - #19 return
+INFO  17:01:45,783 - #2 c
+INFO  17:01:45,783 - #25 +
+INFO  17:01:45,783 - #3 2
+INFO  17:01:45,784 - #41 ;
+INFO  17:01:45,784 - #47 }
+INFO  17:01:45,784 - #2 int
+INFO  17:01:45,784 - #2 main
+ERROR 17:01:45,784 - Greska na 6. liniji: iskaz dodele vrednosti - oporavak izvrsen.
+INFO  17:01:45,786 - #48 (
+INFO  17:01:45,786 - #49 )
+INFO  17:01:45,786 - #46 {
+INFO  17:01:45,786 - #17 print
+INFO  17:01:45,786 - #48 (
+INFO  17:01:45,786 - #3 1
+INFO  17:01:45,786 - #49 )
+INFO  17:01:45,787 - #41 ;
+INFO  17:01:45,787 - #2 x
+INFO  17:01:45,787 - #38 =
+INFO  17:01:45,787 - #2 y
+INFO  17:01:45,787 - #25 +
+INFO  17:01:45,787 - #3 5
+INFO  17:01:45,787 - #25 +
+INFO  17:01:45,787 - #3 3
+INFO  17:01:45,787 - #41 ;
+INFO  17:01:45,787 - #17 print
+INFO  17:01:45,788 - #48 (
+INFO  17:01:45,788 - #3 2
+ERROR 17:01:45,788 - Greska na 14. liniji: iskaz dodele vrednosti - oporavak izvrsen.
+INFO  17:01:45,788 - #49 )
+INFO  17:01:45,788 - #41 ;
+INFO  17:01:45,788 - #2 k
+INFO  17:01:45,789 - #48 (
+INFO  17:01:45,789 - #49 )
+INFO  17:01:45,789 - #41 ;
+INFO  17:01:45,789 - #19 return
+INFO  17:01:45,789 - #3 1
+INFO  17:01:45,790 - #41 ;
+INFO  17:01:45,790 - #47 }
+INFO  17:01:45,790 - #47 }
+ERROR 17:01:45,791 - Greska na 18. liniji: iskaz dodele vrednosti - oporavak izvrsen.
+INFO  17:01:45,797 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  ProgramListDecls(
+    ProgramListDecls(
+      NoProgramList(
+      ) [NoProgramList]
+      GlobalVarList(
+        GlobalVarDeclaration(
+          Type(
+           int
+          ) [Type]
+          GlobalVarSingle(
+            GlobalVar(
+             x
+            ) [GlobalVar]
+          ) [GlobalVarSingle]
+        ) [GlobalVarDeclaration]
+      ) [GlobalVarList]
+    ) [ProgramListDecls]
+    GlobalVarList(
+      GlobalVarDeclaration(
+        Type(
+         int
+        ) [Type]
+        GlobalVarSingle(
+          GlobalVar(
+           y
+          ) [GlobalVar]
+        ) [GlobalVarSingle]
+      ) [GlobalVarDeclaration]
+    ) [GlobalVarList]
+  ) [ProgramListDecls]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDeclaration(
+      ) [NoMethodDeclaration]
+      MethodDecl(
+        MethodName(
+          OtherRetType(
+            Type(
+             int
+            ) [Type]
+          ) [OtherRetType]
+         k
+        ) [MethodName]
+        NoFormParams(
+        ) [NoFormParams]
+        MethodVarDeclarations(
+          NoMethodVarDeclarations(
+          ) [NoMethodVarDeclarations]
+          VarDeclaration(
+            Type(
+             int
+            ) [Type]
+            VarParam(
+              LocalVar(
+               c
+              ) [LocalVar]
+            ) [VarParam]
+          ) [VarDeclaration]
+        ) [MethodVarDeclarations]
+        StatementListDeclarations(
+          NoStatementListDeclarations(
+          ) [NoStatementListDeclarations]
+          SingleStatementDecl(
+            SingleStatementDerived1(
+            ) [SingleStatementDerived1]
+          ) [SingleStatementDecl]
+        ) [StatementListDeclarations]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MethodName(
+        OtherRetType(
+          Type(
+           int
+          ) [Type]
+        ) [OtherRetType]
+       main
+      ) [MethodName]
+      NoFormParams(
+      ) [NoFormParams]
+      NoMethodVarDeclarations(
+      ) [NoMethodVarDeclarations]
+      StatementListDeclarations(
+        StatementListDeclarations(
+          StatementListDeclarations(
+            StatementListDeclarations(
+              NoStatementListDeclarations(
+              ) [NoStatementListDeclarations]
+              SingleStatementDecl(
+                PrintStatement(
+                  Expr1Option(
+                    Expr1NoMinus(
+                      Term(
+                        FactorNum(
+                         1
+                        ) [FactorNum]
+                        NoMulopFactorListDecls(
+                        ) [NoMulopFactorListDecls]
+                      ) [Term]
+                      NoAddopTermList(
+                      ) [NoAddopTermList]
+                    ) [Expr1NoMinus]
+                  ) [Expr1Option]
+                  NoPrintConsts(
+                  ) [NoPrintConsts]
+                ) [PrintStatement]
+              ) [SingleStatementDecl]
+            ) [StatementListDeclarations]
+            SingleStatementDecl(
+              SingleStatementDerived1(
+              ) [SingleStatementDerived1]
+            ) [SingleStatementDecl]
+          ) [StatementListDeclarations]
+          SingleStatementDecl(
+            PrintStatement(
+              Expr1Option(
+                Expr1NoMinus(
+                  Term(
+                    FactorNum(
+                     2
+                    ) [FactorNum]
+                    NoMulopFactorListDecls(
+                    ) [NoMulopFactorListDecls]
+                  ) [Term]
+                  NoAddopTermList(
+                  ) [NoAddopTermList]
+                ) [Expr1NoMinus]
+              ) [Expr1Option]
+              NoPrintConsts(
+              ) [NoPrintConsts]
+            ) [PrintStatement]
+          ) [SingleStatementDecl]
+        ) [StatementListDeclarations]
+        SingleStatementDecl(
+          SingleStatementDerived1(
+          ) [SingleStatementDerived1]
+        ) [SingleStatementDecl]
+      ) [StatementListDeclarations]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:01:45,797 - ===================================
+INFO  17:01:45,801 - Linija 2: Deklarise se promenljiva x
+INFO  17:01:45,801 - Linija 2: Deklarise se promenljiva y
+INFO  17:01:45,801 - Linija 5: Obradjuje se funkcija k na liniji 5
+INFO  17:01:45,801 - Linija 5: Deklarise se promenljiva c
+INFO  17:01:45,802 - Linija 10: Obradjuje se funkcija main na liniji 10
+INFO  17:01:45,802 -  classCnt = 0
+INFO  17:01:45,802 -  methodCnt = 2
+INFO  17:01:45,802 -  globalVarCnt = 2
+INFO  17:01:45,802 -  globalConCnt = 0
+INFO  17:01:45,802 -  globalArrCnt = 0
+INFO  17:01:45,802 -  localVarCnt = 1
+INFO  17:01:45,802 -  stmtCnt = 2
+INFO  17:01:45,802 -  numOfErrors = 0
+INFO  17:01:45,802 -  Deklarisanih promenljivih ima = 2
+INFO  17:01:45,802 - ===================================
+ERROR 17:01:45,803 - Parsiranje NIJE uspesno zavrseno!

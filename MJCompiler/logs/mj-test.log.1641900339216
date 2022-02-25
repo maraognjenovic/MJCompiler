@@ -1,0 +1,270 @@
+INFO  12:24:59,806 - Compiling source file: C:\Users\Marija\Desktop\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  12:24:59,882 - #6 program
+INFO  12:24:59,883 - #2 MJProgram
+INFO  12:24:59,883 - #2 int
+INFO  12:24:59,884 - #2 x
+INFO  12:24:59,885 - #35 ;
+INFO  12:24:59,885 - #12 const
+INFO  12:24:59,886 - #2 int
+INFO  12:24:59,886 - #2 y
+INFO  12:24:59,886 - #29 =
+INFO  12:24:59,887 - #3 2
+INFO  12:24:59,887 - #35 ;
+INFO  12:24:59,888 - #12 const
+INFO  12:24:59,889 - #2 bool
+INFO  12:24:59,889 - #2 t
+INFO  12:24:59,889 - #29 =
+INFO  12:24:59,889 - #5 true
+INFO  12:24:59,889 - #35 ;
+INFO  12:24:59,890 - #17 {
+INFO  12:24:59,890 - #8 void
+INFO  12:24:59,890 - #2 main
+INFO  12:24:59,891 - #15 (
+INFO  12:24:59,896 - #16 )
+INFO  12:24:59,896 - #2 int
+INFO  12:24:59,897 - #2 a
+INFO  12:24:59,897 - #19 [
+INFO  12:24:59,897 - #20 ]
+INFO  12:24:59,898 - #35 ;
+INFO  12:24:59,898 - #2 bool
+INFO  12:24:59,899 - #2 f
+INFO  12:24:59,899 - #35 ;
+INFO  12:24:59,899 - #2 char
+INFO  12:24:59,899 - #2 ch
+INFO  12:24:59,899 - #35 ;
+INFO  12:24:59,899 - #17 {
+INFO  12:24:59,899 - #2 x
+INFO  12:24:59,901 - #29 =
+INFO  12:24:59,902 - #3 1
+INFO  12:24:59,902 - #35 ;
+INFO  12:24:59,906 - #13 goto
+INFO  12:24:59,906 - #2 Marija
+INFO  12:24:59,906 - #35 ;
+INFO  12:24:59,907 - #2 x
+INFO  12:24:59,907 - #29 =
+INFO  12:24:59,907 - #3 5
+INFO  12:24:59,907 - #35 ;
+INFO  12:24:59,907 - #2 Marija
+INFO  12:24:59,908 - #37 :
+INFO  12:24:59,908 - #10 read
+INFO  12:24:59,908 - #15 (
+INFO  12:24:59,908 - #2 x
+INFO  12:24:59,908 - #16 )
+INFO  12:24:59,908 - #35 ;
+INFO  12:24:59,908 - #7 return
+INFO  12:24:59,909 - #35 ;
+INFO  12:24:59,909 - #18 }
+INFO  12:24:59,911 - #18 }
+INFO  12:24:59,921 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  ProgListDecls(
+    ProgListDecls(
+      ProgListDecls(
+        NoProgList(
+        ) [NoProgList]
+        GlobalVarList(
+          GlobalVarDeclaration(
+            Type(
+             int
+            ) [Type]
+            GlobalVarSingle(
+              GlobalVar(
+               x
+              ) [GlobalVar]
+            ) [GlobalVarSingle]
+          ) [GlobalVarDeclaration]
+        ) [GlobalVarList]
+      ) [ProgListDecls]
+      GlobalConstList(
+        ConstDecl(
+          Type(
+           int
+          ) [Type]
+          NoConstListDeclarations(
+            ConstrDeclOne(
+              ConstName(
+               y
+              ) [ConstName]
+              NumConstant(
+               2
+              ) [NumConstant]
+            ) [ConstrDeclOne]
+          ) [NoConstListDeclarations]
+        ) [ConstDecl]
+      ) [GlobalConstList]
+    ) [ProgListDecls]
+    GlobalConstList(
+      ConstDecl(
+        Type(
+         bool
+        ) [Type]
+        NoConstListDeclarations(
+          ConstrDeclOne(
+            ConstName(
+             t
+            ) [ConstName]
+            BoolConstant(
+             true
+            ) [BoolConstant]
+          ) [ConstrDeclOne]
+        ) [NoConstListDeclarations]
+      ) [ConstDecl]
+    ) [GlobalConstList]
+  ) [ProgListDecls]
+  MethodDeclarations(
+    MethodDecl(
+      MethodName(
+        VoidRet(
+        ) [VoidRet]
+       main
+      ) [MethodName]
+      MethodVarDeclarations(
+        MethodVarDeclarations(
+          MethodVarDeclarations(
+            NoMethodVarDeclarations(
+            ) [NoMethodVarDeclarations]
+            VarDeclaration(
+              Type(
+               int
+              ) [Type]
+              VarParam(
+                LocalArr(
+                 a
+                ) [LocalArr]
+              ) [VarParam]
+            ) [VarDeclaration]
+          ) [MethodVarDeclarations]
+          VarDeclaration(
+            Type(
+             bool
+            ) [Type]
+            VarParam(
+              LocalVar(
+               f
+              ) [LocalVar]
+            ) [VarParam]
+          ) [VarDeclaration]
+        ) [MethodVarDeclarations]
+        VarDeclaration(
+          Type(
+           char
+          ) [Type]
+          VarParam(
+            LocalVar(
+             ch
+            ) [LocalVar]
+          ) [VarParam]
+        ) [VarDeclaration]
+      ) [MethodVarDeclarations]
+      StatementListDeclarations(
+        StatementListDeclarations(
+          StatementListDeclarations(
+            StatementListDeclarations(
+              StatementListDeclarations(
+                NoStatementListDeclarations(
+                ) [NoStatementListDeclarations]
+                SingleStatementDeclNoLabel(
+                  DesignatorStmt(
+                    Assignment(
+                      DesignatorOne(
+                        DesignatorName(
+                         x
+                        ) [DesignatorName]
+                      ) [DesignatorOne]
+                      ExprHelpOption(
+                        ExprHelpNoMinus(
+                          Term(
+                            NumFactor(
+                             1
+                            ) [NumFactor]
+                            NoMulopListDecls(
+                            ) [NoMulopListDecls]
+                          ) [Term]
+                          NoAddopList(
+                          ) [NoAddopList]
+                        ) [ExprHelpNoMinus]
+                      ) [ExprHelpOption]
+                    ) [Assignment]
+                  ) [DesignatorStmt]
+                ) [SingleStatementDeclNoLabel]
+              ) [StatementListDeclarations]
+              SingleStatementDeclNoLabel(
+                GoToStatement(
+                  NoColon(
+                   Marija
+                  ) [NoColon]
+                ) [GoToStatement]
+              ) [SingleStatementDeclNoLabel]
+            ) [StatementListDeclarations]
+            SingleStatementDeclNoLabel(
+              DesignatorStmt(
+                Assignment(
+                  DesignatorOne(
+                    DesignatorName(
+                     x
+                    ) [DesignatorName]
+                  ) [DesignatorOne]
+                  ExprHelpOption(
+                    ExprHelpNoMinus(
+                      Term(
+                        NumFactor(
+                         5
+                        ) [NumFactor]
+                        NoMulopListDecls(
+                        ) [NoMulopListDecls]
+                      ) [Term]
+                      NoAddopList(
+                      ) [NoAddopList]
+                    ) [ExprHelpNoMinus]
+                  ) [ExprHelpOption]
+                ) [Assignment]
+              ) [DesignatorStmt]
+            ) [SingleStatementDeclNoLabel]
+          ) [StatementListDeclarations]
+          SingleStatementDeclLabel(
+            LabelDecl(
+             Marija
+            ) [LabelDecl]
+            ReadStmt(
+              DesignatorOne(
+                DesignatorName(
+                 x
+                ) [DesignatorName]
+              ) [DesignatorOne]
+            ) [ReadStmt]
+          ) [SingleStatementDeclLabel]
+        ) [StatementListDeclarations]
+        SingleStatementDeclNoLabel(
+          ReturnNoExpr(
+          ) [ReturnNoExpr]
+        ) [SingleStatementDeclNoLabel]
+      ) [StatementListDeclarations]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  12:24:59,922 - ===================================
+INFO  12:24:59,928 - Na liniji : 2. Vrsi se deklaracija promenljive x
+INFO  12:24:59,929 - Na liniji : 2. vrsi se deklaracije konstante y
+INFO  12:24:59,929 - Na liniji : 3. vrsi se deklaracije konstante t
+INFO  12:24:59,930 - Na liniji : 7. Vrsi se obrada funkcije main na liniji 7
+INFO  12:24:59,930 - Na liniji : 7. Vrsi se deklaracije promenljive a
+INFO  12:24:59,930 - Na liniji : 7. Vrsi se deklaracija promenljive f
+INFO  12:24:59,930 - Na liniji : 7. Vrsi se deklaracija promenljive ch
+INFO  12:24:59,930 - Linija 8: xVar x: int, 0, 0  na liniji 8
+INFO  12:24:59,931 - Na liniji : 9. U listu goto labela je dodata nova goto labela: Marija
+INFO  12:24:59,931 - Linija 10: xVar x: int, 0, 0  na liniji 10
+INFO  12:24:59,931 - Na liniji : 11. U listu labela je dodata nova labela: Marija
+INFO  12:24:59,931 - Linija 13: xVar x: int, 0, 0  na liniji 13
+INFO  12:24:59,931 - 
+
+SEMANTICKA ANALIZA
+
+Statements :3
+ 1     global variables
+2     global constants
+0     global arrays
+3     local variables in main
+
+INFO  12:24:59,935 - Parsiranje uspesno zavrseno!

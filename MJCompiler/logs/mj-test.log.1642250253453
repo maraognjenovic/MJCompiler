@@ -1,0 +1,132 @@
+INFO  13:37:25,559 - Compiling source file: C:\Users\Marija\Desktop\14.1\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  13:37:25,712 - #6 program
+INFO  13:37:25,712 - #2 Keske
+INFO  13:37:25,713 - #19 {
+INFO  13:37:25,717 - #8 void
+INFO  13:37:25,718 - #2 main
+INFO  13:37:25,728 - #17 (
+INFO  13:37:25,730 - #18 )
+INFO  13:37:25,731 - #2 int
+INFO  13:37:25,732 - #2 i
+INFO  13:37:25,734 - #38 ,
+INFO  13:37:25,734 - #2 j
+INFO  13:37:25,734 - #38 ,
+INFO  13:37:25,734 - #2 arr
+INFO  13:37:25,734 - #21 [
+INFO  13:37:25,735 - #22 ]
+INFO  13:37:25,735 - #37 ;
+INFO  13:37:25,735 - #19 {
+INFO  13:37:25,735 - #2 i
+INFO  13:37:25,736 - #31 =
+INFO  13:37:25,737 - #2 i
+INFO  13:37:25,738 - #12 @
+INFO  13:37:25,739 - #2 j
+INFO  13:37:25,740 - #37 ;
+INFO  13:37:25,741 - #20 }
+INFO  13:37:25,742 - #20 }
+INFO  13:37:25,747 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  NoProgList(
+  ) [NoProgList]
+  MethodDeclarations(
+    MethodDecl(
+      MethodName(
+        VoidRet(
+        ) [VoidRet]
+       main
+      ) [MethodName]
+      MethodVarDeclarations(
+        NoMethodVarDeclarations(
+        ) [NoMethodVarDeclarations]
+        VarDeclaration(
+          Type(
+           int
+          ) [Type]
+          VarParams(
+            VarParams(
+              VarParam(
+                LocalVar(
+                 i
+                ) [LocalVar]
+              ) [VarParam]
+              LocalVar(
+               j
+              ) [LocalVar]
+            ) [VarParams]
+            LocalArr(
+             arr
+            ) [LocalArr]
+          ) [VarParams]
+        ) [VarDeclaration]
+      ) [MethodVarDeclarations]
+      StatementListDeclarations(
+        NoStatementListDeclarations(
+        ) [NoStatementListDeclarations]
+        SingleStatementDeclNoLabel(
+          DesignatorStmt(
+            Assignment(
+              DesignatorOne(
+                DesignatorName(
+                 i
+                ) [DesignatorName]
+              ) [DesignatorOne]
+              Expr(
+                NoAddopList(
+                  Term(
+                    NoMulopListDecls(
+                      FactorM(
+                        FactorUn(
+                          UnaryE(
+                          ) [UnaryE]
+                          FactorDesignator(
+                            DesignatorOne(
+                              DesignatorName(
+                               i
+                              ) [DesignatorName]
+                            ) [DesignatorOne]
+                          ) [FactorDesignator]
+                        ) [FactorUn]
+                        FactorUn(
+                          UnaryE(
+                          ) [UnaryE]
+                          FactorDesignator(
+                            DesignatorOne(
+                              DesignatorName(
+                               j
+                              ) [DesignatorName]
+                            ) [DesignatorOne]
+                          ) [FactorDesignator]
+                        ) [FactorUn]
+                      ) [FactorM]
+                    ) [NoMulopListDecls]
+                  ) [Term]
+                ) [NoAddopList]
+              ) [Expr]
+            ) [Assignment]
+          ) [DesignatorStmt]
+        ) [SingleStatementDeclNoLabel]
+      ) [StatementListDeclarations]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  13:37:25,748 - ===================================
+INFO  13:37:25,752 - Na liniji : 4. Vrsi se obrada funkcije main na liniji 4
+INFO  13:37:25,753 - Na liniji : 4. Vrsi se deklaracija promenljive i
+INFO  13:37:25,753 - Na liniji : 4. Vrsi se deklaracija promenljive j
+INFO  13:37:25,753 - Na liniji : 4. Vrsi se deklaracije promenljive arr
+INFO  13:37:25,754 - Linija 6: iVar i: int, 0, 1  na liniji 6
+INFO  13:37:25,754 - Linija 6: iVar i: int, 0, 1  na liniji 6
+INFO  13:37:25,755 - Linija 6: jVar j: int, 1, 1  na liniji 6
+INFO  13:37:25,756 - 
+
+SEMANTICKA ANALIZA
+
+ Statements :1
+ Global cons: 0
+ Global vars:0
+ Global arrays0
+ Local vars in main:3
+
+INFO  13:37:25,760 - Parsiranje uspesno zavrseno!

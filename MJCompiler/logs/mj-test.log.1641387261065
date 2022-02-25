@@ -1,0 +1,211 @@
+INFO  13:43:24,667 - Compiling source file: C:\Users\Marija\Desktop\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  13:43:24,785 - #6 program
+INFO  13:43:24,786 - #2 MJProgram
+INFO  13:43:24,786 - #2 int
+INFO  13:43:24,787 - #2 x
+INFO  13:43:24,788 - #41 ;
+INFO  13:43:24,788 - #2 int
+INFO  13:43:24,788 - #2 y
+INFO  13:43:24,788 - #41 ;
+INFO  13:43:24,789 - #46 {
+INFO  13:43:24,789 - #2 int
+INFO  13:43:24,789 - #2 k
+INFO  13:43:24,790 - #48 (
+INFO  13:43:24,791 - #49 )
+INFO  13:43:24,792 - #2 int
+INFO  13:43:24,793 - #2 c
+INFO  13:43:24,793 - #41 ;
+INFO  13:43:24,793 - #46 {
+INFO  13:43:24,793 - #2 c
+INFO  13:43:24,794 - #38 =
+INFO  13:43:24,796 - #3 2
+INFO  13:43:24,796 - #41 ;
+INFO  13:43:24,798 - #19 return
+INFO  13:43:24,802 - #2 c
+INFO  13:43:24,802 - #25 +
+INFO  13:43:24,802 - #3 2
+INFO  13:43:24,803 - #41 ;
+INFO  13:43:24,803 - #47 }
+INFO  13:43:24,803 - #2 int
+INFO  13:43:24,803 - #2 main
+ERROR 13:43:24,803 - Doslo je do greske na liniji 6: dodela vrednosti.
+INFO  13:43:24,804 - #48 (
+INFO  13:43:24,804 - #49 )
+INFO  13:43:24,805 - #46 {
+INFO  13:43:24,805 - #17 print
+INFO  13:43:24,805 - #48 (
+INFO  13:43:24,805 - #3 1
+INFO  13:43:24,805 - #49 )
+INFO  13:43:24,806 - #41 ;
+INFO  13:43:24,806 - #2 x
+INFO  13:43:24,806 - #38 =
+INFO  13:43:24,806 - #2 y
+INFO  13:43:24,806 - #25 +
+INFO  13:43:24,806 - #3 5
+INFO  13:43:24,806 - #25 +
+INFO  13:43:24,806 - #3 3
+INFO  13:43:24,807 - #41 ;
+INFO  13:43:24,807 - #17 print
+INFO  13:43:24,807 - #48 (
+INFO  13:43:24,807 - #3 2
+ERROR 13:43:24,807 - Doslo je do greske na liniji 14: dodela vrednosti.
+INFO  13:43:24,807 - #49 )
+INFO  13:43:24,807 - #41 ;
+INFO  13:43:24,807 - #2 k
+INFO  13:43:24,807 - #48 (
+INFO  13:43:24,808 - #49 )
+INFO  13:43:24,808 - #41 ;
+INFO  13:43:24,808 - #19 return
+INFO  13:43:24,808 - #3 1
+INFO  13:43:24,808 - #41 ;
+INFO  13:43:24,808 - #47 }
+INFO  13:43:24,808 - #47 }
+ERROR 13:43:24,809 - Doslo je do greske na liniji 18: dodela vrednosti.
+INFO  13:43:24,811 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  ProgramListDeclaration(
+    ProgramListDeclaration(
+      NoProgramListDeclaration(
+      ) [NoProgramListDeclaration]
+      ListGlobalVar(
+        GlobalVarDeclaration(
+          Type(
+           int
+          ) [Type]
+          GlobalVarSingle(
+            GlobalVar(
+             x
+            ) [GlobalVar]
+          ) [GlobalVarSingle]
+        ) [GlobalVarDeclaration]
+      ) [ListGlobalVar]
+    ) [ProgramListDeclaration]
+    ListGlobalVar(
+      GlobalVarDeclaration(
+        Type(
+         int
+        ) [Type]
+        GlobalVarSingle(
+          GlobalVar(
+           y
+          ) [GlobalVar]
+        ) [GlobalVarSingle]
+      ) [GlobalVarDeclaration]
+    ) [ListGlobalVar]
+  ) [ProgramListDeclaration]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDeclaration(
+      ) [NoMethodDeclaration]
+      MethodDecl(
+        MethodName(
+          OtherRetType(
+            Type(
+             int
+            ) [Type]
+          ) [OtherRetType]
+         k
+        ) [MethodName]
+        NoFormParams(
+        ) [NoFormParams]
+        MethodVarDeclarations(
+          NoMethodVarDeclarations(
+          ) [NoMethodVarDeclarations]
+          VarDeclaration(
+            Type(
+             int
+            ) [Type]
+            VarParam(
+              LocalVar(
+               c
+              ) [LocalVar]
+            ) [VarParam]
+          ) [VarDeclaration]
+        ) [MethodVarDeclarations]
+        StatementListDeclarations(
+          NoStatementListDeclarations(
+          ) [NoStatementListDeclarations]
+          SingleStatementDecl(
+            SingleStatementDerived1(
+            ) [SingleStatementDerived1]
+          ) [SingleStatementDecl]
+        ) [StatementListDeclarations]
+      ) [MethodDecl]
+    ) [MethodDeclarations]
+    MethodDecl(
+      MethodName(
+        OtherRetType(
+          Type(
+           int
+          ) [Type]
+        ) [OtherRetType]
+       main
+      ) [MethodName]
+      NoFormParams(
+      ) [NoFormParams]
+      NoMethodVarDeclarations(
+      ) [NoMethodVarDeclarations]
+      StatementListDeclarations(
+        StatementListDeclarations(
+          StatementListDeclarations(
+            StatementListDeclarations(
+              NoStatementListDeclarations(
+              ) [NoStatementListDeclarations]
+              SingleStatementDecl(
+                PrintStatement(
+                  Expr1Option(
+                    Expr1NoMinus(
+                      Term(
+                        FactorNum(
+                         1
+                        ) [FactorNum]
+                        NoMulopFactorListDecls(
+                        ) [NoMulopFactorListDecls]
+                      ) [Term]
+                      NoAddOperTermList(
+                      ) [NoAddOperTermList]
+                    ) [Expr1NoMinus]
+                  ) [Expr1Option]
+                  NoPrintConsts(
+                  ) [NoPrintConsts]
+                ) [PrintStatement]
+              ) [SingleStatementDecl]
+            ) [StatementListDeclarations]
+            SingleStatementDecl(
+              SingleStatementDerived1(
+              ) [SingleStatementDerived1]
+            ) [SingleStatementDecl]
+          ) [StatementListDeclarations]
+          SingleStatementDecl(
+            PrintStatement(
+              Expr1Option(
+                Expr1NoMinus(
+                  Term(
+                    FactorNum(
+                     2
+                    ) [FactorNum]
+                    NoMulopFactorListDecls(
+                    ) [NoMulopFactorListDecls]
+                  ) [Term]
+                  NoAddOperTermList(
+                  ) [NoAddOperTermList]
+                ) [Expr1NoMinus]
+              ) [Expr1Option]
+              NoPrintConsts(
+              ) [NoPrintConsts]
+            ) [PrintStatement]
+          ) [SingleStatementDecl]
+        ) [StatementListDeclarations]
+        SingleStatementDecl(
+          SingleStatementDerived1(
+          ) [SingleStatementDerived1]
+        ) [SingleStatementDecl]
+      ) [StatementListDeclarations]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  13:43:24,811 - ===================================
+INFO  13:43:24,814 -  Print count calls = 2
+INFO  13:43:24,815 -  Deklarisanih promenljivih ima = 0

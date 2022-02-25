@@ -1,0 +1,436 @@
+INFO  21:02:25,117 - Compiling source file: C:\Users\Marija\Desktop\14.1\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  21:02:25,162 - #6 program
+INFO  21:02:25,162 - #2 Test
+INFO  21:02:25,162 - #2 int
+INFO  21:02:25,165 - #2 arr
+INFO  21:02:25,166 - #22 [
+INFO  21:02:25,166 - #23 ]
+INFO  21:02:25,166 - #32 ;
+INFO  21:02:25,167 - #2 int
+INFO  21:02:25,167 - #2 arr1
+INFO  21:02:25,167 - #22 [
+INFO  21:02:25,167 - #23 ]
+INFO  21:02:25,167 - #32 ;
+INFO  21:02:25,167 - #2 int
+INFO  21:02:25,168 - #2 arr2
+INFO  21:02:25,168 - #22 [
+INFO  21:02:25,168 - #23 ]
+INFO  21:02:25,168 - #32 ;
+INFO  21:02:25,168 - #20 {
+INFO  21:02:25,168 - #8 void
+INFO  21:02:25,168 - #2 main
+INFO  21:02:25,170 - #18 (
+INFO  21:02:25,195 - #19 )
+INFO  21:02:25,196 - #20 {
+INFO  21:02:25,196 - #2 arr
+INFO  21:02:25,197 - #26 =
+INFO  21:02:25,198 - #14 new
+INFO  21:02:25,199 - #2 int
+INFO  21:02:25,200 - #22 [
+INFO  21:02:25,200 - #3 3
+INFO  21:02:25,200 - #23 ]
+INFO  21:02:25,202 - #32 ;
+INFO  21:02:25,203 - #2 arr
+INFO  21:02:25,203 - #22 [
+INFO  21:02:25,204 - #3 0
+INFO  21:02:25,205 - #23 ]
+INFO  21:02:25,206 - #26 =
+INFO  21:02:25,206 - #3 5
+INFO  21:02:25,206 - #32 ;
+INFO  21:02:25,206 - #2 arr
+INFO  21:02:25,206 - #22 [
+INFO  21:02:25,207 - #3 1
+INFO  21:02:25,207 - #23 ]
+INFO  21:02:25,207 - #26 =
+INFO  21:02:25,207 - #3 6
+INFO  21:02:25,208 - #32 ;
+INFO  21:02:25,208 - #2 arr
+INFO  21:02:25,208 - #22 [
+INFO  21:02:25,208 - #3 2
+INFO  21:02:25,209 - #23 ]
+INFO  21:02:25,209 - #26 =
+INFO  21:02:25,209 - #3 7
+INFO  21:02:25,209 - #32 ;
+INFO  21:02:25,210 - #2 arr
+INFO  21:02:25,210 - #22 [
+INFO  21:02:25,210 - #3 0
+INFO  21:02:25,210 - #33 ,
+INFO  21:02:25,211 - #3 1
+INFO  21:02:25,212 - #23 ]
+INFO  21:02:25,212 - #32 ;
+INFO  21:02:25,212 - #9 print
+INFO  21:02:25,213 - #18 (
+INFO  21:02:25,213 - #2 arr
+INFO  21:02:25,213 - #22 [
+INFO  21:02:25,214 - #3 0
+INFO  21:02:25,214 - #23 ]
+INFO  21:02:25,214 - #19 )
+INFO  21:02:25,215 - #32 ;
+INFO  21:02:25,215 - #21 }
+INFO  21:02:25,218 - #21 }
+INFO  21:02:25,235 - Program(
+  ProgramName(
+   Test
+  ) [ProgramName]
+  ProgListDecls(
+    ProgListDecls(
+      ProgListDecls(
+        NoProgList(
+        ) [NoProgList]
+        GlobalVarList(
+          GlobalVarDeclaration(
+            NonFinal(
+            ) [NonFinal]
+            Type(
+             int
+            ) [Type]
+            GlobalVarSingle(
+              GlobalArr(
+               arr
+              ) [GlobalArr]
+            ) [GlobalVarSingle]
+          ) [GlobalVarDeclaration]
+        ) [GlobalVarList]
+      ) [ProgListDecls]
+      GlobalVarList(
+        GlobalVarDeclaration(
+          NonFinal(
+          ) [NonFinal]
+          Type(
+           int
+          ) [Type]
+          GlobalVarSingle(
+            GlobalArr(
+             arr1
+            ) [GlobalArr]
+          ) [GlobalVarSingle]
+        ) [GlobalVarDeclaration]
+      ) [GlobalVarList]
+    ) [ProgListDecls]
+    GlobalVarList(
+      GlobalVarDeclaration(
+        NonFinal(
+        ) [NonFinal]
+        Type(
+         int
+        ) [Type]
+        GlobalVarSingle(
+          GlobalArr(
+           arr2
+          ) [GlobalArr]
+        ) [GlobalVarSingle]
+      ) [GlobalVarDeclaration]
+    ) [GlobalVarList]
+  ) [ProgListDecls]
+  MethodDeclarations(
+    MethodDecl(
+      MethodName(
+        VoidRet(
+        ) [VoidRet]
+       main
+      ) [MethodName]
+      NoMethodVarDeclarations(
+      ) [NoMethodVarDeclarations]
+      StatementListDeclarations(
+        StatementListDeclarations(
+          StatementListDeclarations(
+            StatementListDeclarations(
+              StatementListDeclarations(
+                StatementListDeclarations(
+                  NoStatementListDeclarations(
+                  ) [NoStatementListDeclarations]
+                  SingleStatementDeclNoLabel(
+                    DesignatorStmt(
+                      Assignment(
+                        DesignatorOne(
+                          DesignatorName(
+                           arr
+                          ) [DesignatorName]
+                        ) [DesignatorOne]
+                        Expr(
+                          NoAddopList(
+                            Term(
+                              NoMulopListDecls(
+                                FactorU(
+                                  FactorUn(
+                                    UnaryE(
+                                    ) [UnaryE]
+                                    NewFactor(
+                                      Type(
+                                       int
+                                      ) [Type]
+                                      Expr(
+                                        NoAddopList(
+                                          Term(
+                                            NoMulopListDecls(
+                                              FactorU(
+                                                FactorUn(
+                                                  UnaryE(
+                                                  ) [UnaryE]
+                                                  NumFactor(
+                                                   3
+                                                  ) [NumFactor]
+                                                ) [FactorUn]
+                                              ) [FactorU]
+                                            ) [NoMulopListDecls]
+                                          ) [Term]
+                                        ) [NoAddopList]
+                                      ) [Expr]
+                                    ) [NewFactor]
+                                  ) [FactorUn]
+                                ) [FactorU]
+                              ) [NoMulopListDecls]
+                            ) [Term]
+                          ) [NoAddopList]
+                        ) [Expr]
+                      ) [Assignment]
+                    ) [DesignatorStmt]
+                  ) [SingleStatementDeclNoLabel]
+                ) [StatementListDeclarations]
+                SingleStatementDeclNoLabel(
+                  DesignatorStmt(
+                    Assignment(
+                      DesignatorArr(
+                        DesignatorName(
+                         arr
+                        ) [DesignatorName]
+                        ArrPrep(
+                        ) [ArrPrep]
+                        Expr(
+                          NoAddopList(
+                            Term(
+                              NoMulopListDecls(
+                                FactorU(
+                                  FactorUn(
+                                    UnaryE(
+                                    ) [UnaryE]
+                                    NumFactor(
+                                     0
+                                    ) [NumFactor]
+                                  ) [FactorUn]
+                                ) [FactorU]
+                              ) [NoMulopListDecls]
+                            ) [Term]
+                          ) [NoAddopList]
+                        ) [Expr]
+                      ) [DesignatorArr]
+                      Expr(
+                        NoAddopList(
+                          Term(
+                            NoMulopListDecls(
+                              FactorU(
+                                FactorUn(
+                                  UnaryE(
+                                  ) [UnaryE]
+                                  NumFactor(
+                                   5
+                                  ) [NumFactor]
+                                ) [FactorUn]
+                              ) [FactorU]
+                            ) [NoMulopListDecls]
+                          ) [Term]
+                        ) [NoAddopList]
+                      ) [Expr]
+                    ) [Assignment]
+                  ) [DesignatorStmt]
+                ) [SingleStatementDeclNoLabel]
+              ) [StatementListDeclarations]
+              SingleStatementDeclNoLabel(
+                DesignatorStmt(
+                  Assignment(
+                    DesignatorArr(
+                      DesignatorName(
+                       arr
+                      ) [DesignatorName]
+                      ArrPrep(
+                      ) [ArrPrep]
+                      Expr(
+                        NoAddopList(
+                          Term(
+                            NoMulopListDecls(
+                              FactorU(
+                                FactorUn(
+                                  UnaryE(
+                                  ) [UnaryE]
+                                  NumFactor(
+                                   1
+                                  ) [NumFactor]
+                                ) [FactorUn]
+                              ) [FactorU]
+                            ) [NoMulopListDecls]
+                          ) [Term]
+                        ) [NoAddopList]
+                      ) [Expr]
+                    ) [DesignatorArr]
+                    Expr(
+                      NoAddopList(
+                        Term(
+                          NoMulopListDecls(
+                            FactorU(
+                              FactorUn(
+                                UnaryE(
+                                ) [UnaryE]
+                                NumFactor(
+                                 6
+                                ) [NumFactor]
+                              ) [FactorUn]
+                            ) [FactorU]
+                          ) [NoMulopListDecls]
+                        ) [Term]
+                      ) [NoAddopList]
+                    ) [Expr]
+                  ) [Assignment]
+                ) [DesignatorStmt]
+              ) [SingleStatementDeclNoLabel]
+            ) [StatementListDeclarations]
+            SingleStatementDeclNoLabel(
+              DesignatorStmt(
+                Assignment(
+                  DesignatorArr(
+                    DesignatorName(
+                     arr
+                    ) [DesignatorName]
+                    ArrPrep(
+                    ) [ArrPrep]
+                    Expr(
+                      NoAddopList(
+                        Term(
+                          NoMulopListDecls(
+                            FactorU(
+                              FactorUn(
+                                UnaryE(
+                                ) [UnaryE]
+                                NumFactor(
+                                 2
+                                ) [NumFactor]
+                              ) [FactorUn]
+                            ) [FactorU]
+                          ) [NoMulopListDecls]
+                        ) [Term]
+                      ) [NoAddopList]
+                    ) [Expr]
+                  ) [DesignatorArr]
+                  Expr(
+                    NoAddopList(
+                      Term(
+                        NoMulopListDecls(
+                          FactorU(
+                            FactorUn(
+                              UnaryE(
+                              ) [UnaryE]
+                              NumFactor(
+                               7
+                              ) [NumFactor]
+                            ) [FactorUn]
+                          ) [FactorU]
+                        ) [NoMulopListDecls]
+                      ) [Term]
+                    ) [NoAddopList]
+                  ) [Expr]
+                ) [Assignment]
+              ) [DesignatorStmt]
+            ) [SingleStatementDeclNoLabel]
+          ) [StatementListDeclarations]
+          SingleStatementDeclNoLabel(
+            Swap(
+              DesignatorName(
+               arr
+              ) [DesignatorName]
+              ArrPrep(
+              ) [ArrPrep]
+              Expr(
+                NoAddopList(
+                  Term(
+                    NoMulopListDecls(
+                      FactorU(
+                        FactorUn(
+                          UnaryE(
+                          ) [UnaryE]
+                          NumFactor(
+                           0
+                          ) [NumFactor]
+                        ) [FactorUn]
+                      ) [FactorU]
+                    ) [NoMulopListDecls]
+                  ) [Term]
+                ) [NoAddopList]
+              ) [Expr]
+              Expr(
+                NoAddopList(
+                  Term(
+                    NoMulopListDecls(
+                      FactorU(
+                        FactorUn(
+                          UnaryE(
+                          ) [UnaryE]
+                          NumFactor(
+                           1
+                          ) [NumFactor]
+                        ) [FactorUn]
+                      ) [FactorU]
+                    ) [NoMulopListDecls]
+                  ) [Term]
+                ) [NoAddopList]
+              ) [Expr]
+            ) [Swap]
+          ) [SingleStatementDeclNoLabel]
+        ) [StatementListDeclarations]
+        SingleStatementDeclNoLabel(
+          PrintStmt(
+            Expr(
+              NoAddopList(
+                Term(
+                  NoMulopListDecls(
+                    FactorU(
+                      FactorUn(
+                        UnaryE(
+                        ) [UnaryE]
+                        FactorDesignator(
+                          DesignatorArr(
+                            DesignatorName(
+                             arr
+                            ) [DesignatorName]
+                            ArrPrep(
+                            ) [ArrPrep]
+                            Expr(
+                              NoAddopList(
+                                Term(
+                                  NoMulopListDecls(
+                                    FactorU(
+                                      FactorUn(
+                                        UnaryE(
+                                        ) [UnaryE]
+                                        NumFactor(
+                                         0
+                                        ) [NumFactor]
+                                      ) [FactorUn]
+                                    ) [FactorU]
+                                  ) [NoMulopListDecls]
+                                ) [Term]
+                              ) [NoAddopList]
+                            ) [Expr]
+                          ) [DesignatorArr]
+                        ) [FactorDesignator]
+                      ) [FactorUn]
+                    ) [FactorU]
+                  ) [NoMulopListDecls]
+                ) [Term]
+              ) [NoAddopList]
+            ) [Expr]
+            NoPrintConstantants(
+            ) [NoPrintConstantants]
+          ) [PrintStmt]
+        ) [SingleStatementDeclNoLabel]
+      ) [StatementListDeclarations]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  21:02:25,236 - ===================================
+INFO  21:02:25,240 - Na liniji : 4. Vrsi se deklaracija promenljive arr
+INFO  21:02:25,240 - Na liniji : 5. Vrsi se deklaracija promenljive arr1
+INFO  21:02:25,241 - Na liniji : 6. Vrsi se deklaracija promenljive arr2
+INFO  21:02:25,241 - Na liniji : 9. Vrsi se obrada funkcije main na liniji 9
+INFO  21:02:25,241 - Linija 10: arrVar arr: Arr of int, 0, 0  na liniji 10
+INFO  21:02:25,242 - Linija 12: arrarr: int, 0, 0  na liniji 12
+INFO  21:02:25,243 - Linija 13: arrarr: int, 0, 0  na liniji 13
+INFO  21:02:25,243 - Linija 14: arrarr: int, 0, 0  na liniji 14

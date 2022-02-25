@@ -1,0 +1,335 @@
+INFO  00:19:48,102 - Compiling source file: C:\Users\Marija\Desktop\14.1\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  00:19:48,145 - #6 program
+INFO  00:19:48,145 - #3 test301
+INFO  00:19:48,145 - #15 const
+INFO  00:19:48,146 - #3 int
+INFO  00:19:48,146 - #3 nula
+INFO  00:19:48,147 - #25 =
+INFO  00:19:48,148 - #5 0
+INFO  00:19:48,148 - #31 ;
+INFO  00:19:48,149 - #15 const
+INFO  00:19:48,150 - #3 int
+INFO  00:19:48,150 - #3 jedan
+INFO  00:19:48,150 - #25 =
+INFO  00:19:48,150 - #5 1
+INFO  00:19:48,150 - #31 ;
+INFO  00:19:48,150 - #15 const
+INFO  00:19:48,150 - #3 int
+INFO  00:19:48,150 - #3 pet
+INFO  00:19:48,151 - #25 =
+INFO  00:19:48,151 - #5 5
+INFO  00:19:48,151 - #31 ;
+INFO  00:19:48,151 - #3 int
+INFO  00:19:48,153 - #3 niz
+INFO  00:19:48,153 - #17 (
+INFO  00:19:48,154 - #18 )
+INFO  00:19:48,154 - #31 ;
+INFO  00:19:48,154 - #3 char
+INFO  00:19:48,155 - #3 nizch
+INFO  00:19:48,155 - #21 [
+ERROR 00:19:48,155 - Sintaksna greska lose deklarisana globalna promenljiva, linija :
+INFO  00:19:48,156 - #22 ]
+INFO  00:19:48,157 - #31 ;
+INFO  00:19:48,157 - #19 {
+INFO  00:19:48,157 - #8 void
+INFO  00:19:48,157 - #3 main
+INFO  00:19:48,159 - #17 (
+INFO  00:19:48,160 - #18 )
+INFO  00:19:48,160 - #3 int
+INFO  00:19:48,161 - #3 bodovi
+INFO  00:19:48,162 - #31 ;
+INFO  00:19:48,162 - #19 {
+INFO  00:19:48,163 - #3 bodovi
+INFO  00:19:48,164 - #25 =
+INFO  00:19:48,165 - #5 0
+INFO  00:19:48,166 - #31 ;
+INFO  00:19:48,173 - #3 bodovi
+INFO  00:19:48,173 - #23 ++
+INFO  00:19:48,174 - #31 ;
+INFO  00:19:48,174 - #3 bodovi
+INFO  00:19:48,174 - #25 =
+INFO  00:19:48,174 - #3 bodovi
+INFO  00:19:48,174 - #26 +
+INFO  00:19:48,175 - #3 jedan
+INFO  00:19:48,177 - #31 ;
+INFO  00:19:48,178 - #3 bodovi
+INFO  00:19:48,179 - #25 =
+INFO  00:19:48,180 - #3 bodovi
+INFO  00:19:48,181 - #28 *
+INFO  00:19:48,181 - #3 pet
+INFO  00:19:48,184 - #31 ;
+INFO  00:19:48,184 - #3 bodovi
+INFO  00:19:48,184 - #24 --
+INFO  00:19:48,185 - #31 ;
+INFO  00:19:48,185 - #9 print
+INFO  00:19:48,185 - #17 (
+INFO  00:19:48,185 - #3 bodovi
+INFO  00:19:48,186 - #18 )
+INFO  00:19:48,187 - #31 ;
+INFO  00:19:48,187 - #3 niz
+INFO  00:19:48,191 - #25 =
+INFO  00:19:48,191 - #14 new
+INFO  00:19:48,192 - #3 int
+INFO  00:19:48,192 - #21 [
+INFO  00:19:48,192 - #5 3
+INFO  00:19:48,193 - #22 ]
+INFO  00:19:48,193 - #31 ;
+INFO  00:19:48,195 - #3 niz
+INFO  00:19:48,195 - #21 [
+INFO  00:19:48,196 - #3 nula
+INFO  00:19:48,196 - #22 ]
+INFO  00:19:48,196 - #25 =
+INFO  00:19:48,197 - #3 jedan
+INFO  00:19:48,197 - #31 ;
+INFO  00:19:48,197 - #3 niz
+INFO  00:19:48,198 - #21 [
+INFO  00:19:48,198 - #5 1
+INFO  00:19:48,198 - #22 ]
+INFO  00:19:48,198 - #25 =
+INFO  00:19:48,198 - #5 2
+INFO  00:19:48,199 - #31 ;
+INFO  00:19:48,199 - #3 niz
+INFO  00:19:48,199 - #21 [
+INFO  00:19:48,200 - #3 niz
+INFO  00:19:48,200 - #21 [
+INFO  00:19:48,200 - #3 jedan
+INFO  00:19:48,200 - #22 ]
+INFO  00:19:48,201 - #22 ]
+INFO  00:19:48,201 - #25 =
+INFO  00:19:48,201 - #3 niz
+INFO  00:19:48,201 - #21 [
+INFO  00:19:48,202 - #3 niz
+INFO  00:19:48,202 - #21 [
+INFO  00:19:48,202 - #5 0
+INFO  00:19:48,202 - #22 ]
+INFO  00:19:48,202 - #22 ]
+INFO  00:19:48,203 - #28 *
+INFO  00:19:48,203 - #5 3
+INFO  00:19:48,203 - #31 ;
+INFO  00:19:48,203 - #3 bodovi
+INFO  00:19:48,204 - #25 =
+INFO  00:19:48,204 - #3 niz
+INFO  00:19:48,204 - #21 [
+INFO  00:19:48,204 - #5 2
+INFO  00:19:48,205 - #22 ]
+INFO  00:19:48,205 - #29 /
+INFO  00:19:48,205 - #3 niz
+INFO  00:19:48,206 - #21 [
+INFO  00:19:48,206 - #5 0
+INFO  00:19:48,207 - #22 ]
+INFO  00:19:48,207 - #31 ;
+INFO  00:19:48,207 - #9 print
+INFO  00:19:48,207 - #17 (
+INFO  00:19:48,208 - #3 bodovi
+INFO  00:19:48,208 - #18 )
+INFO  00:19:48,208 - #31 ;
+INFO  00:19:48,208 - #9 print
+INFO  00:19:48,209 - #17 (
+INFO  00:19:48,209 - #3 niz
+INFO  00:19:48,210 - #21 [
+INFO  00:19:48,211 - #5 2
+INFO  00:19:48,211 - #22 ]
+INFO  00:19:48,212 - #18 )
+INFO  00:19:48,212 - #31 ;
+INFO  00:19:48,212 - #3 nizch
+INFO  00:19:48,212 - #25 =
+INFO  00:19:48,213 - #14 new
+INFO  00:19:48,213 - #3 char
+INFO  00:19:48,213 - #21 [
+INFO  00:19:48,213 - #5 3
+INFO  00:19:48,214 - #22 ]
+INFO  00:19:48,214 - #31 ;
+INFO  00:19:48,214 - #3 nizch
+INFO  00:19:48,214 - #21 [
+INFO  00:19:48,214 - #5 0
+INFO  00:19:48,215 - #22 ]
+INFO  00:19:48,215 - #25 =
+INFO  00:19:48,215 - #4 a
+INFO  00:19:48,215 - #31 ;
+INFO  00:19:48,216 - #3 nizch
+INFO  00:19:48,216 - #21 [
+INFO  00:19:48,216 - #3 jedan
+INFO  00:19:48,216 - #22 ]
+INFO  00:19:48,217 - #25 =
+INFO  00:19:48,217 - #4 b
+INFO  00:19:48,217 - #31 ;
+INFO  00:19:48,217 - #3 nizch
+INFO  00:19:48,217 - #21 [
+INFO  00:19:48,217 - #3 pet
+INFO  00:19:48,218 - #27 -
+INFO  00:19:48,218 - #5 3
+INFO  00:19:48,219 - #22 ]
+INFO  00:19:48,219 - #25 =
+INFO  00:19:48,219 - #4 c
+INFO  00:19:48,220 - #31 ;
+INFO  00:19:48,220 - #9 print
+INFO  00:19:48,220 - #17 (
+INFO  00:19:48,220 - #3 nizch
+INFO  00:19:48,220 - #21 [
+INFO  00:19:48,220 - #5 1
+INFO  00:19:48,221 - #22 ]
+INFO  00:19:48,221 - #18 )
+INFO  00:19:48,221 - #31 ;
+INFO  00:19:48,221 - #9 print
+INFO  00:19:48,222 - #17 (
+INFO  00:19:48,222 - #3 nizch
+INFO  00:19:48,222 - #21 [
+INFO  00:19:48,222 - #3 jedan
+INFO  00:19:48,222 - #28 *
+INFO  00:19:48,223 - #5 2
+INFO  00:19:48,223 - #22 ]
+INFO  00:19:48,223 - #18 )
+INFO  00:19:48,223 - #31 ;
+INFO  00:19:48,223 - #3 bodovi
+INFO  00:19:48,224 - #25 =
+INFO  00:19:48,224 - #3 bodovi
+INFO  00:19:48,224 - #26 +
+INFO  00:19:48,224 - #17 (
+INFO  00:19:48,224 - #3 pet
+INFO  00:19:48,225 - #28 *
+INFO  00:19:48,225 - #3 jedan
+INFO  00:19:48,225 - #27 -
+INFO  00:19:48,225 - #5 1
+INFO  00:19:48,226 - #18 )
+INFO  00:19:48,227 - #28 *
+INFO  00:19:48,228 - #3 bodovi
+INFO  00:19:48,228 - #27 -
+INFO  00:19:48,228 - #17 (
+INFO  00:19:48,229 - #5 3
+INFO  00:19:48,229 - #30 %
+INFO  00:19:48,229 - #5 2
+INFO  00:19:48,230 - #26 +
+INFO  00:19:48,231 - #5 3
+INFO  00:19:48,231 - #28 *
+INFO  00:19:48,231 - #5 2
+INFO  00:19:48,232 - #27 -
+INFO  00:19:48,232 - #5 3
+INFO  00:19:48,232 - #18 )
+INFO  00:19:48,232 - #31 ;
+INFO  00:19:48,233 - #9 print
+INFO  00:19:48,233 - #17 (
+INFO  00:19:48,233 - #3 bodovi
+INFO  00:19:48,233 - #18 )
+INFO  00:19:48,233 - #31 ;
+INFO  00:19:48,233 - #10 read
+INFO  00:19:48,234 - #17 (
+INFO  00:19:48,234 - #3 bodovi
+INFO  00:19:48,234 - #18 )
+INFO  00:19:48,234 - #31 ;
+INFO  00:19:48,234 - #9 print
+INFO  00:19:48,234 - #17 (
+INFO  00:19:48,234 - #3 bodovi
+INFO  00:19:48,234 - #18 )
+INFO  00:19:48,234 - #31 ;
+INFO  00:19:48,234 - #3 bodovi
+INFO  00:19:48,235 - #23 ++
+INFO  00:19:48,235 - #31 ;
+INFO  00:19:48,235 - #16 goto
+INFO  00:19:48,235 - #3 labela1
+INFO  00:19:48,236 - #31 ;
+INFO  00:19:48,236 - #3 bodovi
+INFO  00:19:48,236 - #25 =
+INFO  00:19:48,236 - #3 bodovi
+INFO  00:19:48,237 - #28 *
+INFO  00:19:48,237 - #5 2
+INFO  00:19:48,237 - #31 ;
+INFO  00:19:48,237 - #3 bodovi
+INFO  00:19:48,237 - #24 --
+INFO  00:19:48,238 - #31 ;
+INFO  00:19:48,238 - #3 labela1
+INFO  00:19:48,238 - #33 :
+INFO  00:19:48,238 - #3 bodovi
+INFO  00:19:48,238 - #25 =
+INFO  00:19:48,238 - #3 bodovi
+INFO  00:19:48,238 - #26 +
+INFO  00:19:48,239 - #5 3
+INFO  00:19:48,239 - #31 ;
+INFO  00:19:48,239 - #9 print
+INFO  00:19:48,239 - #17 (
+INFO  00:19:48,239 - #3 bodovi
+INFO  00:19:48,239 - #18 )
+INFO  00:19:48,240 - #31 ;
+INFO  00:19:48,240 - #16 goto
+INFO  00:19:48,240 - #3 labelaminus
+INFO  00:19:48,240 - #31 ;
+INFO  00:19:48,240 - #9 print
+INFO  00:19:48,240 - #17 (
+INFO  00:19:48,241 - #4 +
+INFO  00:19:48,241 - #18 )
+INFO  00:19:48,241 - #31 ;
+INFO  00:19:48,242 - #3 labelaminus
+INFO  00:19:48,242 - #33 :
+INFO  00:19:48,243 - #9 print
+INFO  00:19:48,243 - #17 (
+INFO  00:19:48,243 - #4 -
+INFO  00:19:48,243 - #18 )
+INFO  00:19:48,244 - #31 ;
+INFO  00:19:48,244 - #20 }
+INFO  00:19:48,244 - #20 }
+INFO  00:19:48,252 - =================SINTAKSNO STABLO==================
+INFO  00:19:48,253 - ===================================
+INFO  00:19:48,257 - Na liniji : 5. Vrsi se deklaracije konstante nula
+INFO  00:19:48,257 - Na liniji : 6. Vrsi se deklaracije konstante jedan
+INFO  00:19:48,257 - Na liniji : 7. Vrsi se deklaracije konstante pet
+INFO  00:19:48,258 - Na liniji : 10. Vrsi se deklaracija promenljive nizch
+INFO  00:19:48,258 - Na liniji : 13. Vrsi se obrada funkcije main
+INFO  00:19:48,259 - Na liniji : 14. Vrsi se deklaracija promenljive bodovi
+INFO  00:19:48,259 - Na liniji : 16Var bodovi: int, 0, 1 bodovi
+INFO  00:19:48,261 - Na liniji : 17Var bodovi: int, 0, 1 bodovi
+INFO  00:19:48,261 - Na liniji : 18Var bodovi: int, 0, 1 bodovi
+INFO  00:19:48,262 - Na liniji : 18Var bodovi: int, 0, 1 bodovi
+INFO  00:19:48,262 - Na liniji : 18Con jedan: int, 1, 0 jedan
+INFO  00:19:48,262 - Na liniji : 19Var bodovi: int, 0, 1 bodovi
+INFO  00:19:48,262 - Na liniji : 19Var bodovi: int, 0, 1 bodovi
+INFO  00:19:48,263 - Na liniji : 19Con pet: int, 5, 0 pet
+INFO  00:19:48,263 - Na liniji : 20Var bodovi: int, 0, 1 bodovi
+INFO  00:19:48,263 - Na liniji : 21Var bodovi: int, 0, 1 bodovi
+ERROR 00:19:48,263 - SEMANTICKA GRESKA : Greska na liniji 24: Ime niz nije deklarisano.
+ERROR 00:19:48,263 - SEMANTICKA GRESKA :Greska na liniji 24: Doslo je do greske pri dodeli
+INFO  00:19:48,263 - Na liniji : 25Con nula: int, 0, 0 nula
+ERROR 00:19:48,264 - SEMANTICKA GRESKA : Greska na liniji 25: Ime noObj nije deklarisano.
+INFO  00:19:48,264 - Na liniji : 25Con jedan: int, 1, 0 jedan
+ERROR 00:19:48,264 - SEMANTICKA GRESKA :Greska na liniji 25: Doslo je do greske pri dodeli
+ERROR 00:19:48,264 - SEMANTICKA GRESKA : Greska na liniji 26: Ime noObj nije deklarisano.
+ERROR 00:19:48,264 - SEMANTICKA GRESKA :Greska na liniji 26: Doslo je do greske pri dodeli
+INFO  00:19:48,264 - Na liniji : 27Con jedan: int, 1, 0 jedan
+ERROR 00:19:48,265 - SEMANTICKA GRESKA : Greska na liniji 27: Ime noObj nije deklarisano.
+ERROR 00:19:48,265 - SEMANTICKA GRESKA : Greska na liniji 27: Ime noObj nije deklarisano.
+ERROR 00:19:48,265 - SEMANTICKA GRESKA :Greska na liniji 18: Ne mozete koristiti operaciju mulop ako nije tipa int
+INFO  00:19:48,265 - Na liniji : 28Var bodovi: int, 0, 1 bodovi
+ERROR 00:19:48,265 - SEMANTICKA GRESKA : Greska na liniji 28: Ime noObj nije deklarisano.
+ERROR 00:19:48,265 - SEMANTICKA GRESKA : Greska na liniji 28: Ime noObj nije deklarisano.
+ERROR 00:19:48,265 - SEMANTICKA GRESKA :Greska na liniji 9: Ne mozete koristiti operaciju mulop ako nije tipa int
+ERROR 00:19:48,265 - SEMANTICKA GRESKA :Greska na liniji 28: Doslo je do greske pri dodeli
+INFO  00:19:48,266 - Na liniji : 29Var bodovi: int, 0, 1 bodovi
+ERROR 00:19:48,266 - SEMANTICKA GRESKA : Greska na liniji 30: Ime noObj nije deklarisano.
+ERROR 00:19:48,266 - SEMANTICKA GRESKA :Greska na liniji 7: : Izraz unutar print naredbe mora biti tipa int, char ili bool.
+INFO  00:19:48,266 - Na liniji : 33Var nizch: Arr of char, 0, 0 nizch
+INFO  00:19:48,266 - nizch: char, 0, 0  na liniji 34
+INFO  00:19:48,266 - Na liniji : 35Con jedan: int, 1, 0 jedan
+INFO  00:19:48,266 - nizch: char, 0, 0  na liniji 35
+INFO  00:19:48,267 - Na liniji : 36Con pet: int, 5, 0 pet
+INFO  00:19:48,267 - nizch: char, 0, 0  na liniji 36
+INFO  00:19:48,267 - nizch: char, 0, 0  na liniji 37
+INFO  00:19:48,267 - Na liniji : 38Con jedan: int, 1, 0 jedan
+INFO  00:19:48,267 - nizch: char, 0, 0  na liniji 38
+INFO  00:19:48,267 - Na liniji : 41Var bodovi: int, 0, 1 bodovi
+INFO  00:19:48,267 - Na liniji : 41Var bodovi: int, 0, 1 bodovi
+INFO  00:19:48,268 - Na liniji : 41Con pet: int, 5, 0 pet
+INFO  00:19:48,268 - Na liniji : 41Con jedan: int, 1, 0 jedan
+INFO  00:19:48,268 - Na liniji : 41Var bodovi: int, 0, 1 bodovi
+INFO  00:19:48,268 - Na liniji : 42Var bodovi: int, 0, 1 bodovi
+INFO  00:19:48,268 - Na liniji : 44Var bodovi: int, 0, 1 bodovi
+INFO  00:19:48,268 - Na liniji : 45Var bodovi: int, 0, 1 bodovi
+INFO  00:19:48,268 - Na liniji : 47Var bodovi: int, 0, 1 bodovi
+INFO  00:19:48,269 - Na liniji : 48. U listu labela je dodata nova labela: labela1
+INFO  00:19:48,269 - Na liniji : 49Var bodovi: int, 0, 1 bodovi
+INFO  00:19:48,269 - Na liniji : 49Var bodovi: int, 0, 1 bodovi
+INFO  00:19:48,269 - Na liniji : 50Var bodovi: int, 0, 1 bodovi
+INFO  00:19:48,271 - Na liniji : 51. U listu labela je dodata nova labela: labela1
+INFO  00:19:48,271 - Na liniji : 52Var bodovi: int, 0, 1 bodovi
+INFO  00:19:48,271 - Na liniji : 52Var bodovi: int, 0, 1 bodovi
+INFO  00:19:48,271 - Na liniji : 53Var bodovi: int, 0, 1 bodovi
+INFO  00:19:48,271 - Na liniji : 54. U listu labela je dodata nova labela: labelaminus
+INFO  00:19:48,271 - Na liniji : 56. U listu labela je dodata nova labela: labelaminus
+ERROR 00:19:48,272 - Parsiranje NIJE uspesno zavrseno!

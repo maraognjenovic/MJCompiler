@@ -1,0 +1,269 @@
+INFO  21:34:31,731 - Compiling source file: C:\Users\Marija\Desktop\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  21:34:31,817 - #7 program
+INFO  21:34:31,817 - #2 MJProgram
+INFO  21:34:31,817 - #2 int
+INFO  21:34:31,818 - #2 x
+INFO  21:34:31,819 - #48 ;
+INFO  21:34:31,819 - #2 int
+INFO  21:34:31,820 - #2 y
+INFO  21:34:31,820 - #48 ;
+INFO  21:34:31,820 - #12 class
+INFO  21:34:31,820 - #2 A
+INFO  21:34:31,820 - #28 {
+INFO  21:34:31,822 - #2 int
+INFO  21:34:31,823 - #2 a
+INFO  21:34:31,823 - #48 ;
+INFO  21:34:31,823 - #29 }
+INFO  21:34:31,824 - #28 {
+INFO  21:34:31,824 - #2 int
+INFO  21:34:31,825 - #2 mara
+INFO  21:34:31,825 - #26 (
+INFO  21:34:31,826 - #27 )
+INFO  21:34:31,827 - #28 {
+INFO  21:34:31,828 - #2 marija
+INFO  21:34:31,832 - #2 t
+INFO  21:34:31,832 - #48 ;
+INFO  21:34:31,833 - #10 print
+INFO  21:34:31,833 - #26 (
+INFO  21:34:31,833 - #3 1
+ERROR 21:34:31,833 - Greska na 7. liniji: iskaz dodele vrednosti - oporavak izvrsen.
+INFO  21:34:31,834 - #27 )
+INFO  21:34:31,837 - #48 ;
+INFO  21:34:31,837 - #2 y
+INFO  21:34:31,837 - #42 =
+INFO  21:34:31,838 - #3 2
+INFO  21:34:31,838 - #48 ;
+INFO  21:34:31,838 - #2 x
+INFO  21:34:31,838 - #42 =
+INFO  21:34:31,838 - #3 5
+INFO  21:34:31,838 - #48 ;
+INFO  21:34:31,839 - #10 print
+INFO  21:34:31,839 - #26 (
+INFO  21:34:31,839 - #3 2
+INFO  21:34:31,839 - #27 )
+INFO  21:34:31,839 - #48 ;
+INFO  21:34:31,839 - #8 return
+INFO  21:34:31,839 - #3 3
+INFO  21:34:31,839 - #48 ;
+INFO  21:34:31,840 - #29 }
+INFO  21:34:31,840 - #29 }
+INFO  21:34:31,850 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  ProgListDecls(
+    ProgListDecls(
+      ProgListDecls(
+        NoProgList(
+        ) [NoProgList]
+        GlobalVarList(
+          GlobalVarDeclaration(
+            Type(
+             int
+            ) [Type]
+            GlobalVarSingle(
+              GlobalVar(
+               x
+              ) [GlobalVar]
+            ) [GlobalVarSingle]
+          ) [GlobalVarDeclaration]
+        ) [GlobalVarList]
+      ) [ProgListDecls]
+      GlobalVarList(
+        GlobalVarDeclaration(
+          Type(
+           int
+          ) [Type]
+          GlobalVarSingle(
+            GlobalVar(
+             y
+            ) [GlobalVar]
+          ) [GlobalVarSingle]
+        ) [GlobalVarDeclaration]
+      ) [GlobalVarList]
+    ) [ProgListDecls]
+    GlobalClassList(
+      ClassDeclaration(
+        ClassName(
+         A
+        ) [ClassName]
+        NoExtendHelp(
+        ) [NoExtendHelp]
+        ClassVarDeclarations(
+          NoClassVarDeclarations(
+          ) [NoClassVarDeclarations]
+          VarDeclaration(
+            Type(
+             int
+            ) [Type]
+            VarParam(
+              LocalVar(
+               a
+              ) [LocalVar]
+            ) [VarParam]
+          ) [VarDeclaration]
+        ) [ClassVarDeclarations]
+        NoClassMethOptionDeclaration(
+        ) [NoClassMethOptionDeclaration]
+      ) [ClassDeclaration]
+    ) [GlobalClassList]
+  ) [ProgListDecls]
+  MethodDeclarations(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDecl(
+      MethodName(
+        OtherRetType(
+          Type(
+           int
+          ) [Type]
+        ) [OtherRetType]
+       mara
+      ) [MethodName]
+      NoFormParams(
+      ) [NoFormParams]
+      NoMethodVarDeclarations(
+      ) [NoMethodVarDeclarations]
+      StatementListDeclarations(
+        StatementListDeclarations(
+          StatementListDeclarations(
+            StatementListDeclarations(
+              StatementListDeclarations(
+                StatementListDeclarations(
+                  NoStatementListDeclarations(
+                  ) [NoStatementListDeclarations]
+                  SingleStatementDecl(
+                    SingleStatementDerived1(
+                    ) [SingleStatementDerived1]
+                  ) [SingleStatementDecl]
+                ) [StatementListDeclarations]
+                SingleStatementDecl(
+                  PrintStatement(
+                    ExprHelpOption(
+                      ExprHelpNoMinus(
+                        Term(
+                          FactorNum(
+                           1
+                          ) [FactorNum]
+                          NoMulopListDecls(
+                          ) [NoMulopListDecls]
+                        ) [Term]
+                        NoAddopList(
+                        ) [NoAddopList]
+                      ) [ExprHelpNoMinus]
+                    ) [ExprHelpOption]
+                    NoPrintConstantants(
+                    ) [NoPrintConstantants]
+                  ) [PrintStatement]
+                ) [SingleStatementDecl]
+              ) [StatementListDeclarations]
+              SingleStatementDecl(
+                DesignatorStmt(
+                  Assignment(
+                    DesignatorSingle(
+                      DesignatorName(
+                       y
+                      ) [DesignatorName]
+                    ) [DesignatorSingle]
+                    ExprHelpOption(
+                      ExprHelpNoMinus(
+                        Term(
+                          FactorNum(
+                           2
+                          ) [FactorNum]
+                          NoMulopListDecls(
+                          ) [NoMulopListDecls]
+                        ) [Term]
+                        NoAddopList(
+                        ) [NoAddopList]
+                      ) [ExprHelpNoMinus]
+                    ) [ExprHelpOption]
+                  ) [Assignment]
+                ) [DesignatorStmt]
+              ) [SingleStatementDecl]
+            ) [StatementListDeclarations]
+            SingleStatementDecl(
+              DesignatorStmt(
+                Assignment(
+                  DesignatorSingle(
+                    DesignatorName(
+                     x
+                    ) [DesignatorName]
+                  ) [DesignatorSingle]
+                  ExprHelpOption(
+                    ExprHelpNoMinus(
+                      Term(
+                        FactorNum(
+                         5
+                        ) [FactorNum]
+                        NoMulopListDecls(
+                        ) [NoMulopListDecls]
+                      ) [Term]
+                      NoAddopList(
+                      ) [NoAddopList]
+                    ) [ExprHelpNoMinus]
+                  ) [ExprHelpOption]
+                ) [Assignment]
+              ) [DesignatorStmt]
+            ) [SingleStatementDecl]
+          ) [StatementListDeclarations]
+          SingleStatementDecl(
+            PrintStatement(
+              ExprHelpOption(
+                ExprHelpNoMinus(
+                  Term(
+                    FactorNum(
+                     2
+                    ) [FactorNum]
+                    NoMulopListDecls(
+                    ) [NoMulopListDecls]
+                  ) [Term]
+                  NoAddopList(
+                  ) [NoAddopList]
+                ) [ExprHelpNoMinus]
+              ) [ExprHelpOption]
+              NoPrintConstantants(
+              ) [NoPrintConstantants]
+            ) [PrintStatement]
+          ) [SingleStatementDecl]
+        ) [StatementListDeclarations]
+        SingleStatementDecl(
+          ReturnExpr(
+            ExprHelpOption(
+              ExprHelpNoMinus(
+                Term(
+                  FactorNum(
+                   3
+                  ) [FactorNum]
+                  NoMulopListDecls(
+                  ) [NoMulopListDecls]
+                ) [Term]
+                NoAddopList(
+                ) [NoAddopList]
+              ) [ExprHelpNoMinus]
+            ) [ExprHelpOption]
+          ) [ReturnExpr]
+        ) [SingleStatementDecl]
+      ) [StatementListDeclarations]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  21:34:31,850 - ===================================
+INFO  21:34:31,854 - Linija 2: Deklarise se promenljiva x
+INFO  21:34:31,854 - Linija 2: Deklarise se promenljiva y
+INFO  21:34:31,854 - Obradjuje se klasa A
+INFO  21:34:31,854 - Linija 3: Deklarise se promenljiva a
+INFO  21:34:31,854 - Linija 6: Obradjuje se funkcija mara na liniji 6
+INFO  21:34:31,854 - Linija 9: y - pronadjeno!	Var y: int, 1, 0  na liniji 9
+INFO  21:34:31,854 - Linija 10: x - pronadjeno!	Var x: int, 0, 0  na liniji 10
+INFO  21:34:31,855 -  classCnt = 1
+INFO  21:34:31,855 -  methodCnt = 1
+INFO  21:34:31,855 -  globalVarCnt = 2
+INFO  21:34:31,855 -  globalConCnt = 0
+INFO  21:34:31,855 -  globalArrCnt = 0
+INFO  21:34:31,855 -  localVarCnt = 1
+INFO  21:34:31,855 -  stmtCnt = 4
+INFO  21:34:31,855 -  numOfErrors = 0
+INFO  21:34:31,855 -  Deklarisanih promenljivih ima = 2
+INFO  21:34:31,855 - ===================================
+ERROR 21:34:31,856 - Parsiranje NIJE uspesno zavrseno!

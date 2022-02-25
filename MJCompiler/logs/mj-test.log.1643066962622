@@ -1,0 +1,83 @@
+INFO  00:27:57,206 - Compiling source file: C:\Users\Marija\Desktop\14.1\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  00:27:57,269 - #6 program
+INFO  00:27:57,270 - #3 test1
+INFO  00:27:57,270 - #3 int
+INFO  00:27:57,272 - #3 niz
+INFO  00:27:57,273 - #26 +
+INFO  00:27:57,274 - #32 ,
+INFO  00:27:57,274 - #3 x
+INFO  00:27:57,274 - #31 ;
+INFO  00:27:57,275 - #3 int
+ERROR 00:27:57,275 - Sintaksna greska lose deklarisana globalna promenljiva
+INFO  00:27:57,278 - #3 x
+INFO  00:27:57,278 - #26 +
+INFO  00:27:57,278 - #31 ;
+INFO  00:27:57,278 - #19 {
+INFO  00:27:57,279 - #8 void
+INFO  00:27:57,279 - #3 main
+ERROR 00:27:57,279 - Sintaksna greska lose deklarisana globalna promenljiva
+INFO  00:27:57,281 - #17 (
+INFO  00:27:57,285 - #18 )
+INFO  00:27:57,285 - #3 int
+INFO  00:27:57,286 - #3 niz
+INFO  00:27:57,286 - #26 +
+INFO  00:27:57,286 - #31 ;
+INFO  00:27:57,287 - #19 {
+INFO  00:27:57,287 - #3 niz
+INFO  00:27:57,287 - #25 =
+ERROR 00:27:57,287 - Sintaksna greska lose deklarisana lokalna promenljiva
+INFO  00:27:57,290 - #14 new
+INFO  00:27:57,291 - #3 int
+INFO  00:27:57,292 - #21 [
+INFO  00:27:57,292 - #5 5
+INFO  00:27:57,292 - #22 ]
+INFO  00:27:57,296 - #31 ;
+INFO  00:27:57,296 - #3 niz
+INFO  00:27:57,297 - #21 [
+INFO  00:27:57,298 - #5 1
+INFO  00:27:57,298 - #22 ]
+INFO  00:27:57,299 - #25 =
+INFO  00:27:57,299 - #5 3
+INFO  00:27:57,299 - #31 ;
+INFO  00:27:57,299 - #3 x
+INFO  00:27:57,300 - #25 =
+INFO  00:27:57,300 - #3 niz
+INFO  00:27:57,300 - #21 [
+INFO  00:27:57,300 - #5 1
+INFO  00:27:57,301 - #22 ]
+INFO  00:27:57,301 - #28 *
+INFO  00:27:57,301 - #31 ;
+INFO  00:27:57,302 - #3 niz
+INFO  00:27:57,302 - #21 [
+INFO  00:27:57,302 - #5 1
+ERROR 00:27:57,302 - Sintaksna greska single statement
+INFO  00:27:57,303 - #22 ]
+INFO  00:27:57,303 - #25 =
+INFO  00:27:57,304 - #3 niz
+INFO  00:27:57,304 - #21 [
+INFO  00:27:57,304 - #5 3
+INFO  00:27:57,304 - #22 ]
+INFO  00:27:57,305 - #31 ;
+INFO  00:27:57,305 - #9 print
+INFO  00:27:57,305 - #17 (
+INFO  00:27:57,305 - #3 niz
+INFO  00:27:57,306 - #21 [
+INFO  00:27:57,306 - #5 1
+INFO  00:27:57,306 - #22 ]
+INFO  00:27:57,306 - #18 )
+INFO  00:27:57,308 - #31 ;
+INFO  00:27:57,308 - #20 }
+INFO  00:27:57,312 - #20 }
+INFO  00:27:57,330 - =================SINTAKSNO STABLO==================
+INFO  00:27:57,330 - ===================================
+INFO  00:27:57,335 - Na liniji : 4. Vrsi se deklaracija promenljive x
+INFO  00:27:57,335 - Na liniji : 7. Vrsi se obrada funkcije main
+ERROR 00:27:57,335 - SEMANTICKA GRESKA : Greska na liniji 10: Ime niz nije deklarisano.
+ERROR 00:27:57,336 - SEMANTICKA GRESKA :Greska na liniji 10: Doslo je do greske pri dodeli
+ERROR 00:27:57,336 - SEMANTICKA GRESKA : Greska na liniji 12: Ime noObj nije deklarisano.
+ERROR 00:27:57,337 - SEMANTICKA GRESKA :Greska na liniji 12: Doslo je do greske pri dodeli
+ERROR 00:27:57,337 - SEMANTICKA GRESKA : Greska na liniji 14: Ime noObj nije deklarisano.
+ERROR 00:27:57,337 - SEMANTICKA GRESKA : Greska na liniji 14: Ime noObj nije deklarisano.
+ERROR 00:27:57,337 - SEMANTICKA GRESKA : Greska na liniji 15: Ime noObj nije deklarisano.
+ERROR 00:27:57,338 - SEMANTICKA GRESKA :Greska na liniji 7: : Izraz unutar print naredbe mora biti tipa int, char ili bool.
+ERROR 00:27:57,338 - Parsiranje NIJE uspesno zavrseno!

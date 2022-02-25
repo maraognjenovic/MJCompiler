@@ -1,0 +1,140 @@
+INFO  22:17:05,672 - Compiling source file: C:\Users\Marija\Desktop\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  22:17:05,812 - #6 program
+INFO  22:17:05,813 - #2 MJProgram
+INFO  22:17:05,813 - #2 int
+INFO  22:17:05,817 - #2 x
+INFO  22:17:05,818 - #41 ;
+INFO  22:17:05,818 - #2 int
+INFO  22:17:05,819 - #2 y
+INFO  22:17:05,819 - #41 ;
+INFO  22:17:05,819 - #46 {
+INFO  22:17:05,819 - #2 int
+INFO  22:17:05,820 - #2 main
+INFO  22:17:05,821 - #48 (
+INFO  22:17:05,822 - #49 )
+INFO  22:17:05,823 - #46 {
+INFO  22:17:05,824 - #17 print
+INFO  22:17:05,826 - #48 (
+INFO  22:17:05,826 - #3 1
+INFO  22:17:05,826 - #49 )
+INFO  22:17:05,833 - #41 ;
+INFO  22:17:05,833 - #2 x
+INFO  22:17:05,833 - #38 =
+INFO  22:17:05,835 - #2 y
+INFO  22:17:05,835 - #25 +
+INFO  22:17:05,835 - #3 5
+INFO  22:17:05,835 - #41 ;
+INFO  22:17:05,836 - #17 print
+INFO  22:17:05,836 - #48 (
+INFO  22:17:05,837 - #3 2
+ERROR 22:17:05,837 - Doslo je do greske na liniji 7: dodela vrednosti.
+INFO  22:17:05,838 - #49 )
+INFO  22:17:05,838 - #41 ;
+INFO  22:17:05,838 - #47 }
+INFO  22:17:05,838 - #47 }
+INFO  22:17:05,842 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  ProgramListDeclaration(
+    ProgramListDeclaration(
+      NoProgramListDeclaration(
+      ) [NoProgramListDeclaration]
+      ListGlobalVar(
+        GlobalVarDeclaration(
+          Type(
+           int
+          ) [Type]
+          GlobalVarSingle(
+            GlobalVar(
+             x
+            ) [GlobalVar]
+          ) [GlobalVarSingle]
+        ) [GlobalVarDeclaration]
+      ) [ListGlobalVar]
+    ) [ProgramListDeclaration]
+    ListGlobalVar(
+      GlobalVarDeclaration(
+        Type(
+         int
+        ) [Type]
+        GlobalVarSingle(
+          GlobalVar(
+           y
+          ) [GlobalVar]
+        ) [GlobalVarSingle]
+      ) [GlobalVarDeclaration]
+    ) [ListGlobalVar]
+  ) [ProgramListDeclaration]
+  MethodDeclarations(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDecl(
+      MethodName(
+        OtherRetType(
+          Type(
+           int
+          ) [Type]
+        ) [OtherRetType]
+       main
+      ) [MethodName]
+      NoFormParams(
+      ) [NoFormParams]
+      NoMethodVarDeclarations(
+      ) [NoMethodVarDeclarations]
+      StatementListDeclarations(
+        StatementListDeclarations(
+          StatementListDeclarations(
+            NoStatementListDeclarations(
+            ) [NoStatementListDeclarations]
+            SingleStatementDecl(
+              PrintStatement(
+                Expr1Option(
+                  Expr1NoMinus(
+                    Term(
+                      FactorNum(
+                       1
+                      ) [FactorNum]
+                      NoMulopFactorListDecls(
+                      ) [NoMulopFactorListDecls]
+                    ) [Term]
+                    NoAddOperTermList(
+                    ) [NoAddOperTermList]
+                  ) [Expr1NoMinus]
+                ) [Expr1Option]
+                NoPrintConsts(
+                ) [NoPrintConsts]
+              ) [PrintStatement]
+            ) [SingleStatementDecl]
+          ) [StatementListDeclarations]
+          SingleStatementDecl(
+            SingleStatementDerived1(
+            ) [SingleStatementDerived1]
+          ) [SingleStatementDecl]
+        ) [StatementListDeclarations]
+        SingleStatementDecl(
+          PrintStatement(
+            Expr1Option(
+              Expr1NoMinus(
+                Term(
+                  FactorNum(
+                   2
+                  ) [FactorNum]
+                  NoMulopFactorListDecls(
+                  ) [NoMulopFactorListDecls]
+                ) [Term]
+                NoAddOperTermList(
+                ) [NoAddOperTermList]
+              ) [Expr1NoMinus]
+            ) [Expr1Option]
+            NoPrintConsts(
+            ) [NoPrintConsts]
+          ) [PrintStatement]
+        ) [SingleStatementDecl]
+      ) [StatementListDeclarations]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  22:17:05,842 - ===================================
+INFO  22:17:05,845 -  Print count calls = 2
+INFO  22:17:05,845 -  Deklarisanih promenljivih ima = 0

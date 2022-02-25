@@ -1,0 +1,260 @@
+INFO  15:32:08,199 - Compiling source file: C:\Users\Marija\Desktop\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  15:32:08,289 - #6 program
+INFO  15:32:08,289 - #2 MJProgram
+INFO  15:32:08,289 - #2 int
+INFO  15:32:08,290 - #2 x
+INFO  15:32:08,291 - #41 ;
+INFO  15:32:08,291 - #2 int
+INFO  15:32:08,293 - #2 y
+INFO  15:32:08,293 - #41 ;
+INFO  15:32:08,293 - #8 class
+INFO  15:32:08,293 - #2 A
+INFO  15:32:08,293 - #46 {
+INFO  15:32:08,299 - #2 int
+INFO  15:32:08,300 - #2 a
+INFO  15:32:08,300 - #41 ;
+INFO  15:32:08,301 - #47 }
+INFO  15:32:08,302 - #46 {
+INFO  15:32:08,303 - #2 int
+INFO  15:32:08,303 - #2 main
+INFO  15:32:08,305 - #48 (
+INFO  15:32:08,305 - #49 )
+INFO  15:32:08,305 - #46 {
+INFO  15:32:08,306 - #17 print
+INFO  15:32:08,309 - #48 (
+INFO  15:32:08,309 - #3 1
+INFO  15:32:08,309 - #49 )
+INFO  15:32:08,312 - #41 ;
+INFO  15:32:08,312 - #2 y
+INFO  15:32:08,313 - #38 =
+INFO  15:32:08,314 - #3 2
+INFO  15:32:08,314 - #41 ;
+INFO  15:32:08,314 - #2 x
+INFO  15:32:08,314 - #38 =
+INFO  15:32:08,314 - #3 5
+INFO  15:32:08,314 - #41 ;
+INFO  15:32:08,314 - #17 print
+INFO  15:32:08,314 - #48 (
+INFO  15:32:08,314 - #3 2
+INFO  15:32:08,315 - #49 )
+INFO  15:32:08,315 - #41 ;
+INFO  15:32:08,315 - #19 return
+INFO  15:32:08,315 - #4 m
+INFO  15:32:08,315 - #41 ;
+INFO  15:32:08,315 - #47 }
+INFO  15:32:08,315 - #47 }
+INFO  15:32:08,323 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  ProgramListDecls(
+    ProgramListDecls(
+      ProgramListDecls(
+        NoProgramList(
+        ) [NoProgramList]
+        GlobalVarList(
+          GlobalVarDeclaration(
+            Type(
+             int
+            ) [Type]
+            GlobalVarSingle(
+              GlobalVar(
+               x
+              ) [GlobalVar]
+            ) [GlobalVarSingle]
+          ) [GlobalVarDeclaration]
+        ) [GlobalVarList]
+      ) [ProgramListDecls]
+      GlobalVarList(
+        GlobalVarDeclaration(
+          Type(
+           int
+          ) [Type]
+          GlobalVarSingle(
+            GlobalVar(
+             y
+            ) [GlobalVar]
+          ) [GlobalVarSingle]
+        ) [GlobalVarDeclaration]
+      ) [GlobalVarList]
+    ) [ProgramListDecls]
+    GlobalClassList(
+      ClassDeclaration(
+        ClassName(
+         A
+        ) [ClassName]
+        NoExtendsOption(
+        ) [NoExtendsOption]
+        ClassVarDeclarations(
+          NoClassVarDeclarations(
+          ) [NoClassVarDeclarations]
+          VarDeclaration(
+            Type(
+             int
+            ) [Type]
+            VarParam(
+              LocalVar(
+               a
+              ) [LocalVar]
+            ) [VarParam]
+          ) [VarDeclaration]
+        ) [ClassVarDeclarations]
+        NoClassMethodOptionDeclaration(
+        ) [NoClassMethodOptionDeclaration]
+      ) [ClassDeclaration]
+    ) [GlobalClassList]
+  ) [ProgramListDecls]
+  MethodDeclarations(
+    NoMethodDeclaration(
+    ) [NoMethodDeclaration]
+    MethodDecl(
+      MethodName(
+        OtherRetType(
+          Type(
+           int
+          ) [Type]
+        ) [OtherRetType]
+       main
+      ) [MethodName]
+      NoFormParams(
+      ) [NoFormParams]
+      NoMethodVarDeclarations(
+      ) [NoMethodVarDeclarations]
+      StatementListDeclarations(
+        StatementListDeclarations(
+          StatementListDeclarations(
+            StatementListDeclarations(
+              StatementListDeclarations(
+                NoStatementListDeclarations(
+                ) [NoStatementListDeclarations]
+                SingleStatementDecl(
+                  PrintStatement(
+                    Expr1Option(
+                      Expr1NoMinus(
+                        Term(
+                          FactorNum(
+                           1
+                          ) [FactorNum]
+                          NoMulopFactorListDecls(
+                          ) [NoMulopFactorListDecls]
+                        ) [Term]
+                        NoAddopTermList(
+                        ) [NoAddopTermList]
+                      ) [Expr1NoMinus]
+                    ) [Expr1Option]
+                    NoPrintConsts(
+                    ) [NoPrintConsts]
+                  ) [PrintStatement]
+                ) [SingleStatementDecl]
+              ) [StatementListDeclarations]
+              SingleStatementDecl(
+                DesignStatement(
+                  Assignment(
+                    DesignatorSingle(
+                      DesignatorName(
+                       y
+                      ) [DesignatorName]
+                    ) [DesignatorSingle]
+                    Expr1Option(
+                      Expr1NoMinus(
+                        Term(
+                          FactorNum(
+                           2
+                          ) [FactorNum]
+                          NoMulopFactorListDecls(
+                          ) [NoMulopFactorListDecls]
+                        ) [Term]
+                        NoAddopTermList(
+                        ) [NoAddopTermList]
+                      ) [Expr1NoMinus]
+                    ) [Expr1Option]
+                  ) [Assignment]
+                ) [DesignStatement]
+              ) [SingleStatementDecl]
+            ) [StatementListDeclarations]
+            SingleStatementDecl(
+              DesignStatement(
+                Assignment(
+                  DesignatorSingle(
+                    DesignatorName(
+                     x
+                    ) [DesignatorName]
+                  ) [DesignatorSingle]
+                  Expr1Option(
+                    Expr1NoMinus(
+                      Term(
+                        FactorNum(
+                         5
+                        ) [FactorNum]
+                        NoMulopFactorListDecls(
+                        ) [NoMulopFactorListDecls]
+                      ) [Term]
+                      NoAddopTermList(
+                      ) [NoAddopTermList]
+                    ) [Expr1NoMinus]
+                  ) [Expr1Option]
+                ) [Assignment]
+              ) [DesignStatement]
+            ) [SingleStatementDecl]
+          ) [StatementListDeclarations]
+          SingleStatementDecl(
+            PrintStatement(
+              Expr1Option(
+                Expr1NoMinus(
+                  Term(
+                    FactorNum(
+                     2
+                    ) [FactorNum]
+                    NoMulopFactorListDecls(
+                    ) [NoMulopFactorListDecls]
+                  ) [Term]
+                  NoAddopTermList(
+                  ) [NoAddopTermList]
+                ) [Expr1NoMinus]
+              ) [Expr1Option]
+              NoPrintConsts(
+              ) [NoPrintConsts]
+            ) [PrintStatement]
+          ) [SingleStatementDecl]
+        ) [StatementListDeclarations]
+        SingleStatementDecl(
+          ReturnExpr(
+            Expr1Option(
+              Expr1NoMinus(
+                Term(
+                  FactorChar(
+                   m
+                  ) [FactorChar]
+                  NoMulopFactorListDecls(
+                  ) [NoMulopFactorListDecls]
+                ) [Term]
+                NoAddopTermList(
+                ) [NoAddopTermList]
+              ) [Expr1NoMinus]
+            ) [Expr1Option]
+          ) [ReturnExpr]
+        ) [SingleStatementDecl]
+      ) [StatementListDeclarations]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  15:32:08,325 - ===================================
+INFO  15:32:08,330 - Linija 2: Deklarise se promenljiva x
+INFO  15:32:08,330 - Linija 2: Deklarise se promenljiva y
+INFO  15:32:08,330 - Obradjuje se klasa A
+INFO  15:32:08,330 - Linija 3: Deklarise se promenljiva a
+INFO  15:32:08,330 - Linija 6: Obradjuje se funkcija main na liniji 6
+INFO  15:32:08,330 - Linija 9: y - pronadjeno!	Var y: int, 1, 0  na liniji 9
+INFO  15:32:08,330 - Linija 10: x - pronadjeno!	Var x: int, 0, 0  na liniji 10
+ERROR 15:32:08,331 - Tip u return naredbi nije kompatibilan sa povratnim tipom funkcije na liniji 13
+INFO  15:32:08,331 -  classCnt = 1
+INFO  15:32:08,331 -  methodCnt = 1
+INFO  15:32:08,331 -  globalVarCnt = 2
+INFO  15:32:08,331 -  globalConCnt = 0
+INFO  15:32:08,331 -  globalArrCnt = 0
+INFO  15:32:08,331 -  localVarCnt = 1
+INFO  15:32:08,331 -  stmtCnt = 4
+INFO  15:32:08,332 -  numOfErrors = 0
+INFO  15:32:08,332 -  Deklarisanih promenljivih ima = 2
+INFO  15:32:08,332 - ===================================
+ERROR 15:32:08,332 - Parsiranje NIJE uspesno zavrseno!

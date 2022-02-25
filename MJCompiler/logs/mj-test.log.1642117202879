@@ -1,0 +1,958 @@
+INFO  00:39:16,179 - Compiling source file: C:\Users\Marija\Desktop\13.1\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  00:39:16,274 - #6 program
+INFO  00:39:16,275 - #2 MJProgram
+INFO  00:39:16,275 - #2 int
+INFO  00:39:16,276 - #2 x
+INFO  00:39:16,277 - #35 ;
+INFO  00:39:16,277 - #12 const
+INFO  00:39:16,277 - #2 int
+INFO  00:39:16,278 - #2 y
+INFO  00:39:16,278 - #29 =
+INFO  00:39:16,278 - #3 2
+INFO  00:39:16,279 - #35 ;
+INFO  00:39:16,280 - #12 const
+INFO  00:39:16,282 - #2 bool
+INFO  00:39:16,282 - #2 t
+INFO  00:39:16,283 - #29 =
+INFO  00:39:16,283 - #5 true
+INFO  00:39:16,283 - #35 ;
+INFO  00:39:16,283 - #12 const
+INFO  00:39:16,283 - #2 char
+INFO  00:39:16,283 - #2 n
+INFO  00:39:16,283 - #29 =
+INFO  00:39:16,288 - #4 n
+INFO  00:39:16,288 - #35 ;
+INFO  00:39:16,288 - #17 {
+INFO  00:39:16,288 - #8 void
+INFO  00:39:16,288 - #2 main
+INFO  00:39:16,290 - #15 (
+INFO  00:39:16,291 - #16 )
+INFO  00:39:16,291 - #2 int
+INFO  00:39:16,291 - #2 a
+INFO  00:39:16,292 - #19 [
+INFO  00:39:16,292 - #20 ]
+INFO  00:39:16,292 - #35 ;
+INFO  00:39:16,292 - #2 bool
+INFO  00:39:16,292 - #2 f
+INFO  00:39:16,292 - #35 ;
+INFO  00:39:16,292 - #2 char
+INFO  00:39:16,292 - #2 ch
+INFO  00:39:16,292 - #35 ;
+INFO  00:39:16,293 - #17 {
+INFO  00:39:16,293 - #9 print
+INFO  00:39:16,293 - #15 (
+INFO  00:39:16,294 - #2 y
+INFO  00:39:16,294 - #32 *
+INFO  00:39:16,296 - #3 2
+INFO  00:39:16,297 - #16 )
+INFO  00:39:16,304 - #35 ;
+INFO  00:39:16,304 - #9 print
+INFO  00:39:16,305 - #15 (
+INFO  00:39:16,305 - #2 y
+INFO  00:39:16,305 - #34 %
+INFO  00:39:16,305 - #3 2
+INFO  00:39:16,306 - #16 )
+INFO  00:39:16,306 - #35 ;
+INFO  00:39:16,306 - #9 print
+INFO  00:39:16,307 - #15 (
+INFO  00:39:16,307 - #2 y
+INFO  00:39:16,307 - #33 /
+INFO  00:39:16,307 - #3 2
+INFO  00:39:16,308 - #16 )
+INFO  00:39:16,308 - #35 ;
+INFO  00:39:16,308 - #2 x
+INFO  00:39:16,308 - #29 =
+INFO  00:39:16,309 - #3 5
+INFO  00:39:16,309 - #30 +
+INFO  00:39:16,309 - #3 2
+INFO  00:39:16,310 - #35 ;
+INFO  00:39:16,311 - #9 print
+INFO  00:39:16,311 - #15 (
+INFO  00:39:16,311 - #2 x
+INFO  00:39:16,311 - #36 ,
+INFO  00:39:16,311 - #3 9
+INFO  00:39:16,311 - #16 )
+INFO  00:39:16,312 - #35 ;
+INFO  00:39:16,312 - #13 goto
+INFO  00:39:16,312 - #2 Vuk
+INFO  00:39:16,312 - #35 ;
+INFO  00:39:16,312 - #9 print
+INFO  00:39:16,312 - #15 (
+INFO  00:39:16,312 - #3 9
+INFO  00:39:16,312 - #16 )
+INFO  00:39:16,312 - #35 ;
+INFO  00:39:16,312 - #2 Marija
+INFO  00:39:16,312 - #37 :
+INFO  00:39:16,312 - #9 print
+INFO  00:39:16,313 - #15 (
+INFO  00:39:16,313 - #4 m
+INFO  00:39:16,313 - #16 )
+INFO  00:39:16,313 - #35 ;
+INFO  00:39:16,313 - #13 goto
+INFO  00:39:16,313 - #2 Pedja
+INFO  00:39:16,313 - #35 ;
+INFO  00:39:16,314 - #9 print
+INFO  00:39:16,314 - #15 (
+INFO  00:39:16,314 - #3 4
+INFO  00:39:16,314 - #16 )
+INFO  00:39:16,315 - #35 ;
+INFO  00:39:16,315 - #2 f
+INFO  00:39:16,315 - #29 =
+INFO  00:39:16,316 - #5 false
+INFO  00:39:16,325 - #35 ;
+INFO  00:39:16,325 - #2 ch
+INFO  00:39:16,325 - #29 =
+INFO  00:39:16,325 - #4 k
+INFO  00:39:16,325 - #35 ;
+INFO  00:39:16,325 - #2 Vuk
+INFO  00:39:16,326 - #37 :
+INFO  00:39:16,326 - #2 x
+INFO  00:39:16,326 - #29 =
+INFO  00:39:16,326 - #3 5
+INFO  00:39:16,326 - #35 ;
+INFO  00:39:16,326 - #9 print
+INFO  00:39:16,326 - #15 (
+INFO  00:39:16,326 - #2 y
+INFO  00:39:16,326 - #16 )
+INFO  00:39:16,326 - #35 ;
+INFO  00:39:16,326 - #2 x
+INFO  00:39:16,326 - #27 ++
+INFO  00:39:16,326 - #35 ;
+INFO  00:39:16,327 - #9 print
+INFO  00:39:16,327 - #15 (
+INFO  00:39:16,327 - #2 x
+INFO  00:39:16,327 - #36 ,
+INFO  00:39:16,327 - #3 10
+INFO  00:39:16,327 - #16 )
+INFO  00:39:16,327 - #35 ;
+INFO  00:39:16,327 - #13 goto
+INFO  00:39:16,327 - #2 Marija
+INFO  00:39:16,327 - #35 ;
+INFO  00:39:16,327 - #9 print
+INFO  00:39:16,327 - #15 (
+INFO  00:39:16,328 - #3 6
+INFO  00:39:16,328 - #16 )
+INFO  00:39:16,328 - #35 ;
+INFO  00:39:16,328 - #2 Pedja
+INFO  00:39:16,328 - #37 :
+INFO  00:39:16,328 - #9 print
+INFO  00:39:16,328 - #15 (
+INFO  00:39:16,328 - #3 7
+INFO  00:39:16,328 - #16 )
+INFO  00:39:16,329 - #35 ;
+INFO  00:39:16,329 - #2 a
+INFO  00:39:16,329 - #29 =
+INFO  00:39:16,329 - #11 new
+INFO  00:39:16,329 - #2 int
+INFO  00:39:16,329 - #19 [
+INFO  00:39:16,329 - #3 3
+INFO  00:39:16,329 - #20 ]
+INFO  00:39:16,329 - #35 ;
+INFO  00:39:16,330 - #2 a
+INFO  00:39:16,330 - #19 [
+INFO  00:39:16,333 - #3 0
+INFO  00:39:16,334 - #20 ]
+INFO  00:39:16,334 - #29 =
+INFO  00:39:16,334 - #3 1
+INFO  00:39:16,334 - #35 ;
+INFO  00:39:16,334 - #2 a
+INFO  00:39:16,335 - #19 [
+INFO  00:39:16,335 - #3 0
+INFO  00:39:16,335 - #20 ]
+INFO  00:39:16,335 - #28 --
+INFO  00:39:16,335 - #35 ;
+INFO  00:39:16,335 - #9 print
+INFO  00:39:16,335 - #15 (
+INFO  00:39:16,335 - #2 a
+INFO  00:39:16,335 - #19 [
+INFO  00:39:16,335 - #3 0
+INFO  00:39:16,335 - #20 ]
+INFO  00:39:16,335 - #36 ,
+INFO  00:39:16,336 - #3 11
+INFO  00:39:16,336 - #16 )
+INFO  00:39:16,336 - #35 ;
+INFO  00:39:16,336 - #7 return
+INFO  00:39:16,336 - #35 ;
+INFO  00:39:16,336 - #18 }
+INFO  00:39:16,337 - #18 }
+INFO  00:39:16,345 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  ProgListDecls(
+    ProgListDecls(
+      ProgListDecls(
+        ProgListDecls(
+          NoProgList(
+          ) [NoProgList]
+          GlobalVarList(
+            GlobalVarDeclaration(
+              Type(
+               int
+              ) [Type]
+              GlobalVarSingle(
+                GlobalVar(
+                 x
+                ) [GlobalVar]
+              ) [GlobalVarSingle]
+            ) [GlobalVarDeclaration]
+          ) [GlobalVarList]
+        ) [ProgListDecls]
+        GlobalConstList(
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            NoConstListDeclarations(
+              ConstrDeclOne(
+                ConstName(
+                 y
+                ) [ConstName]
+                NumConstant(
+                 2
+                ) [NumConstant]
+              ) [ConstrDeclOne]
+            ) [NoConstListDeclarations]
+          ) [ConstDecl]
+        ) [GlobalConstList]
+      ) [ProgListDecls]
+      GlobalConstList(
+        ConstDecl(
+          Type(
+           bool
+          ) [Type]
+          NoConstListDeclarations(
+            ConstrDeclOne(
+              ConstName(
+               t
+              ) [ConstName]
+              BoolConstant(
+               true
+              ) [BoolConstant]
+            ) [ConstrDeclOne]
+          ) [NoConstListDeclarations]
+        ) [ConstDecl]
+      ) [GlobalConstList]
+    ) [ProgListDecls]
+    GlobalConstList(
+      ConstDecl(
+        Type(
+         char
+        ) [Type]
+        NoConstListDeclarations(
+          ConstrDeclOne(
+            ConstName(
+             n
+            ) [ConstName]
+            CharConstant(
+             n
+            ) [CharConstant]
+          ) [ConstrDeclOne]
+        ) [NoConstListDeclarations]
+      ) [ConstDecl]
+    ) [GlobalConstList]
+  ) [ProgListDecls]
+  MethodDeclarations(
+    MethodDecl(
+      MethodName(
+        VoidRet(
+        ) [VoidRet]
+       main
+      ) [MethodName]
+      MethodVarDeclarations(
+        MethodVarDeclarations(
+          MethodVarDeclarations(
+            NoMethodVarDeclarations(
+            ) [NoMethodVarDeclarations]
+            VarDeclaration(
+              Type(
+               int
+              ) [Type]
+              VarParam(
+                LocalArr(
+                 a
+                ) [LocalArr]
+              ) [VarParam]
+            ) [VarDeclaration]
+          ) [MethodVarDeclarations]
+          VarDeclaration(
+            Type(
+             bool
+            ) [Type]
+            VarParam(
+              LocalVar(
+               f
+              ) [LocalVar]
+            ) [VarParam]
+          ) [VarDeclaration]
+        ) [MethodVarDeclarations]
+        VarDeclaration(
+          Type(
+           char
+          ) [Type]
+          VarParam(
+            LocalVar(
+             ch
+            ) [LocalVar]
+          ) [VarParam]
+        ) [VarDeclaration]
+      ) [MethodVarDeclarations]
+      StatementListDeclarations(
+        StatementListDeclarations(
+          StatementListDeclarations(
+            StatementListDeclarations(
+              StatementListDeclarations(
+                StatementListDeclarations(
+                  StatementListDeclarations(
+                    StatementListDeclarations(
+                      StatementListDeclarations(
+                        StatementListDeclarations(
+                          StatementListDeclarations(
+                            StatementListDeclarations(
+                              StatementListDeclarations(
+                                StatementListDeclarations(
+                                  StatementListDeclarations(
+                                    StatementListDeclarations(
+                                      StatementListDeclarations(
+                                        StatementListDeclarations(
+                                          StatementListDeclarations(
+                                            StatementListDeclarations(
+                                              StatementListDeclarations(
+                                                StatementListDeclarations(
+                                                  StatementListDeclarations(
+                                                    StatementListDeclarations(
+                                                      NoStatementListDeclarations(
+                                                      ) [NoStatementListDeclarations]
+                                                      SingleStatementDeclNoLabel(
+                                                        PrintStmt(
+                                                          ExprHelpOption(
+                                                            ExprHelpNoMinus(
+                                                              Term(
+                                                                FactorDesignator(
+                                                                  DesignatorOne(
+                                                                    DesignatorName(
+                                                                     y
+                                                                    ) [DesignatorName]
+                                                                  ) [DesignatorOne]
+                                                                ) [FactorDesignator]
+                                                                MulopListDecls(
+                                                                  NoMulopListDecls(
+                                                                  ) [NoMulopListDecls]
+                                                                  MulopFactor(
+                                                                    MulDecl(
+                                                                    ) [MulDecl]
+                                                                    NumFactor(
+                                                                     2
+                                                                    ) [NumFactor]
+                                                                  ) [MulopFactor]
+                                                                ) [MulopListDecls]
+                                                              ) [Term]
+                                                              NoAddopList(
+                                                              ) [NoAddopList]
+                                                            ) [ExprHelpNoMinus]
+                                                          ) [ExprHelpOption]
+                                                          NoPrintConstantants(
+                                                          ) [NoPrintConstantants]
+                                                        ) [PrintStmt]
+                                                      ) [SingleStatementDeclNoLabel]
+                                                    ) [StatementListDeclarations]
+                                                    SingleStatementDeclNoLabel(
+                                                      PrintStmt(
+                                                        ExprHelpOption(
+                                                          ExprHelpNoMinus(
+                                                            Term(
+                                                              FactorDesignator(
+                                                                DesignatorOne(
+                                                                  DesignatorName(
+                                                                   y
+                                                                  ) [DesignatorName]
+                                                                ) [DesignatorOne]
+                                                              ) [FactorDesignator]
+                                                              MulopListDecls(
+                                                                NoMulopListDecls(
+                                                                ) [NoMulopListDecls]
+                                                                MulopFactor(
+                                                                  ModDecl(
+                                                                  ) [ModDecl]
+                                                                  NumFactor(
+                                                                   2
+                                                                  ) [NumFactor]
+                                                                ) [MulopFactor]
+                                                              ) [MulopListDecls]
+                                                            ) [Term]
+                                                            NoAddopList(
+                                                            ) [NoAddopList]
+                                                          ) [ExprHelpNoMinus]
+                                                        ) [ExprHelpOption]
+                                                        NoPrintConstantants(
+                                                        ) [NoPrintConstantants]
+                                                      ) [PrintStmt]
+                                                    ) [SingleStatementDeclNoLabel]
+                                                  ) [StatementListDeclarations]
+                                                  SingleStatementDeclNoLabel(
+                                                    PrintStmt(
+                                                      ExprHelpOption(
+                                                        ExprHelpNoMinus(
+                                                          Term(
+                                                            FactorDesignator(
+                                                              DesignatorOne(
+                                                                DesignatorName(
+                                                                 y
+                                                                ) [DesignatorName]
+                                                              ) [DesignatorOne]
+                                                            ) [FactorDesignator]
+                                                            MulopListDecls(
+                                                              NoMulopListDecls(
+                                                              ) [NoMulopListDecls]
+                                                              MulopFactor(
+                                                                DivDecl(
+                                                                ) [DivDecl]
+                                                                NumFactor(
+                                                                 2
+                                                                ) [NumFactor]
+                                                              ) [MulopFactor]
+                                                            ) [MulopListDecls]
+                                                          ) [Term]
+                                                          NoAddopList(
+                                                          ) [NoAddopList]
+                                                        ) [ExprHelpNoMinus]
+                                                      ) [ExprHelpOption]
+                                                      NoPrintConstantants(
+                                                      ) [NoPrintConstantants]
+                                                    ) [PrintStmt]
+                                                  ) [SingleStatementDeclNoLabel]
+                                                ) [StatementListDeclarations]
+                                                SingleStatementDeclNoLabel(
+                                                  DesignatorStmt(
+                                                    Assignment(
+                                                      DesignatorOne(
+                                                        DesignatorName(
+                                                         x
+                                                        ) [DesignatorName]
+                                                      ) [DesignatorOne]
+                                                      ExprHelpOption(
+                                                        ExprHelpNoMinus(
+                                                          Term(
+                                                            NumFactor(
+                                                             5
+                                                            ) [NumFactor]
+                                                            NoMulopListDecls(
+                                                            ) [NoMulopListDecls]
+                                                          ) [Term]
+                                                          AddopListDecl(
+                                                            NoAddopList(
+                                                            ) [NoAddopList]
+                                                            AddopTerm(
+                                                              AddopDecl(
+                                                              ) [AddopDecl]
+                                                              Term(
+                                                                NumFactor(
+                                                                 2
+                                                                ) [NumFactor]
+                                                                NoMulopListDecls(
+                                                                ) [NoMulopListDecls]
+                                                              ) [Term]
+                                                            ) [AddopTerm]
+                                                          ) [AddopListDecl]
+                                                        ) [ExprHelpNoMinus]
+                                                      ) [ExprHelpOption]
+                                                    ) [Assignment]
+                                                  ) [DesignatorStmt]
+                                                ) [SingleStatementDeclNoLabel]
+                                              ) [StatementListDeclarations]
+                                              SingleStatementDeclNoLabel(
+                                                PrintStmt(
+                                                  ExprHelpOption(
+                                                    ExprHelpNoMinus(
+                                                      Term(
+                                                        FactorDesignator(
+                                                          DesignatorOne(
+                                                            DesignatorName(
+                                                             x
+                                                            ) [DesignatorName]
+                                                          ) [DesignatorOne]
+                                                        ) [FactorDesignator]
+                                                        NoMulopListDecls(
+                                                        ) [NoMulopListDecls]
+                                                      ) [Term]
+                                                      NoAddopList(
+                                                      ) [NoAddopList]
+                                                    ) [ExprHelpNoMinus]
+                                                  ) [ExprHelpOption]
+                                                  HasPrintConstantants(
+                                                    PrntConstant(
+                                                     9
+                                                    ) [PrntConstant]
+                                                  ) [HasPrintConstantants]
+                                                ) [PrintStmt]
+                                              ) [SingleStatementDeclNoLabel]
+                                            ) [StatementListDeclarations]
+                                            SingleStatementDeclNoLabel(
+                                              GoToStatement(
+                                                NoColon(
+                                                 Vuk
+                                                ) [NoColon]
+                                              ) [GoToStatement]
+                                            ) [SingleStatementDeclNoLabel]
+                                          ) [StatementListDeclarations]
+                                          SingleStatementDeclNoLabel(
+                                            PrintStmt(
+                                              ExprHelpOption(
+                                                ExprHelpNoMinus(
+                                                  Term(
+                                                    NumFactor(
+                                                     9
+                                                    ) [NumFactor]
+                                                    NoMulopListDecls(
+                                                    ) [NoMulopListDecls]
+                                                  ) [Term]
+                                                  NoAddopList(
+                                                  ) [NoAddopList]
+                                                ) [ExprHelpNoMinus]
+                                              ) [ExprHelpOption]
+                                              NoPrintConstantants(
+                                              ) [NoPrintConstantants]
+                                            ) [PrintStmt]
+                                          ) [SingleStatementDeclNoLabel]
+                                        ) [StatementListDeclarations]
+                                        SingleStatementDeclLabel(
+                                          LabelDecl(
+                                           Marija
+                                          ) [LabelDecl]
+                                          PrintStmt(
+                                            ExprHelpOption(
+                                              ExprHelpNoMinus(
+                                                Term(
+                                                  CharFactor(
+                                                   m
+                                                  ) [CharFactor]
+                                                  NoMulopListDecls(
+                                                  ) [NoMulopListDecls]
+                                                ) [Term]
+                                                NoAddopList(
+                                                ) [NoAddopList]
+                                              ) [ExprHelpNoMinus]
+                                            ) [ExprHelpOption]
+                                            NoPrintConstantants(
+                                            ) [NoPrintConstantants]
+                                          ) [PrintStmt]
+                                        ) [SingleStatementDeclLabel]
+                                      ) [StatementListDeclarations]
+                                      SingleStatementDeclNoLabel(
+                                        GoToStatement(
+                                          NoColon(
+                                           Pedja
+                                          ) [NoColon]
+                                        ) [GoToStatement]
+                                      ) [SingleStatementDeclNoLabel]
+                                    ) [StatementListDeclarations]
+                                    SingleStatementDeclNoLabel(
+                                      PrintStmt(
+                                        ExprHelpOption(
+                                          ExprHelpNoMinus(
+                                            Term(
+                                              NumFactor(
+                                               4
+                                              ) [NumFactor]
+                                              NoMulopListDecls(
+                                              ) [NoMulopListDecls]
+                                            ) [Term]
+                                            NoAddopList(
+                                            ) [NoAddopList]
+                                          ) [ExprHelpNoMinus]
+                                        ) [ExprHelpOption]
+                                        NoPrintConstantants(
+                                        ) [NoPrintConstantants]
+                                      ) [PrintStmt]
+                                    ) [SingleStatementDeclNoLabel]
+                                  ) [StatementListDeclarations]
+                                  SingleStatementDeclNoLabel(
+                                    DesignatorStmt(
+                                      Assignment(
+                                        DesignatorOne(
+                                          DesignatorName(
+                                           f
+                                          ) [DesignatorName]
+                                        ) [DesignatorOne]
+                                        ExprHelpOption(
+                                          ExprHelpNoMinus(
+                                            Term(
+                                              BoolFactor(
+                                               false
+                                              ) [BoolFactor]
+                                              NoMulopListDecls(
+                                              ) [NoMulopListDecls]
+                                            ) [Term]
+                                            NoAddopList(
+                                            ) [NoAddopList]
+                                          ) [ExprHelpNoMinus]
+                                        ) [ExprHelpOption]
+                                      ) [Assignment]
+                                    ) [DesignatorStmt]
+                                  ) [SingleStatementDeclNoLabel]
+                                ) [StatementListDeclarations]
+                                SingleStatementDeclNoLabel(
+                                  DesignatorStmt(
+                                    Assignment(
+                                      DesignatorOne(
+                                        DesignatorName(
+                                         ch
+                                        ) [DesignatorName]
+                                      ) [DesignatorOne]
+                                      ExprHelpOption(
+                                        ExprHelpNoMinus(
+                                          Term(
+                                            CharFactor(
+                                             k
+                                            ) [CharFactor]
+                                            NoMulopListDecls(
+                                            ) [NoMulopListDecls]
+                                          ) [Term]
+                                          NoAddopList(
+                                          ) [NoAddopList]
+                                        ) [ExprHelpNoMinus]
+                                      ) [ExprHelpOption]
+                                    ) [Assignment]
+                                  ) [DesignatorStmt]
+                                ) [SingleStatementDeclNoLabel]
+                              ) [StatementListDeclarations]
+                              SingleStatementDeclLabel(
+                                LabelDecl(
+                                 Vuk
+                                ) [LabelDecl]
+                                DesignatorStmt(
+                                  Assignment(
+                                    DesignatorOne(
+                                      DesignatorName(
+                                       x
+                                      ) [DesignatorName]
+                                    ) [DesignatorOne]
+                                    ExprHelpOption(
+                                      ExprHelpNoMinus(
+                                        Term(
+                                          NumFactor(
+                                           5
+                                          ) [NumFactor]
+                                          NoMulopListDecls(
+                                          ) [NoMulopListDecls]
+                                        ) [Term]
+                                        NoAddopList(
+                                        ) [NoAddopList]
+                                      ) [ExprHelpNoMinus]
+                                    ) [ExprHelpOption]
+                                  ) [Assignment]
+                                ) [DesignatorStmt]
+                              ) [SingleStatementDeclLabel]
+                            ) [StatementListDeclarations]
+                            SingleStatementDeclNoLabel(
+                              PrintStmt(
+                                ExprHelpOption(
+                                  ExprHelpNoMinus(
+                                    Term(
+                                      FactorDesignator(
+                                        DesignatorOne(
+                                          DesignatorName(
+                                           y
+                                          ) [DesignatorName]
+                                        ) [DesignatorOne]
+                                      ) [FactorDesignator]
+                                      NoMulopListDecls(
+                                      ) [NoMulopListDecls]
+                                    ) [Term]
+                                    NoAddopList(
+                                    ) [NoAddopList]
+                                  ) [ExprHelpNoMinus]
+                                ) [ExprHelpOption]
+                                NoPrintConstantants(
+                                ) [NoPrintConstantants]
+                              ) [PrintStmt]
+                            ) [SingleStatementDeclNoLabel]
+                          ) [StatementListDeclarations]
+                          SingleStatementDeclNoLabel(
+                            DesignatorStmt(
+                              Inc(
+                                DesignatorOne(
+                                  DesignatorName(
+                                   x
+                                  ) [DesignatorName]
+                                ) [DesignatorOne]
+                              ) [Inc]
+                            ) [DesignatorStmt]
+                          ) [SingleStatementDeclNoLabel]
+                        ) [StatementListDeclarations]
+                        SingleStatementDeclNoLabel(
+                          PrintStmt(
+                            ExprHelpOption(
+                              ExprHelpNoMinus(
+                                Term(
+                                  FactorDesignator(
+                                    DesignatorOne(
+                                      DesignatorName(
+                                       x
+                                      ) [DesignatorName]
+                                    ) [DesignatorOne]
+                                  ) [FactorDesignator]
+                                  NoMulopListDecls(
+                                  ) [NoMulopListDecls]
+                                ) [Term]
+                                NoAddopList(
+                                ) [NoAddopList]
+                              ) [ExprHelpNoMinus]
+                            ) [ExprHelpOption]
+                            HasPrintConstantants(
+                              PrntConstant(
+                               10
+                              ) [PrntConstant]
+                            ) [HasPrintConstantants]
+                          ) [PrintStmt]
+                        ) [SingleStatementDeclNoLabel]
+                      ) [StatementListDeclarations]
+                      SingleStatementDeclNoLabel(
+                        GoToStatement(
+                          NoColon(
+                           Marija
+                          ) [NoColon]
+                        ) [GoToStatement]
+                      ) [SingleStatementDeclNoLabel]
+                    ) [StatementListDeclarations]
+                    SingleStatementDeclNoLabel(
+                      PrintStmt(
+                        ExprHelpOption(
+                          ExprHelpNoMinus(
+                            Term(
+                              NumFactor(
+                               6
+                              ) [NumFactor]
+                              NoMulopListDecls(
+                              ) [NoMulopListDecls]
+                            ) [Term]
+                            NoAddopList(
+                            ) [NoAddopList]
+                          ) [ExprHelpNoMinus]
+                        ) [ExprHelpOption]
+                        NoPrintConstantants(
+                        ) [NoPrintConstantants]
+                      ) [PrintStmt]
+                    ) [SingleStatementDeclNoLabel]
+                  ) [StatementListDeclarations]
+                  SingleStatementDeclLabel(
+                    LabelDecl(
+                     Pedja
+                    ) [LabelDecl]
+                    PrintStmt(
+                      ExprHelpOption(
+                        ExprHelpNoMinus(
+                          Term(
+                            NumFactor(
+                             7
+                            ) [NumFactor]
+                            NoMulopListDecls(
+                            ) [NoMulopListDecls]
+                          ) [Term]
+                          NoAddopList(
+                          ) [NoAddopList]
+                        ) [ExprHelpNoMinus]
+                      ) [ExprHelpOption]
+                      NoPrintConstantants(
+                      ) [NoPrintConstantants]
+                    ) [PrintStmt]
+                  ) [SingleStatementDeclLabel]
+                ) [StatementListDeclarations]
+                SingleStatementDeclNoLabel(
+                  DesignatorStmt(
+                    Assignment(
+                      DesignatorOne(
+                        DesignatorName(
+                         a
+                        ) [DesignatorName]
+                      ) [DesignatorOne]
+                      ExprHelpOption(
+                        ExprHelpNoMinus(
+                          Term(
+                            NewFactor(
+                              Type(
+                               int
+                              ) [Type]
+                              ExprHelpOption(
+                                ExprHelpNoMinus(
+                                  Term(
+                                    NumFactor(
+                                     3
+                                    ) [NumFactor]
+                                    NoMulopListDecls(
+                                    ) [NoMulopListDecls]
+                                  ) [Term]
+                                  NoAddopList(
+                                  ) [NoAddopList]
+                                ) [ExprHelpNoMinus]
+                              ) [ExprHelpOption]
+                            ) [NewFactor]
+                            NoMulopListDecls(
+                            ) [NoMulopListDecls]
+                          ) [Term]
+                          NoAddopList(
+                          ) [NoAddopList]
+                        ) [ExprHelpNoMinus]
+                      ) [ExprHelpOption]
+                    ) [Assignment]
+                  ) [DesignatorStmt]
+                ) [SingleStatementDeclNoLabel]
+              ) [StatementListDeclarations]
+              SingleStatementDeclNoLabel(
+                DesignatorStmt(
+                  Assignment(
+                    DesignatorArr(
+                      DesignatorName(
+                       a
+                      ) [DesignatorName]
+                      ArrPrep(
+                      ) [ArrPrep]
+                      ExprHelpOption(
+                        ExprHelpNoMinus(
+                          Term(
+                            NumFactor(
+                             0
+                            ) [NumFactor]
+                            NoMulopListDecls(
+                            ) [NoMulopListDecls]
+                          ) [Term]
+                          NoAddopList(
+                          ) [NoAddopList]
+                        ) [ExprHelpNoMinus]
+                      ) [ExprHelpOption]
+                    ) [DesignatorArr]
+                    ExprHelpOption(
+                      ExprHelpNoMinus(
+                        Term(
+                          NumFactor(
+                           1
+                          ) [NumFactor]
+                          NoMulopListDecls(
+                          ) [NoMulopListDecls]
+                        ) [Term]
+                        NoAddopList(
+                        ) [NoAddopList]
+                      ) [ExprHelpNoMinus]
+                    ) [ExprHelpOption]
+                  ) [Assignment]
+                ) [DesignatorStmt]
+              ) [SingleStatementDeclNoLabel]
+            ) [StatementListDeclarations]
+            SingleStatementDeclNoLabel(
+              DesignatorStmt(
+                Dec(
+                  DesignatorArr(
+                    DesignatorName(
+                     a
+                    ) [DesignatorName]
+                    ArrPrep(
+                    ) [ArrPrep]
+                    ExprHelpOption(
+                      ExprHelpNoMinus(
+                        Term(
+                          NumFactor(
+                           0
+                          ) [NumFactor]
+                          NoMulopListDecls(
+                          ) [NoMulopListDecls]
+                        ) [Term]
+                        NoAddopList(
+                        ) [NoAddopList]
+                      ) [ExprHelpNoMinus]
+                    ) [ExprHelpOption]
+                  ) [DesignatorArr]
+                ) [Dec]
+              ) [DesignatorStmt]
+            ) [SingleStatementDeclNoLabel]
+          ) [StatementListDeclarations]
+          SingleStatementDeclNoLabel(
+            PrintStmt(
+              ExprHelpOption(
+                ExprHelpNoMinus(
+                  Term(
+                    FactorDesignator(
+                      DesignatorArr(
+                        DesignatorName(
+                         a
+                        ) [DesignatorName]
+                        ArrPrep(
+                        ) [ArrPrep]
+                        ExprHelpOption(
+                          ExprHelpNoMinus(
+                            Term(
+                              NumFactor(
+                               0
+                              ) [NumFactor]
+                              NoMulopListDecls(
+                              ) [NoMulopListDecls]
+                            ) [Term]
+                            NoAddopList(
+                            ) [NoAddopList]
+                          ) [ExprHelpNoMinus]
+                        ) [ExprHelpOption]
+                      ) [DesignatorArr]
+                    ) [FactorDesignator]
+                    NoMulopListDecls(
+                    ) [NoMulopListDecls]
+                  ) [Term]
+                  NoAddopList(
+                  ) [NoAddopList]
+                ) [ExprHelpNoMinus]
+              ) [ExprHelpOption]
+              HasPrintConstantants(
+                PrntConstant(
+                 11
+                ) [PrntConstant]
+              ) [HasPrintConstantants]
+            ) [PrintStmt]
+          ) [SingleStatementDeclNoLabel]
+        ) [StatementListDeclarations]
+        SingleStatementDeclNoLabel(
+          ReturnNoExpr(
+          ) [ReturnNoExpr]
+        ) [SingleStatementDeclNoLabel]
+      ) [StatementListDeclarations]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  00:39:16,347 - ===================================
+INFO  00:39:16,351 - Na liniji : 2. Vrsi se deklaracija promenljive x
+INFO  00:39:16,352 - Na liniji : 2. vrsi se deklaracije konstante y
+INFO  00:39:16,352 - Na liniji : 3. vrsi se deklaracije konstante t
+INFO  00:39:16,352 - Na liniji : 4. vrsi se deklaracije konstante n
+INFO  00:39:16,352 - Na liniji : 8. Vrsi se obrada funkcije main na liniji 8
+INFO  00:39:16,352 - Na liniji : 8. Vrsi se deklaracije promenljive a
+INFO  00:39:16,352 - Na liniji : 8. Vrsi se deklaracija promenljive f
+INFO  00:39:16,352 - Na liniji : 8. Vrsi se deklaracija promenljive ch
+INFO  00:39:16,352 - Linija 10: yCon y: int, 2, 0  na liniji 10
+INFO  00:39:16,353 - Linija 11: yCon y: int, 2, 0  na liniji 11
+INFO  00:39:16,353 - Linija 12: yCon y: int, 2, 0  na liniji 12
+INFO  00:39:16,353 - Linija 13: xVar x: int, 0, 0  na liniji 13
+INFO  00:39:16,353 - Linija 14: xVar x: int, 0, 0  na liniji 14
+INFO  00:39:16,353 - Na liniji : 15. U listu goto labela je dodata nova goto labela: Vuk
+INFO  00:39:16,354 - Na liniji : 17. U listu labela je dodata nova labela: Marija
+INFO  00:39:16,354 - Na liniji : 19. U listu goto labela je dodata nova goto labela: Pedja
+INFO  00:39:16,355 - Linija 21: fVar f: boolType, 1, 1  na liniji 21
+INFO  00:39:16,355 - Linija 22: chVar ch: char, 2, 1  na liniji 22
+INFO  00:39:16,355 - Na liniji : 24. U listu labela je dodata nova labela: Vuk
+INFO  00:39:16,355 - Linija 25: xVar x: int, 0, 0  na liniji 25
+INFO  00:39:16,355 - Linija 26: yCon y: int, 2, 0  na liniji 26
+INFO  00:39:16,355 - Linija 28: xVar x: int, 0, 0  na liniji 28
+INFO  00:39:16,355 - Linija 29: xVar x: int, 0, 0  na liniji 29
+INFO  00:39:16,355 - Na liniji : 31. U listu goto labela je dodata nova goto labela: Marija
+INFO  00:39:16,355 - Na liniji : 34. U listu labela je dodata nova labela: Pedja
+INFO  00:39:16,355 - Linija 36: aVar a: Arr of int, 0, 1  na liniji 36
+INFO  00:39:16,355 - Linija 37: aa: int, 0, 1  na liniji 37
+INFO  00:39:16,355 - Linija 38: aa: int, 0, 1  na liniji 38
+INFO  00:39:16,356 - Linija 39: aa: int, 0, 1  na liniji 39
+INFO  00:39:16,356 - 
+
+SEMANTICKA ANALIZA
+
+ Statements :20
+ Global cons: 3
+ Global vars:1
+ Global arrays0
+ Local vars in main:3
+
+INFO  00:39:16,360 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,182 @@
+INFO  11:07:08,442 - Compiling source file: C:\Users\Marija\Desktop\14.1\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  11:07:08,593 - #6 program
+INFO  11:07:08,594 - #2 Keske
+INFO  11:07:08,594 - #14 const
+INFO  11:07:08,595 - #2 int
+INFO  11:07:08,595 - #2 pi
+INFO  11:07:08,597 - #31 =
+INFO  11:07:08,599 - #3 3
+INFO  11:07:08,600 - #38 ,
+INFO  11:07:08,604 - #2 g
+INFO  11:07:08,605 - #31 =
+INFO  11:07:08,606 - #3 1
+INFO  11:07:08,606 - #37 ;
+INFO  11:07:08,607 - #2 int
+INFO  11:07:08,609 - #2 x
+INFO  11:07:08,609 - #38 ,
+INFO  11:07:08,610 - #2 y
+INFO  11:07:08,610 - #21 [
+INFO  11:07:08,610 - #22 ]
+INFO  11:07:08,610 - #38 ,
+INFO  11:07:08,610 - #2 z
+INFO  11:07:08,610 - #37 ;
+INFO  11:07:08,610 - #14 const
+INFO  11:07:08,616 - #2 char
+INFO  11:07:08,617 - #2 c
+INFO  11:07:08,617 - #31 =
+INFO  11:07:08,617 - #4 c
+INFO  11:07:08,618 - #37 ;
+INFO  11:07:08,618 - #19 {
+INFO  11:07:08,618 - #8 void
+INFO  11:07:08,619 - #2 Main
+INFO  11:07:08,623 - #17 (
+INFO  11:07:08,624 - #18 )
+INFO  11:07:08,624 - #2 int
+INFO  11:07:08,625 - #2 x
+INFO  11:07:08,626 - #38 ,
+INFO  11:07:08,626 - #2 y
+INFO  11:07:08,626 - #21 [
+INFO  11:07:08,626 - #22 ]
+INFO  11:07:08,626 - #38 ,
+INFO  11:07:08,626 - #2 z
+INFO  11:07:08,627 - #37 ;
+INFO  11:07:08,627 - #19 {
+INFO  11:07:08,627 - #20 }
+INFO  11:07:08,628 - #20 }
+INFO  11:07:08,642 - Program(
+  ProgramName(
+   Keske
+  ) [ProgramName]
+  ProgListDecls(
+    ProgListDecls(
+      ProgListDecls(
+        NoProgList(
+        ) [NoProgList]
+        GlobalConstList(
+          ConstDecl(
+            Type(
+             int
+            ) [Type]
+            ConstListDeclarations(
+              NoConstListDeclarations(
+                ConstrDeclOne(
+                  ConstName(
+                   pi
+                  ) [ConstName]
+                  NumConstant(
+                   3
+                  ) [NumConstant]
+                ) [ConstrDeclOne]
+              ) [NoConstListDeclarations]
+              ConstrDeclOne(
+                ConstName(
+                 g
+                ) [ConstName]
+                NumConstant(
+                 1
+                ) [NumConstant]
+              ) [ConstrDeclOne]
+            ) [ConstListDeclarations]
+          ) [ConstDecl]
+        ) [GlobalConstList]
+      ) [ProgListDecls]
+      GlobalVarList(
+        GlobalVarDeclaration(
+          Type(
+           int
+          ) [Type]
+          GlobalVarParams(
+            GlobalVarParams(
+              GlobalVarSingle(
+                GlobalVar(
+                 x
+                ) [GlobalVar]
+              ) [GlobalVarSingle]
+              GlobalArr(
+               y
+              ) [GlobalArr]
+            ) [GlobalVarParams]
+            GlobalVar(
+             z
+            ) [GlobalVar]
+          ) [GlobalVarParams]
+        ) [GlobalVarDeclaration]
+      ) [GlobalVarList]
+    ) [ProgListDecls]
+    GlobalConstList(
+      ConstDecl(
+        Type(
+         char
+        ) [Type]
+        NoConstListDeclarations(
+          ConstrDeclOne(
+            ConstName(
+             c
+            ) [ConstName]
+            CharConstant(
+             c
+            ) [CharConstant]
+          ) [ConstrDeclOne]
+        ) [NoConstListDeclarations]
+      ) [ConstDecl]
+    ) [GlobalConstList]
+  ) [ProgListDecls]
+  MethodDeclarations(
+    MethodDecl(
+      MethodName(
+        VoidRet(
+        ) [VoidRet]
+       Main
+      ) [MethodName]
+      MethodVarDeclarations(
+        NoMethodVarDeclarations(
+        ) [NoMethodVarDeclarations]
+        VarDeclaration(
+          Type(
+           int
+          ) [Type]
+          VarParams(
+            VarParams(
+              VarParam(
+                LocalVar(
+                 x
+                ) [LocalVar]
+              ) [VarParam]
+              LocalArr(
+               y
+              ) [LocalArr]
+            ) [VarParams]
+            LocalVar(
+             z
+            ) [LocalVar]
+          ) [VarParams]
+        ) [VarDeclaration]
+      ) [MethodVarDeclarations]
+      NoStatementListDeclarations(
+      ) [NoStatementListDeclarations]
+    ) [MethodDecl]
+  ) [MethodDeclarations]
+) [Program]
+INFO  11:07:08,642 - ===================================
+INFO  11:07:08,650 - Na liniji : 3. vrsi se deklaracije konstante pi
+INFO  11:07:08,651 - Na liniji : 3. vrsi se deklaracije konstante g
+INFO  11:07:08,652 - Na liniji : 5. Vrsi se deklaracija promenljive x
+INFO  11:07:08,652 - Na liniji : 5. Vrsi se deklaracija promenljive y
+INFO  11:07:08,653 - Na liniji : 5. Vrsi se deklaracija promenljive z
+INFO  11:07:08,653 - Na liniji : 7. vrsi se deklaracije konstante c
+INFO  11:07:08,653 - Na liniji : 11. Vrsi se obrada funkcije Main na liniji 11
+INFO  11:07:08,653 - Na liniji : 11. Vrsi se deklaracija promenljive x
+INFO  11:07:08,654 - Na liniji : 11. Vrsi se deklaracije promenljive y
+INFO  11:07:08,655 - Na liniji : 11. Vrsi se deklaracija promenljive z
+ERROR 11:07:08,657 - SEMANTICKA GRESKA : Program mora imati globalnu metodu main na liniji 1
+INFO  11:07:08,657 - 
+
+SEMANTICKA ANALIZA
+
+ Statements :0
+ Global cons: 3
+ Global vars:2
+ Global arrays0
+ Local vars in main:3
+
+ERROR 11:07:08,658 - Parsiranje NIJE uspesno zavrseno!

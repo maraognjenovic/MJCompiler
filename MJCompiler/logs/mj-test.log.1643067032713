@@ -1,0 +1,46 @@
+INFO  00:30:08,427 - Compiling source file: C:\Users\Marija\Desktop\14.1\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  00:30:08,470 - #6 program
+INFO  00:30:08,470 - #3 test1
+INFO  00:30:08,470 - #3 char
+INFO  00:30:08,472 - #3 niz
+INFO  00:30:08,473 - #26 +
+INFO  00:30:08,473 - #3 int
+INFO  00:30:08,474 - #3 x
+INFO  00:30:08,474 - #17 (
+INFO  00:30:08,474 - #18 )
+INFO  00:30:08,474 - #31 ;
+INFO  00:30:08,474 - #3 bool
+INFO  00:30:08,474 - #3 x
+INFO  00:30:08,475 - #26 +
+ERROR 00:30:08,475 - Sintaksna greska lose deklarisana globalna promenljiva
+INFO  00:30:08,476 - #31 ;
+INFO  00:30:08,476 - #19 {
+INFO  00:30:08,476 - #8 void
+INFO  00:30:08,476 - #3 main
+ERROR 00:30:08,477 - Sintaksna greska lose deklarisana globalna promenljiva
+INFO  00:30:08,483 - #17 (
+INFO  00:30:08,483 - #18 )
+INFO  00:30:08,484 - #19 {
+INFO  00:30:08,485 - #3 niz
+INFO  00:30:08,486 - #25 =
+INFO  00:30:08,487 - #14 new
+INFO  00:30:08,489 - #3 int
+INFO  00:30:08,489 - #21 [
+INFO  00:30:08,489 - #5 5
+INFO  00:30:08,489 - #22 ]
+INFO  00:30:08,492 - #31 ;
+INFO  00:30:08,493 - #9 print
+INFO  00:30:08,493 - #17 (
+INFO  00:30:08,493 - #3 niz
+INFO  00:30:08,493 - #18 )
+INFO  00:30:08,497 - #31 ;
+INFO  00:30:08,498 - #20 }
+INFO  00:30:08,499 - #20 }
+INFO  00:30:08,514 - =================SINTAKSNO STABLO==================
+INFO  00:30:08,514 - ===================================
+INFO  00:30:08,517 - Na liniji : 6. Vrsi se obrada funkcije main
+ERROR 00:30:08,518 - SEMANTICKA GRESKA : Greska na liniji 8: Ime niz nije deklarisano.
+ERROR 00:30:08,519 - SEMANTICKA GRESKA :Greska na liniji 8: Doslo je do greske pri dodeli
+ERROR 00:30:08,519 - SEMANTICKA GRESKA : Greska na liniji 10: Ime niz nije deklarisano.
+ERROR 00:30:08,519 - SEMANTICKA GRESKA :Greska na liniji 7: : Izraz unutar print naredbe mora biti tipa int, char ili bool.
+ERROR 00:30:08,519 - Parsiranje NIJE uspesno zavrseno!

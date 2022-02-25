@@ -1,0 +1,231 @@
+INFO  22:32:18,245 - Compiling source file: C:\Users\Marija\Desktop\pp1_projekat\workspace\MJCompiler\test\program.mj
+INFO  22:32:18,338 - #2 program
+INFO  22:32:18,339 - #51 MJProgram
+INFO  22:32:18,339 - #51 int
+INFO  22:32:18,340 - #51 x
+INFO  22:32:18,341 - #3 ;
+INFO  22:32:18,341 - #51 int
+INFO  22:32:18,342 - #51 y
+INFO  22:32:18,342 - #3 ;
+INFO  22:32:18,343 - #8 {
+INFO  22:32:18,343 - #51 int
+INFO  22:32:18,343 - #51 main
+INFO  22:32:18,344 - #10 (
+INFO  22:32:18,345 - #11 )
+INFO  22:32:18,345 - #8 {
+INFO  22:32:18,347 - #44 print
+INFO  22:32:18,348 - #10 (
+INFO  22:32:18,348 - #50 1
+INFO  22:32:18,349 - #11 )
+INFO  22:32:18,351 - #3 ;
+INFO  22:32:18,351 - #51 y
+INFO  22:32:18,351 - #43 =
+INFO  22:32:18,353 - #50 2
+INFO  22:32:18,358 - #3 ;
+INFO  22:32:18,358 - #51 x
+INFO  22:32:18,358 - #43 =
+INFO  22:32:18,358 - #50 5
+INFO  22:32:18,358 - #3 ;
+INFO  22:32:18,358 - #44 print
+INFO  22:32:18,359 - #10 (
+INFO  22:32:18,359 - #50 2
+INFO  22:32:18,359 - #11 )
+INFO  22:32:18,359 - #3 ;
+INFO  22:32:18,359 - #47 return
+INFO  22:32:18,359 - #51 y
+INFO  22:32:18,359 - #3 ;
+INFO  22:32:18,359 - #9 }
+INFO  22:32:18,359 - #9 }
+INFO  22:32:18,361 - Program(
+  ProgramName(
+   MJProgram
+  ) [ProgramName]
+  ConstVarClassDeclList(
+    ConstVarClassDeclList(
+      NoConstVarClassDeclList(
+      ) [NoConstVarClassDeclList]
+      GlobalVariableDecl(
+        GlobalVariableDeclaration(
+          Type(
+           int
+          ) [Type]
+          GlobalOneVariable(
+            GlobalNoArrayVariable(
+             x
+            ) [GlobalNoArrayVariable]
+          ) [GlobalOneVariable]
+        ) [GlobalVariableDeclaration]
+      ) [GlobalVariableDecl]
+    ) [ConstVarClassDeclList]
+    GlobalVariableDecl(
+      GlobalVariableDeclaration(
+        Type(
+         int
+        ) [Type]
+        GlobalOneVariable(
+          GlobalNoArrayVariable(
+           y
+          ) [GlobalNoArrayVariable]
+        ) [GlobalOneVariable]
+      ) [GlobalVariableDeclaration]
+    ) [GlobalVariableDecl]
+  ) [ConstVarClassDeclList]
+  MethodDeclList(
+    NoMethodDecList(
+    ) [NoMethodDecList]
+    MethodDecl(
+      MethodRetName(
+        FunctionReturnType(
+          Type(
+           int
+          ) [Type]
+        ) [FunctionReturnType]
+       main
+      ) [MethodRetName]
+      NoMethodFormalParams(
+      ) [NoMethodFormalParams]
+      NoMethodLocalVariableDecl(
+      ) [NoMethodLocalVariableDecl]
+      StmtList(
+        StmtList(
+          StmtList(
+            StmtList(
+              StmtList(
+                NoStmt(
+                ) [NoStmt]
+                SingleStatementDecl(
+                  MatchedStmt(
+                    PrintStmt(
+                      NoTernarExpression(
+                        BasicExpressionWithOutMinus(
+                          OneTerm(
+                            TermDescription(
+                              OneFactor(
+                                NumConst(
+                                 1
+                                ) [NumConst]
+                              ) [OneFactor]
+                            ) [TermDescription]
+                          ) [OneTerm]
+                        ) [BasicExpressionWithOutMinus]
+                      ) [NoTernarExpression]
+                      NoAditionalParamPrint(
+                      ) [NoAditionalParamPrint]
+                    ) [PrintStmt]
+                  ) [MatchedStmt]
+                ) [SingleStatementDecl]
+              ) [StmtList]
+              SingleStatementDecl(
+                MatchedStmt(
+                  MatchedDesignator(
+                    AssignmentStmt(
+                      Designator(
+                       y
+                        NoIdentParts(
+                        ) [NoIdentParts]
+                      ) [Designator]
+                      AssignmentExpr(
+                        AssignOp(
+                        ) [AssignOp]
+                        NoTernarExpression(
+                          BasicExpressionWithOutMinus(
+                            OneTerm(
+                              TermDescription(
+                                OneFactor(
+                                  NumConst(
+                                   2
+                                  ) [NumConst]
+                                ) [OneFactor]
+                              ) [TermDescription]
+                            ) [OneTerm]
+                          ) [BasicExpressionWithOutMinus]
+                        ) [NoTernarExpression]
+                      ) [AssignmentExpr]
+                    ) [AssignmentStmt]
+                  ) [MatchedDesignator]
+                ) [MatchedStmt]
+              ) [SingleStatementDecl]
+            ) [StmtList]
+            SingleStatementDecl(
+              MatchedStmt(
+                MatchedDesignator(
+                  AssignmentStmt(
+                    Designator(
+                     x
+                      NoIdentParts(
+                      ) [NoIdentParts]
+                    ) [Designator]
+                    AssignmentExpr(
+                      AssignOp(
+                      ) [AssignOp]
+                      NoTernarExpression(
+                        BasicExpressionWithOutMinus(
+                          OneTerm(
+                            TermDescription(
+                              OneFactor(
+                                NumConst(
+                                 5
+                                ) [NumConst]
+                              ) [OneFactor]
+                            ) [TermDescription]
+                          ) [OneTerm]
+                        ) [BasicExpressionWithOutMinus]
+                      ) [NoTernarExpression]
+                    ) [AssignmentExpr]
+                  ) [AssignmentStmt]
+                ) [MatchedDesignator]
+              ) [MatchedStmt]
+            ) [SingleStatementDecl]
+          ) [StmtList]
+          SingleStatementDecl(
+            MatchedStmt(
+              PrintStmt(
+                NoTernarExpression(
+                  BasicExpressionWithOutMinus(
+                    OneTerm(
+                      TermDescription(
+                        OneFactor(
+                          NumConst(
+                           2
+                          ) [NumConst]
+                        ) [OneFactor]
+                      ) [TermDescription]
+                    ) [OneTerm]
+                  ) [BasicExpressionWithOutMinus]
+                ) [NoTernarExpression]
+                NoAditionalParamPrint(
+                ) [NoAditionalParamPrint]
+              ) [PrintStmt]
+            ) [MatchedStmt]
+          ) [SingleStatementDecl]
+        ) [StmtList]
+        SingleStatementDecl(
+          MatchedStmt(
+            ReturnExpr(
+              NoTernarExpression(
+                BasicExpressionWithOutMinus(
+                  OneTerm(
+                    TermDescription(
+                      OneFactor(
+                        Var(
+                          Designator(
+                           y
+                            NoIdentParts(
+                            ) [NoIdentParts]
+                          ) [Designator]
+                        ) [Var]
+                      ) [OneFactor]
+                    ) [TermDescription]
+                  ) [OneTerm]
+                ) [BasicExpressionWithOutMinus]
+              ) [NoTernarExpression]
+            ) [ReturnExpr]
+          ) [MatchedStmt]
+        ) [SingleStatementDecl]
+      ) [StmtList]
+    ) [MethodDecl]
+  ) [MethodDeclList]
+) [Program]
+INFO  22:32:18,362 - ===================================
+INFO  22:32:18,364 -  Print count calls = 2
+INFO  22:32:18,365 -  Deklarisanih promenljivih ima = 0
